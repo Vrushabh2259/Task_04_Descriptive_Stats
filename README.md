@@ -1,5 +1,4 @@
 # Task_04_Descriptive_Stats
-Task 04 – Descriptive Statistics 
 This project explores descriptive statistics for three datasets from the 2024 US presidential election using three different approaches: pure Python, Pandas, and Polars. The goal is to compare these methods, highlight their strengths and quirks, and share the lessons learned throughout the process.
 Datasets Analyzed
 1.	Facebook Ads: 2024_fb_ads_president_scored_anon.csv
@@ -41,7 +40,4 @@ Interesting Facts :
 1	Pure Python gave me full control but was more tedious for grouping and pretty output. 
 2	Pandas made the process faster and more flexible, especially for groupby and describe(). 
 3	Polars surprised me with how quickly it can process big files and its built-in lazy execution, but it required more careful type handling. Overall, I learned the trade-offs between transparency, speed, and ease of use.
-
-
-
 
