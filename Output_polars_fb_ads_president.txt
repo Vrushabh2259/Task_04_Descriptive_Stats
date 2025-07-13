@@ -1,0 +1,301 @@
+ERROR! Session/line number was not unique in database. History logging moved to new session 21
+
+========== Header ==========
+Header: ['page_id', 'ad_id', 'ad_creation_time', 'bylines', 'currency', 'delivery_by_region', 'demographic_distribution', 'estimated_audience_size', 'estimated_impressions', 'estimated_spend', 'publisher_platforms', 'illuminating_scored_message', 'illuminating_mentions', 'scam_illuminating', 'election_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+========== Descriptive Statistics for Entire Dataset ==========
+shape: (9, 42)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ page_id      ┆ ad_id        ┆ ad_creation_ ┆ … ┆ womens_issue ┆ incivility_ ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ time         ┆   ┆ _topic_illum ┆ illuminatin ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ ---          ┆   ┆ inatin…      ┆ g           ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆ str          ┆   ┆ ---          ┆ ---         ┆ f64         ┆ f64         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆             ┆             │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 246745       ┆ 246745       ┆ 246745       ┆ … ┆ 246745.0     ┆ 246745.0    ┆ 246745.0    ┆ 246745.0    │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.080909     ┆ 0.187526    ┆ 0.006416    ┆ 0.002638    │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.272697     ┆ 0.390334    ┆ 0.07984     ┆ 0.051297    │
+│ min        ┆ 0005687f4ac8 ┆ 0000a88a6448 ┆ 2021-07-06   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 76c135dda2bd ┆ 4883df6ca1fa ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 5aa609…      ┆ bd357e…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ fffd9545553a ┆ fffffab6864b ┆ 2024-11-05   ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│            ┆ b18ab56d93b9 ┆ de31aa57a401 ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 029630…      ┆ 52b4a0…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+========== Value Counts for Non-Numeric Columns (Top 3) ==========
+
+Top 3 for page_id:
+shape: (3, 2)
+┌─────────────────────────────────┬───────┐
+│ page_id                         ┆ len   │
+│ ---                             ┆ ---   │
+│ str                             ┆ u32   │
+╞═════════════════════════════════╪═══════╡
+│ 4d66f5853f0365dba032a87704a634… ┆ 55503 │
+│ e3342051b60393770363ffc02946a0… ┆ 23988 │
+│ 4ade404186269ec62d2dd7d9e0ed5f… ┆ 14822 │
+└─────────────────────────────────┴───────┘
+
+Top 3 for ad_id:
+shape: (3, 2)
+┌─────────────────────────────────┬─────┐
+│ ad_id                           ┆ len │
+│ ---                             ┆ --- │
+│ str                             ┆ u32 │
+╞═════════════════════════════════╪═════╡
+│ 79cee23983cf1fa9d85e21ace9abb7… ┆ 1   │
+│ 84f84619327da7f5f3369aedd47dfd… ┆ 1   │
+│ 6015b19b54c5e54a3437f0fe922fd1… ┆ 1   │
+└─────────────────────────────────┴─────┘
+
+Top 3 for ad_creation_time:
+shape: (3, 2)
+┌──────────────────┬──────┐
+│ ad_creation_time ┆ len  │
+│ ---              ┆ ---  │
+│ str              ┆ u32  │
+╞══════════════════╪══════╡
+│ 2024-10-27       ┆ 8619 │
+│ 2024-10-28       ┆ 7356 │
+│ 2024-10-26       ┆ 6414 │
+└──────────────────┴──────┘
+
+Top 3 for bylines:
+shape: (3, 2)
+┌──────────────────────┬───────┐
+│ bylines              ┆ len   │
+│ ---                  ┆ ---   │
+│ str                  ┆ u32   │
+╞══════════════════════╪═══════╡
+│ HARRIS FOR PRESIDENT ┆ 49788 │
+│ HARRIS VICTORY FUND  ┆ 32612 │
+│ BIDEN VICTORY FUND   ┆ 15539 │
+└──────────────────────┴───────┘
+
+Top 3 for currency:
+shape: (3, 2)
+┌──────────┬────────┐
+│ currency ┆ len    │
+│ ---      ┆ ---    │
+│ str      ┆ u32    │
+╞══════════╪════════╡
+│ USD      ┆ 246599 │
+│ INR      ┆ 63     │
+│ GBP      ┆ 17     │
+└──────────┴────────┘
+
+Top 3 for delivery_by_region:
+shape: (3, 2)
+┌─────────────────────────────────┬───────┐
+│ delivery_by_region              ┆ len   │
+│ ---                             ┆ ---   │
+│ str                             ┆ u32   │
+╞═════════════════════════════════╪═══════╡
+│ {}                              ┆ 30989 │
+│ {'Georgia': {'spend': 49, 'imp… ┆ 2307  │
+│ {'Arizona': {'spend': 49, 'imp… ┆ 2020  │
+└─────────────────────────────────┴───────┘
+
+Top 3 for demographic_distribution:
+shape: (3, 2)
+┌─────────────────────────────────┬───────┐
+│ demographic_distribution        ┆ len   │
+│ ---                             ┆ ---   │
+│ str                             ┆ u32   │
+╞═════════════════════════════════╪═══════╡
+│ {}                              ┆ 30989 │
+│ {'female_65+': {'spend': 49, '… ┆ 44    │
+│ {'male_65+': {'spend': 49, 'im… ┆ 24    │
+└─────────────────────────────────┴───────┘
+
+Top 3 for publisher_platforms:
+shape: (3, 2)
+┌───────────────────────────┬────────┐
+│ publisher_platforms       ┆ len    │
+│ ---                       ┆ ---    │
+│ str                       ┆ u32    │
+╞═══════════════════════════╪════════╡
+│ ['facebook', 'instagram'] ┆ 214434 │
+│ ['facebook']              ┆ 23259  │
+│ ['instagram']             ┆ 8395   │
+└───────────────────────────┴────────┘
+
+Top 3 for illuminating_scored_message:
+shape: (3, 2)
+┌─────────────────────────────────┬──────┐
+│ illuminating_scored_message     ┆ len  │
+│ ---                             ┆ ---  │
+│ str                             ┆ u32  │
+╞═════════════════════════════════╪══════╡
+│ e3b0c44298fc1c149afbf4c8996fb9… ┆ 5972 │
+│ 82459467ad44f717f2089911f5210c… ┆ 1887 │
+│ 3b1d236346df93fd259a23d523f6de… ┆ 1352 │
+└─────────────────────────────────┴──────┘
+
+Top 3 for illuminating_mentions:
+shape: (3, 2)
+┌───────────────────────┬───────┐
+│ illuminating_mentions ┆ len   │
+│ ---                   ┆ ---   │
+│ str                   ┆ u32   │
+╞═══════════════════════╪═══════╡
+│ []                    ┆ 73205 │
+│ ['Donald Trump']      ┆ 53182 │
+│ ['Kamala Harris']     ┆ 31019 │
+└───────────────────────┴───────┘
+
+========== Grouped by page_id (First 3 Groups) ==========
+
+Group: page_id=cea210a8fcaf9f61339de8597b384ef41ea7466197ab387a34343cd91f016c53 (Count: 1)
+shape: (9, 42)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ page_id      ┆ ad_id        ┆ ad_creation_ ┆ … ┆ womens_issue ┆ incivility_ ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ time         ┆   ┆ _topic_illum ┆ illuminatin ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ ---          ┆   ┆ inatin…      ┆ g           ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆ str          ┆   ┆ ---          ┆ ---         ┆ f64         ┆ f64         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆             ┆             │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 1            ┆ 1            ┆ 1            ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ null         ┆ null        ┆ null        ┆ null        │
+│ min        ┆ cea210a8fcaf ┆ 2d66c5eb0f01 ┆ 2024-07-17   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 9f61339de859 ┆ ecbe224fb42c ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 7b384e…      ┆ 94130e…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ cea210a8fcaf ┆ 2d66c5eb0f01 ┆ 2024-07-17   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 9f61339de859 ┆ ecbe224fb42c ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 7b384e…      ┆ 94130e…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+Group: page_id=0805211350dd8db145e66ec0ab320ee8540c60edb8a106a20adc371ff0b47ad7 (Count: 1)
+shape: (9, 42)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ page_id      ┆ ad_id        ┆ ad_creation_ ┆ … ┆ womens_issue ┆ incivility_ ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ time         ┆   ┆ _topic_illum ┆ illuminatin ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ ---          ┆   ┆ inatin…      ┆ g           ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆ str          ┆   ┆ ---          ┆ ---         ┆ f64         ┆ f64         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆             ┆             │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 1            ┆ 1            ┆ 1            ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ null         ┆ null        ┆ null        ┆ null        │
+│ min        ┆ 0805211350dd ┆ 74eb6e3b610e ┆ 2024-10-24   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 8db145e66ec0 ┆ 60efba5b4a63 ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ ab320e…      ┆ b0df81…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ 0805211350dd ┆ 74eb6e3b610e ┆ 2024-10-24   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 8db145e66ec0 ┆ 60efba5b4a63 ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ ab320e…      ┆ b0df81…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+Group: page_id=4fa756ea7198ea44eaa97b955f05da47eb83a114b8b6ff90b5fdb2a3e4b2ba67 (Count: 2)
+shape: (9, 42)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ page_id      ┆ ad_id        ┆ ad_creation_ ┆ … ┆ womens_issue ┆ incivility_ ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ time         ┆   ┆ _topic_illum ┆ illuminatin ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ ---          ┆   ┆ inatin…      ┆ g           ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆ str          ┆   ┆ ---          ┆ ---         ┆ f64         ┆ f64         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆             ┆             │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 2            ┆ 2            ┆ 2            ┆ … ┆ 2.0          ┆ 2.0         ┆ 2.0         ┆ 2.0         │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ min        ┆ 4fa756ea7198 ┆ 86312a6980b1 ┆ 2024-01-22   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ ea44eaa97b95 ┆ 69e95c3e283a ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 5f05da…      ┆ 6018fd…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ 4fa756ea7198 ┆ be0d19ef71be ┆ 2024-02-18   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ ea44eaa97b95 ┆ 25c6487e7799 ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 5f05da…      ┆ f39ed1…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+========== Grouped by page_id and ad_id (First 3 Groups) ==========
+
+Group: page_id=a5d4180d3b85b15658e85958d13ccee29d5411bf223be55c5471a3fa785be272, ad_id=5580021cc99e2d931e64d6bd5c1061e342b7095d5200ab212efa3bc112a9e099 (Count: 1)
+shape: (9, 42)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ page_id      ┆ ad_id        ┆ ad_creation_ ┆ … ┆ womens_issue ┆ incivility_ ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ time         ┆   ┆ _topic_illum ┆ illuminatin ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ ---          ┆   ┆ inatin…      ┆ g           ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆ str          ┆   ┆ ---          ┆ ---         ┆ f64         ┆ f64         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆             ┆             │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 1            ┆ 1            ┆ 1            ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ null         ┆ null        ┆ null        ┆ null        │
+│ min        ┆ a5d4180d3b85 ┆ 5580021cc99e ┆ 2024-09-13   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ b15658e85958 ┆ 2d931e64d6bd ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ d13cce…      ┆ 5c1061…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ a5d4180d3b85 ┆ 5580021cc99e ┆ 2024-09-13   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ b15658e85958 ┆ 2d931e64d6bd ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ d13cce…      ┆ 5c1061…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+Group: page_id=4ade404186269ec62d2dd7d9e0ed5f93a5f32c057516879d627ea9fbd628ef9b, ad_id=52fcde25cba854db2c9fab12e9f2c46306da7ff9a8dc371ce1fbd262ef2eab43 (Count: 1)
+shape: (9, 42)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ page_id      ┆ ad_id        ┆ ad_creation_ ┆ … ┆ womens_issue ┆ incivility_ ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ time         ┆   ┆ _topic_illum ┆ illuminatin ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ ---          ┆   ┆ inatin…      ┆ g           ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆ str          ┆   ┆ ---          ┆ ---         ┆ f64         ┆ f64         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆             ┆             │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 1            ┆ 1            ┆ 1            ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ null         ┆ null        ┆ null        ┆ null        │
+│ min        ┆ 4ade40418626 ┆ 52fcde25cba8 ┆ 2024-07-17   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 9ec62d2dd7d9 ┆ 54db2c9fab12 ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ e0ed5f…      ┆ e9f2c4…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ 4ade40418626 ┆ 52fcde25cba8 ┆ 2024-07-17   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 9ec62d2dd7d9 ┆ 54db2c9fab12 ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ e0ed5f…      ┆ e9f2c4…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+Group: page_id=3ff0ee8c3c8e3dffa20c82a981f2d9d673ed451eecd6207b4c6fb590cc3abe03, ad_id=5a388821cbad47680a9e14ebc3c281e94c6b34501a825c9d8b6d63d38d029d5c (Count: 1)
+shape: (9, 42)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ page_id      ┆ ad_id        ┆ ad_creation_ ┆ … ┆ womens_issue ┆ incivility_ ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ time         ┆   ┆ _topic_illum ┆ illuminatin ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ ---          ┆   ┆ inatin…      ┆ g           ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆ str          ┆   ┆ ---          ┆ ---         ┆ f64         ┆ f64         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆             ┆             │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 1            ┆ 1            ┆ 1            ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ null         ┆ null        ┆ null        ┆ null        │
+│ min        ┆ 3ff0ee8c3c8e ┆ 5a388821cbad ┆ 2024-08-01   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 3dffa20c82a9 ┆ 47680a9e14eb ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 81f2d9…      ┆ c3c281…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ 3ff0ee8c3c8e ┆ 5a388821cbad ┆ 2024-08-01   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 3dffa20c82a9 ┆ 47680a9e14eb ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 81f2d9…      ┆ c3c281…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+========== Script Completed ==========
+All Polars stats written to file. No output in notebook.

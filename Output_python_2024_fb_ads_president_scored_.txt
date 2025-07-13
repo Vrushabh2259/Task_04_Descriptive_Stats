@@ -1,0 +1,1079 @@
+Total Rows: 246745
+
+===== Descriptive Statistics for Entire Dataset =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |   246745 |          - |          - |          - |          - |     4475 | 4d66f5853f0365dba032a87704a634f023d15bab...
+ad_id                          |   246745 |          - |          - |          - |          - |   246745 | 0ddb025b8544e2d58e6977ad417e742a52522b3e...
+ad_creation_time               |   246745 |          - |          - |          - |          - |      547 | 2024-10-27 (Count: 8619)                
+bylines                        |   245736 |          - |          - |          - |          - |     3790 | HARRIS FOR PRESIDENT (Count: 49788)     
+currency                       |   246745 |          - |          - |          - |          - |       18 | USD (Count: 246599)                     
+delivery_by_region             |   246745 |          - |          - |          - |          - |   141122 | {} (Count: 30989)                       
+demographic_distribution       |   246745 |          - |          - |          - |          - |   215622 | {} (Count: 30989)                       
+estimated_audience_size        |   246745 |  556462.86 |        0.0 |  1000001.0 |  409864.76 |        - | -                                       
+estimated_impressions          |   246745 |   45601.53 |      499.0 |  1000000.0 |  136790.77 |        - | -                                       
+estimated_spend                |   246745 |    1061.29 |       49.0 |   474999.0 |    4992.56 |        - | -                                       
+publisher_platforms            |   246745 |          - |          - |          - |          - |        9 | ['facebook', 'instagram'] (Count: 214434...
+illuminating_scored_message    |   246745 |          - |          - |          - |          - |    26338 | e3b0c44298fc1c149afbf4c8996fb92427ae41e4...
+illuminating_mentions          |   246745 |          - |          - |          - |          - |      278 | [] (Count: 73205)                       
+scam_illuminating              |   246745 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+election_integrity_Truth_illuminating |   246745 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+advocacy_msg_type_illuminating |   246745 |       0.55 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |   246745 |       0.38 |        0.0 |        1.0 |       0.49 |        - | -                                       
+attack_msg_type_illuminating   |   246745 |       0.27 |        0.0 |        1.0 |       0.44 |        - | -                                       
+image_msg_type_illuminating    |   246745 |       0.22 |        0.0 |        1.0 |       0.42 |        - | -                                       
+cta_msg_type_illuminating      |   246745 |       0.57 |        0.0 |        1.0 |       0.49 |        - | -                                       
+engagement_cta_subtype_illuminating |   246745 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+fundraising_cta_subtype_illuminating |   246745 |       0.23 |        0.0 |        1.0 |       0.42 |        - | -                                       
+voting_cta_subtype_illuminating |   246745 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+covid_topic_illuminating       |   246745 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+economy_topic_illuminating     |   246745 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+education_topic_illuminating   |   246745 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+environment_topic_illuminating |   246745 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+foreign_policy_topic_illuminating |   246745 |       0.01 |        0.0 |        1.0 |       0.07 |        - | -                                       
+governance_topic_illuminating  |   246745 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+health_topic_illuminating      |   246745 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+immigration_topic_illuminating |   246745 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+lgbtq_issues_topic_illuminating |   246745 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+military_topic_illuminating    |   246745 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+race_and_ethnicity_topic_illuminating |   246745 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+safety_topic_illuminating      |   246745 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+social_and_cultural_topic_illuminating |   246745 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |   246745 |        0.0 |        0.0 |        1.0 |       0.03 |        - | -                                       
+womens_issue_topic_illuminating |   246745 |       0.08 |        0.0 |        1.0 |       0.27 |        - | -                                       
+incivility_illuminating        |   246745 |       0.19 |        0.0 |        1.0 |       0.39 |        - | -                                       
+freefair_illuminating          |   246745 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+fraud_illuminating             |   246745 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+
+===== Group: ('4ff23a48b53d988df50ddfebb0e442a984ab8f94e874ef9b9cb34394e0c5d230',) (Count: 33) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |       33 |          - |          - |          - |          - |        1 | 4ff23a48b53d988df50ddfebb0e442a984ab8f94...
+ad_id                          |       33 |          - |          - |          - |          - |       33 | 0ddb025b8544e2d58e6977ad417e742a52522b3e...
+ad_creation_time               |       33 |          - |          - |          - |          - |        5 | 2024-10-13 (Count: 13)                  
+bylines                        |       33 |          - |          - |          - |          - |        1 | Texas Organizing Project PAC (Count: 33)
+currency                       |       33 |          - |          - |          - |          - |        1 | USD (Count: 33)                         
+delivery_by_region             |       33 |          - |          - |          - |          - |       21 | {'Texas': {'spend': 149, 'impressions': ...
+demographic_distribution       |       33 |          - |          - |          - |          - |       31 | {} (Count: 3)                           
+estimated_audience_size        |       33 |   43636.36 |    30000.0 |    75000.0 |   21001.22 |        - | -                                       
+estimated_impressions          |       33 |   66908.09 |      499.0 |   374999.0 |   96605.55 |        - | -                                       
+estimated_spend                |       33 |     467.18 |       49.0 |     2249.0 |     663.07 |        - | -                                       
+publisher_platforms            |       33 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 33)   
+illuminating_scored_message    |       33 |          - |          - |          - |          - |        3 | dc522d5aa4f91c326d105ec4c482cf4b0c378161...
+illuminating_mentions          |       33 |          - |          - |          - |          - |        1 | ['Kamala Harris', 'Tim Walz'] (Count: 33...
+scam_illuminating              |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |       33 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+issue_msg_type_illuminating    |       33 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+attack_msg_type_illuminating   |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |       33 |       0.42 |        0.0 |        1.0 |        0.5 |        - | -                                       
+engagement_cta_subtype_illuminating |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |       33 |       0.42 |        0.0 |        1.0 |        0.5 |        - | -                                       
+covid_topic_illuminating       |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |       33 |       0.42 |        0.0 |        1.0 |        0.5 |        - | -                                       
+environment_topic_illuminating |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       33 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('b9eb7e353e596d5fc99568d4ef77d4b11ced3243537cbd0895dde3195b69b6be',) (Count: 3) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        3 |          - |          - |          - |          - |        1 | b9eb7e353e596d5fc99568d4ef77d4b11ced3243...
+ad_id                          |        3 |          - |          - |          - |          - |        3 | c62978153c04116d88ead49379916855f2cb58bf...
+ad_creation_time               |        3 |          - |          - |          - |          - |        2 | 2024-11-02 (Count: 2)                   
+bylines                        |        0 |          - |          - |          - |          - |        - | -                                       
+currency                       |        3 |          - |          - |          - |          - |        1 | USD (Count: 3)                          
+delivery_by_region             |        3 |          - |          - |          - |          - |        2 | {} (Count: 2)                           
+demographic_distribution       |        3 |          - |          - |          - |          - |        2 | {} (Count: 2)                           
+estimated_audience_size        |        3 |  1000001.0 |  1000001.0 |  1000001.0 |        0.0 |        - | -                                       
+estimated_impressions          |        3 |   16165.67 |      499.0 |    47499.0 |   27135.46 |        - | -                                       
+estimated_spend                |        3 |      82.33 |       49.0 |      149.0 |      57.74 |        - | -                                       
+publisher_platforms            |        3 |          - |          - |          - |          - |        1 | ['facebook', 'instagram', 'audience_netw...
+illuminating_scored_message    |        3 |          - |          - |          - |          - |        3 | 5ffb1d89916e779d01193e726cd8802b1952507d...
+illuminating_mentions          |        3 |          - |          - |          - |          - |        1 | ['Tim Walz'] (Count: 3)                 
+scam_illuminating              |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |        3 |       0.33 |        0.0 |        1.0 |       0.58 |        - | -                                       
+issue_msg_type_illuminating    |        3 |       0.67 |        0.0 |        1.0 |       0.58 |        - | -                                       
+attack_msg_type_illuminating   |        3 |       0.67 |        0.0 |        1.0 |       0.58 |        - | -                                       
+image_msg_type_illuminating    |        3 |       0.33 |        0.0 |        1.0 |       0.58 |        - | -                                       
+cta_msg_type_illuminating      |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+engagement_cta_subtype_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |        3 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('7167146d80bba9d877a246d9682c7eecf3cae7b63337cf8ec01fff2eff27c909',) (Count: 7) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        7 |          - |          - |          - |          - |        1 | 7167146d80bba9d877a246d9682c7eecf3cae7b6...
+ad_id                          |        7 |          - |          - |          - |          - |        7 | 8eef0db915699b38fa798d4d9f5d944b1fed68bb...
+ad_creation_time               |        7 |          - |          - |          - |          - |        6 | 2024-11-02 (Count: 2)                   
+bylines                        |        0 |          - |          - |          - |          - |        - | -                                       
+currency                       |        7 |          - |          - |          - |          - |        1 | USD (Count: 7)                          
+delivery_by_region             |        7 |          - |          - |          - |          - |        3 | {'Minnesota': {'spend': 49, 'impressions...
+demographic_distribution       |        7 |          - |          - |          - |          - |        7 | {} (Count: 1)                           
+estimated_audience_size        |        7 |  1000001.0 |  1000001.0 |  1000001.0 |        0.0 |        - | -                                       
+estimated_impressions          |        7 |     641.86 |      499.0 |     1499.0 |     377.96 |        - | -                                       
+estimated_spend                |        7 |       49.0 |       49.0 |       49.0 |        0.0 |        - | -                                       
+publisher_platforms            |        7 |          - |          - |          - |          - |        1 | ['facebook', 'instagram', 'audience_netw...
+illuminating_scored_message    |        7 |          - |          - |          - |          - |        7 | 5ffb1d89916e779d01193e726cd8802b1952507d...
+illuminating_mentions          |        7 |          - |          - |          - |          - |        1 | ['Tim Walz'] (Count: 7)                 
+scam_illuminating              |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+advocacy_msg_type_illuminating |        7 |       0.29 |        0.0 |        1.0 |       0.49 |        - | -                                       
+issue_msg_type_illuminating    |        7 |       0.29 |        0.0 |        1.0 |       0.49 |        - | -                                       
+attack_msg_type_illuminating   |        7 |       0.43 |        0.0 |        1.0 |       0.53 |        - | -                                       
+image_msg_type_illuminating    |        7 |       0.43 |        0.0 |        1.0 |       0.53 |        - | -                                       
+cta_msg_type_illuminating      |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+engagement_cta_subtype_illuminating |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+fundraising_cta_subtype_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+economy_topic_illuminating     |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+freefair_illuminating          |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('8109a1809ae54265da9ab4b69f5e7f6c3c42d013a07f643513875ebc1f73e8d3',) (Count: 1) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        1 |          - |          - |          - |          - |        1 | 8109a1809ae54265da9ab4b69f5e7f6c3c42d013...
+ad_id                          |        1 |          - |          - |          - |          - |        1 | cec88e0dc69463eca43511cefe95839e94cbdbff...
+ad_creation_time               |        1 |          - |          - |          - |          - |        1 | 2024-11-02 (Count: 1)                   
+bylines                        |        0 |          - |          - |          - |          - |        - | -                                       
+currency                       |        1 |          - |          - |          - |          - |        1 | USD (Count: 1)                          
+delivery_by_region             |        1 |          - |          - |          - |          - |        1 | {'Minnesota': {'spend': 49, 'impressions...
+demographic_distribution       |        1 |          - |          - |          - |          - |        1 | {'male_18-24': {'spend': 2, 'impressions...
+estimated_audience_size        |        1 |    30000.0 |    30000.0 |    30000.0 |          - |        - | -                                       
+estimated_impressions          |        1 |      499.0 |      499.0 |      499.0 |          - |        - | -                                       
+estimated_spend                |        1 |       49.0 |       49.0 |       49.0 |          - |        - | -                                       
+publisher_platforms            |        1 |          - |          - |          - |          - |        1 | ['facebook', 'instagram', 'audience_netw...
+illuminating_scored_message    |        1 |          - |          - |          - |          - |        1 | 92ea6a7015d912f291b61df4d1b7d0c9685debc8...
+illuminating_mentions          |        1 |          - |          - |          - |          - |        1 | ['Tim Walz'] (Count: 1)                 
+scam_illuminating              |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+election_integrity_Truth_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+advocacy_msg_type_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+issue_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+attack_msg_type_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+image_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+cta_msg_type_illuminating      |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+engagement_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fundraising_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+voting_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+covid_topic_illuminating       |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+economy_topic_illuminating     |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+education_topic_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+environment_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+foreign_policy_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+governance_topic_illuminating  |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+health_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+immigration_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+lgbtq_issues_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+military_topic_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+race_and_ethnicity_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+safety_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+social_and_cultural_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+womens_issue_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+incivility_illuminating        |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+freefair_illuminating          |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fraud_illuminating             |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+
+===== Group: ('bb8759172b28450769f79e10c63a64ae09b986a7eab109eefb3ddff8c39886ad',) (Count: 179) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |      179 |          - |          - |          - |          - |        1 | bb8759172b28450769f79e10c63a64ae09b986a7...
+ad_id                          |      179 |          - |          - |          - |          - |      179 | 97ba12169373d6fc48fe898c0e9457fbd391868a...
+ad_creation_time               |      179 |          - |          - |          - |          - |       15 | 2024-10-14 (Count: 44)                  
+bylines                        |      179 |          - |          - |          - |          - |        1 | Seminole County Democratic Executive Com...
+currency                       |      179 |          - |          - |          - |          - |        1 | USD (Count: 179)                        
+delivery_by_region             |      179 |          - |          - |          - |          - |       23 | {'Florida': {'spend': 49, 'impressions':...
+demographic_distribution       |      179 |          - |          - |          - |          - |      153 | {} (Count: 27)                          
+estimated_audience_size        |      179 |  220055.87 |    30000.0 |   750000.0 |  116502.14 |        - | -                                       
+estimated_impressions          |      179 |    6387.27 |      499.0 |   187499.0 |    17066.5 |        - | -                                       
+estimated_spend                |      179 |      56.82 |       49.0 |      649.0 |      51.33 |        - | -                                       
+publisher_platforms            |      179 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 179)  
+illuminating_scored_message    |      179 |          - |          - |          - |          - |        3 | e3b0c44298fc1c149afbf4c8996fb92427ae41e4...
+illuminating_mentions          |      179 |          - |          - |          - |          - |        5 | ['Kamala Harris'] (Count: 116)          
+scam_illuminating              |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+issue_msg_type_illuminating    |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+attack_msg_type_illuminating   |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |      179 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+engagement_cta_subtype_illuminating |      179 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+fundraising_cta_subtype_illuminating |      179 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+voting_cta_subtype_illuminating |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |      179 |       0.98 |        0.0 |        1.0 |       0.13 |        - | -                                       
+economy_topic_illuminating     |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      179 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('062a73845194a53a226450fa498e9a48ff6683ee1f559058a1ccd4d70707581f',) (Count: 118) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |      118 |          - |          - |          - |          - |        1 | 062a73845194a53a226450fa498e9a48ff6683ee...
+ad_id                          |      118 |          - |          - |          - |          - |      118 | 3580b1f0707438dd60a9499f4a9c1df1a98f500e...
+ad_creation_time               |      118 |          - |          - |          - |          - |       45 | 2024-07-22 (Count: 9)                   
+bylines                        |      118 |          - |          - |          - |          - |        1 | MomsRising Together (Count: 118)        
+currency                       |      118 |          - |          - |          - |          - |        1 | USD (Count: 118)                        
+delivery_by_region             |      118 |          - |          - |          - |          - |      118 | {'Arizona': {'spend': 38, 'impressions':...
+demographic_distribution       |      118 |          - |          - |          - |          - |      118 | {'female_25-34': {'spend': 124, 'impress...
+estimated_audience_size        |      118 |  923856.83 |    30000.0 |  1000001.0 |  240910.61 |        - | -                                       
+estimated_impressions          |      118 |   46982.07 |      499.0 |  1000000.0 |  132989.31 |        - | -                                       
+estimated_spend                |      118 |     546.46 |       49.0 |    22499.0 |    2206.99 |        - | -                                       
+publisher_platforms            |      118 |          - |          - |          - |          - |        3 | ['instagram'] (Count: 47)               
+illuminating_scored_message    |      118 |          - |          - |          - |          - |       71 | e3b0c44298fc1c149afbf4c8996fb92427ae41e4...
+illuminating_mentions          |      118 |          - |          - |          - |          - |       13 | ['Kamala Harris'] (Count: 40)           
+scam_illuminating              |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |      118 |       0.77 |        0.0 |        1.0 |       0.42 |        - | -                                       
+issue_msg_type_illuminating    |      118 |       0.78 |        0.0 |        1.0 |       0.42 |        - | -                                       
+attack_msg_type_illuminating   |      118 |       0.17 |        0.0 |        1.0 |       0.38 |        - | -                                       
+image_msg_type_illuminating    |      118 |        0.2 |        0.0 |        1.0 |        0.4 |        - | -                                       
+cta_msg_type_illuminating      |      118 |        0.3 |        0.0 |        1.0 |       0.46 |        - | -                                       
+engagement_cta_subtype_illuminating |      118 |       0.21 |        0.0 |        1.0 |       0.41 |        - | -                                       
+fundraising_cta_subtype_illuminating |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |      118 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+covid_topic_illuminating       |      118 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+economy_topic_illuminating     |      118 |       0.37 |        0.0 |        1.0 |       0.49 |        - | -                                       
+education_topic_illuminating   |      118 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+environment_topic_illuminating |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |      118 |       0.47 |        0.0 |        1.0 |        0.5 |        - | -                                       
+immigration_topic_illuminating |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |      118 |       0.49 |        0.0 |        1.0 |        0.5 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |      118 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+incivility_illuminating        |      118 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+freefair_illuminating          |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      118 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('352c4c72b84fdf2c4eb02dfeaad77b5629d83fbb4997873a440e3e60a250acf9',) (Count: 81) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |       81 |          - |          - |          - |          - |        1 | 352c4c72b84fdf2c4eb02dfeaad77b5629d83fbb...
+ad_id                          |       81 |          - |          - |          - |          - |       81 | 75f9b09f95cd2ba2442c403a9684b571298cf2d6...
+ad_creation_time               |       81 |          - |          - |          - |          - |       59 | 2024-07-26 (Count: 4)                   
+bylines                        |       81 |          - |          - |          - |          - |        1 | Waukesha County Democratic Party (Count:...
+currency                       |       81 |          - |          - |          - |          - |        1 | USD (Count: 81)                         
+delivery_by_region             |       81 |          - |          - |          - |          - |       34 | {'Wisconsin': {'spend': 249, 'impression...
+demographic_distribution       |       81 |          - |          - |          - |          - |       80 | {} (Count: 2)                           
+estimated_audience_size        |       81 |  192592.63 |    30000.0 |  1000001.0 |  204023.91 |        - | -                                       
+estimated_impressions          |       81 |   13449.62 |      499.0 |   137499.0 |   19682.89 |        - | -                                       
+estimated_spend                |       81 |     235.42 |       49.0 |     1749.0 |     263.99 |        - | -                                       
+publisher_platforms            |       81 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 81)   
+illuminating_scored_message    |       81 |          - |          - |          - |          - |       62 | 0c90d9f005a5c673d4f25121bab62ab1f028048d...
+illuminating_mentions          |       81 |          - |          - |          - |          - |       15 | ['Donald Trump'] (Count: 24)            
+scam_illuminating              |       81 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |       81 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+advocacy_msg_type_illuminating |       81 |       0.58 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |       81 |       0.79 |        0.0 |        1.0 |       0.41 |        - | -                                       
+attack_msg_type_illuminating   |       81 |       0.62 |        0.0 |        1.0 |       0.49 |        - | -                                       
+image_msg_type_illuminating    |       81 |       0.28 |        0.0 |        1.0 |       0.45 |        - | -                                       
+cta_msg_type_illuminating      |       81 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+engagement_cta_subtype_illuminating |       81 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+fundraising_cta_subtype_illuminating |       81 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+voting_cta_subtype_illuminating |       81 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+covid_topic_illuminating       |       81 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+economy_topic_illuminating     |       81 |       0.28 |        0.0 |        1.0 |       0.45 |        - | -                                       
+education_topic_illuminating   |       81 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+environment_topic_illuminating |       81 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+foreign_policy_topic_illuminating |       81 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+governance_topic_illuminating  |       81 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+health_topic_illuminating      |       81 |       0.27 |        0.0 |        1.0 |       0.45 |        - | -                                       
+immigration_topic_illuminating |       81 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+lgbtq_issues_topic_illuminating |       81 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       81 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       81 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       81 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+social_and_cultural_topic_illuminating |       81 |        0.2 |        0.0 |        1.0 |        0.4 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       81 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       81 |       0.19 |        0.0 |        1.0 |       0.39 |        - | -                                       
+incivility_illuminating        |       81 |        0.4 |        0.0 |        1.0 |       0.49 |        - | -                                       
+freefair_illuminating          |       81 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       81 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('66dbd85261d199af2e22a60a56b02e520d2bd66256eb7b617308a777e4f34f22',) (Count: 2203) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |     2203 |          - |          - |          - |          - |        1 | 66dbd85261d199af2e22a60a56b02e520d2bd662...
+ad_id                          |     2203 |          - |          - |          - |          - |     2203 | 3c8aecb3d6cb6570e87fb93848ee706f3dfe62ec...
+ad_creation_time               |     2203 |          - |          - |          - |          - |       30 | 2024-10-27 (Count: 408)                 
+bylines                        |     2203 |          - |          - |          - |          - |        1 | HARRIS VICTORY FUND (Count: 2203)       
+currency                       |     2203 |          - |          - |          - |          - |        1 | USD (Count: 2203)                       
+delivery_by_region             |     2203 |          - |          - |          - |          - |     2047 | {} (Count: 157)                         
+demographic_distribution       |     2203 |          - |          - |          - |          - |     2047 | {} (Count: 157)                         
+estimated_audience_size        |     2203 |  810468.24 |    30000.0 |  1000001.0 |  303422.61 |        - | -                                       
+estimated_impressions          |     2203 |    50669.0 |      499.0 |  1000000.0 |  143246.62 |        - | -                                       
+estimated_spend                |     2203 |     1927.1 |       49.0 |   112499.0 |    7039.83 |        - | -                                       
+publisher_platforms            |     2203 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 2203) 
+illuminating_scored_message    |     2203 |          - |          - |          - |          - |       15 | 2399cb3a1354e6ab473b7b0ffaa2f891071405af...
+illuminating_mentions          |     2203 |          - |          - |          - |          - |        4 | ['Kamala Harris'] (Count: 1496)         
+scam_illuminating              |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |     2203 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+advocacy_msg_type_illuminating |     2203 |       0.36 |        0.0 |        1.0 |       0.48 |        - | -                                       
+issue_msg_type_illuminating    |     2203 |       0.15 |        0.0 |        1.0 |       0.36 |        - | -                                       
+attack_msg_type_illuminating   |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |     2203 |       0.76 |        0.0 |        1.0 |       0.43 |        - | -                                       
+cta_msg_type_illuminating      |     2203 |       0.91 |        0.0 |        1.0 |       0.29 |        - | -                                       
+engagement_cta_subtype_illuminating |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |     2203 |       0.92 |        0.0 |        1.0 |       0.27 |        - | -                                       
+voting_cta_subtype_illuminating |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |     2203 |       0.15 |        0.0 |        1.0 |       0.35 |        - | -                                       
+education_topic_illuminating   |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |     2203 |       0.08 |        0.0 |        1.0 |       0.27 |        - | -                                       
+freefair_illuminating          |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |     2203 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('81ceea6f9733174050ee2e77a344fa69789bf271da922e69864e685e37ebec79',) (Count: 17) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |       17 |          - |          - |          - |          - |        1 | 81ceea6f9733174050ee2e77a344fa69789bf271...
+ad_id                          |       17 |          - |          - |          - |          - |       17 | f0014608af9fbc4ca962ba5571401f4cf08e1d15...
+ad_creation_time               |       17 |          - |          - |          - |          - |       11 | 2024-10-28 (Count: 4)                   
+bylines                        |       17 |          - |          - |          - |          - |        2 | Highlands County Republican Party (Count...
+currency                       |       17 |          - |          - |          - |          - |        1 | USD (Count: 17)                         
+delivery_by_region             |       17 |          - |          - |          - |          - |        4 | {'Florida': {'spend': 49, 'impressions':...
+demographic_distribution       |       17 |          - |          - |          - |          - |       17 | {'female_18-24': {'spend': 0, 'impressio...
+estimated_audience_size        |       17 |  217941.18 |    30000.0 |   300000.0 |  114987.21 |        - | -                                       
+estimated_impressions          |       17 |    1793.12 |      499.0 |     3499.0 |     919.56 |        - | -                                       
+estimated_spend                |       17 |       49.0 |       49.0 |       49.0 |        0.0 |        - | -                                       
+publisher_platforms            |       17 |          - |          - |          - |          - |        2 | ['facebook'] (Count: 16)                
+illuminating_scored_message    |       17 |          - |          - |          - |          - |       15 | 18e186b6bef5954b92410905525a0168197a6c1c...
+illuminating_mentions          |       17 |          - |          - |          - |          - |        6 | ['President Trump'] (Count: 5)          
+scam_illuminating              |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |       17 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+advocacy_msg_type_illuminating |       17 |       0.41 |        0.0 |        1.0 |       0.51 |        - | -                                       
+issue_msg_type_illuminating    |       17 |       0.18 |        0.0 |        1.0 |       0.39 |        - | -                                       
+attack_msg_type_illuminating   |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |       17 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+cta_msg_type_illuminating      |       17 |       0.82 |        0.0 |        1.0 |       0.39 |        - | -                                       
+engagement_cta_subtype_illuminating |       17 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+fundraising_cta_subtype_illuminating |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |       17 |       0.41 |        0.0 |        1.0 |       0.51 |        - | -                                       
+covid_topic_illuminating       |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |       17 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+lgbtq_issues_topic_illuminating |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       17 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('ec8ac6dc1cddc49972de2c31b62343fe3979729ec437c3b8d6ffa8915ab1401d',) (Count: 9851) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |     9851 |          - |          - |          - |          - |        1 | ec8ac6dc1cddc49972de2c31b62343fe3979729e...
+ad_id                          |     9851 |          - |          - |          - |          - |     9851 | 17cb6cdbf28e7fc6331799f25305b40f409938a7...
+ad_creation_time               |     9851 |          - |          - |          - |          - |      132 | 2024-10-27 (Count: 726)                 
+bylines                        |     9851 |          - |          - |          - |          - |        2 | HARRIS VICTORY FUND (Count: 7510)       
+currency                       |     9851 |          - |          - |          - |          - |        1 | USD (Count: 9851)                       
+delivery_by_region             |     9851 |          - |          - |          - |          - |     8772 | {} (Count: 1080)                        
+demographic_distribution       |     9851 |          - |          - |          - |          - |     8772 | {} (Count: 1080)                        
+estimated_audience_size        |     9851 |  775121.92 |      550.0 |  1000001.0 |  317646.38 |        - | -                                       
+estimated_impressions          |     9851 |   33081.89 |      499.0 |  1000000.0 |  107071.14 |        - | -                                       
+estimated_spend                |     9851 |    1076.03 |       49.0 |   162499.0 |    4522.69 |        - | -                                       
+publisher_platforms            |     9851 |          - |          - |          - |          - |        2 | ['facebook', 'instagram'] (Count: 9815) 
+illuminating_scored_message    |     9851 |          - |          - |          - |          - |      169 | 1a3bf873785b05005ad557b2cc2a5163517d1d9e...
+illuminating_mentions          |     9851 |          - |          - |          - |          - |       20 | ['Donald Trump'] (Count: 3914)          
+scam_illuminating              |     9851 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |     9851 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+advocacy_msg_type_illuminating |     9851 |       0.32 |        0.0 |        1.0 |       0.47 |        - | -                                       
+issue_msg_type_illuminating    |     9851 |        0.1 |        0.0 |        1.0 |       0.31 |        - | -                                       
+attack_msg_type_illuminating   |     9851 |       0.22 |        0.0 |        1.0 |       0.42 |        - | -                                       
+image_msg_type_illuminating    |     9851 |       0.37 |        0.0 |        1.0 |       0.48 |        - | -                                       
+cta_msg_type_illuminating      |     9851 |       0.81 |        0.0 |        1.0 |       0.39 |        - | -                                       
+engagement_cta_subtype_illuminating |     9851 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+fundraising_cta_subtype_illuminating |     9851 |       0.59 |        0.0 |        1.0 |       0.49 |        - | -                                       
+voting_cta_subtype_illuminating |     9851 |        0.0 |        0.0 |        1.0 |       0.02 |        - | -                                       
+covid_topic_illuminating       |     9851 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+economy_topic_illuminating     |     9851 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+education_topic_illuminating   |     9851 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |     9851 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+foreign_policy_topic_illuminating |     9851 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |     9851 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+health_topic_illuminating      |     9851 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+immigration_topic_illuminating |     9851 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |     9851 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |     9851 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+race_and_ethnicity_topic_illuminating |     9851 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |     9851 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+social_and_cultural_topic_illuminating |     9851 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |     9851 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |     9851 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+incivility_illuminating        |     9851 |       0.19 |        0.0 |        1.0 |        0.4 |        - | -                                       
+freefair_illuminating          |     9851 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+fraud_illuminating             |     9851 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('ad62fd374712275540f09bfee14293250b09adbae45cb8cb6c69dc97bec002e5',) (Count: 34) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |       34 |          - |          - |          - |          - |        1 | ad62fd374712275540f09bfee14293250b09adba...
+ad_id                          |       34 |          - |          - |          - |          - |       34 | 3d0d756039e771c6364129cd7fea546f64303fd0...
+ad_creation_time               |       34 |          - |          - |          - |          - |       19 | 2024-10-23 (Count: 5)                   
+bylines                        |       34 |          - |          - |          - |          - |        1 | Passaic County Democratic Committee (Cou...
+currency                       |       34 |          - |          - |          - |          - |        1 | USD (Count: 34)                         
+delivery_by_region             |       34 |          - |          - |          - |          - |       23 | {'New Jersey': {'spend': 149, 'impressio...
+demographic_distribution       |       34 |          - |          - |          - |          - |       34 | {'female_18-24': {'spend': 0, 'impressio...
+estimated_audience_size        |       34 |  528970.59 |    30000.0 |   750000.0 |   261776.5 |        - | -                                       
+estimated_impressions          |       34 |   10381.35 |      499.0 |    32499.0 |    7586.93 |        - | -                                       
+estimated_spend                |       34 |     113.71 |       49.0 |      349.0 |      77.39 |        - | -                                       
+publisher_platforms            |       34 |          - |          - |          - |          - |        2 | ['facebook', 'instagram'] (Count: 32)   
+illuminating_scored_message    |       34 |          - |          - |          - |          - |       28 | a007e343f032d13f492563525d2c34cc566f6ce7...
+illuminating_mentions          |       34 |          - |          - |          - |          - |        6 | ['Kamala Harris'] (Count: 15)           
+scam_illuminating              |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |       34 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+advocacy_msg_type_illuminating |       34 |       0.41 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |       34 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+attack_msg_type_illuminating   |       34 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+image_msg_type_illuminating    |       34 |       0.29 |        0.0 |        1.0 |       0.46 |        - | -                                       
+cta_msg_type_illuminating      |       34 |       0.91 |        0.0 |        1.0 |       0.29 |        - | -                                       
+engagement_cta_subtype_illuminating |       34 |       0.65 |        0.0 |        1.0 |       0.49 |        - | -                                       
+fundraising_cta_subtype_illuminating |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |       34 |       0.15 |        0.0 |        1.0 |       0.36 |        - | -                                       
+covid_topic_illuminating       |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |       34 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+environment_topic_illuminating |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       34 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+immigration_topic_illuminating |       34 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+lgbtq_issues_topic_illuminating |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       34 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       34 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+social_and_cultural_topic_illuminating |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       34 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+incivility_illuminating        |       34 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+freefair_illuminating          |       34 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+fraud_illuminating             |       34 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('7149b48373596dd3cef46a45c3f30196dd329d5e51de8a2ca0eaa639928f5bda',) (Count: 2) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        2 |          - |          - |          - |          - |        1 | 7149b48373596dd3cef46a45c3f30196dd329d5e...
+ad_id                          |        2 |          - |          - |          - |          - |        2 | 4a137d70195ea16a54720110cb55e53838c2deef...
+ad_creation_time               |        2 |          - |          - |          - |          - |        2 | 2024-10-28 (Count: 1)                   
+bylines                        |        2 |          - |          - |          - |          - |        1 | Committee to Elect Phil Skaggs (Count: 2...
+currency                       |        2 |          - |          - |          - |          - |        1 | USD (Count: 2)                          
+delivery_by_region             |        2 |          - |          - |          - |          - |        2 | {'Michigan': {'spend': 249, 'impressions...
+demographic_distribution       |        2 |          - |          - |          - |          - |        2 | {'female_18-24': {'spend': 4, 'impressio...
+estimated_audience_size        |        2 |   300000.0 |   300000.0 |   300000.0 |        0.0 |        - | -                                       
+estimated_impressions          |        2 |    14999.0 |     2499.0 |    27499.0 |   17677.67 |        - | -                                       
+estimated_spend                |        2 |      149.0 |       49.0 |      249.0 |     141.42 |        - | -                                       
+publisher_platforms            |        2 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 2)    
+illuminating_scored_message    |        2 |          - |          - |          - |          - |        2 | e7607c5597bb09a74c9bd2a9380c354af9a6c96d...
+illuminating_mentions          |        2 |          - |          - |          - |          - |        2 | ['Donald Trump', 'Kamala Harris', 'Tim W...
+scam_illuminating              |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |        2 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+issue_msg_type_illuminating    |        2 |        0.5 |        0.0 |        1.0 |       0.71 |        - | -                                       
+attack_msg_type_illuminating   |        2 |        0.5 |        0.0 |        1.0 |       0.71 |        - | -                                       
+image_msg_type_illuminating    |        2 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+engagement_cta_subtype_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        2 |        0.5 |        0.0 |        1.0 |       0.71 |        - | -                                       
+freefair_illuminating          |        2 |        0.5 |        0.0 |        1.0 |       0.71 |        - | -                                       
+fraud_illuminating             |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('0422d61070e4ba0f6b223445ea22537f6f825784a6b386b26b3d6ae1744a3d25',) (Count: 12) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |       12 |          - |          - |          - |          - |        1 | 0422d61070e4ba0f6b223445ea22537f6f825784...
+ad_id                          |       12 |          - |          - |          - |          - |       12 | 7f480a43eff5bb1f81de19797dae1574adb4b617...
+ad_creation_time               |       12 |          - |          - |          - |          - |       10 | 2024-10-16 (Count: 2)                   
+bylines                        |       12 |          - |          - |          - |          - |        1 | Democratic Party of Brown County (Count:...
+currency                       |       12 |          - |          - |          - |          - |        1 | USD (Count: 12)                         
+delivery_by_region             |       12 |          - |          - |          - |          - |       10 | {'Wisconsin': {'spend': 49, 'impressions...
+demographic_distribution       |       12 |          - |          - |          - |          - |       12 | {'female_18-24': {'spend': 0, 'impressio...
+estimated_audience_size        |       12 |    59762.5 |      550.0 |   300000.0 |  112823.27 |        - | -                                       
+estimated_impressions          |       12 |     1749.0 |      499.0 |     4499.0 |    1544.79 |        - | -                                       
+estimated_spend                |       12 |      57.33 |       49.0 |      149.0 |      28.87 |        - | -                                       
+publisher_platforms            |       12 |          - |          - |          - |          - |        2 | ['facebook', 'instagram'] (Count: 11)   
+illuminating_scored_message    |       12 |          - |          - |          - |          - |        8 | ed3faf7457205edc80cb7804f43441d518781f3a...
+illuminating_mentions          |       12 |          - |          - |          - |          - |        4 | ['Kamala Harris', 'Tim Walz'] (Count: 6)
+scam_illuminating              |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |       12 |       0.58 |        0.0 |        1.0 |       0.51 |        - | -                                       
+issue_msg_type_illuminating    |       12 |       0.08 |        0.0 |        1.0 |       0.29 |        - | -                                       
+attack_msg_type_illuminating   |       12 |       0.08 |        0.0 |        1.0 |       0.29 |        - | -                                       
+image_msg_type_illuminating    |       12 |       0.08 |        0.0 |        1.0 |       0.29 |        - | -                                       
+cta_msg_type_illuminating      |       12 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+engagement_cta_subtype_illuminating |       12 |       0.67 |        0.0 |        1.0 |       0.49 |        - | -                                       
+fundraising_cta_subtype_illuminating |       12 |       0.25 |        0.0 |        1.0 |       0.45 |        - | -                                       
+voting_cta_subtype_illuminating |       12 |       0.17 |        0.0 |        1.0 |       0.39 |        - | -                                       
+covid_topic_illuminating       |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       12 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('352a5b403121115fa725d0141c9e757decc79d5626d8ea052cda0db810630098',) (Count: 1) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        1 |          - |          - |          - |          - |        1 | 352a5b403121115fa725d0141c9e757decc79d56...
+ad_id                          |        1 |          - |          - |          - |          - |        1 | 01b384e63fb153ae9c37e5a4948465040b0cca30...
+ad_creation_time               |        1 |          - |          - |          - |          - |        1 | 2024-10-28 (Count: 1)                   
+bylines                        |        1 |          - |          - |          - |          - |        1 | Dan for Albany (Count: 1)               
+currency                       |        1 |          - |          - |          - |          - |        1 | USD (Count: 1)                          
+delivery_by_region             |        1 |          - |          - |          - |          - |        1 | {'New York': {'spend': 249, 'impressions...
+demographic_distribution       |        1 |          - |          - |          - |          - |        1 | {'female_18-24': {'spend': 0, 'impressio...
+estimated_audience_size        |        1 |    30000.0 |    30000.0 |    30000.0 |          - |        - | -                                       
+estimated_impressions          |        1 |     8499.0 |     8499.0 |     8499.0 |          - |        - | -                                       
+estimated_spend                |        1 |      249.0 |      249.0 |      249.0 |          - |        - | -                                       
+publisher_platforms            |        1 |          - |          - |          - |          - |        1 | ['facebook'] (Count: 1)                 
+illuminating_scored_message    |        1 |          - |          - |          - |          - |        1 | 83cb56d1d92b8f63fddbd0ced86cdb34a8bcf3a6...
+illuminating_mentions          |        1 |          - |          - |          - |          - |        1 | ['Kamala Harris', 'Tim Walz'] (Count: 1)
+scam_illuminating              |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+election_integrity_Truth_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+advocacy_msg_type_illuminating |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+issue_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+attack_msg_type_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+image_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+cta_msg_type_illuminating      |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+engagement_cta_subtype_illuminating |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+fundraising_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+voting_cta_subtype_illuminating |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+covid_topic_illuminating       |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+economy_topic_illuminating     |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+education_topic_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+environment_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+foreign_policy_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+governance_topic_illuminating  |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+health_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+immigration_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+lgbtq_issues_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+military_topic_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+race_and_ethnicity_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+safety_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+social_and_cultural_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+womens_issue_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+incivility_illuminating        |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+freefair_illuminating          |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fraud_illuminating             |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+
+===== Group: ('b34cf0e89ed7ea587e929c2bded62d2924bcc58678dda4e58bc023abaf763f48',) (Count: 6) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        6 |          - |          - |          - |          - |        1 | b34cf0e89ed7ea587e929c2bded62d2924bcc586...
+ad_id                          |        6 |          - |          - |          - |          - |        6 | 3e8f047019b7b40d0b4736f76c6e3379ef119482...
+ad_creation_time               |        6 |          - |          - |          - |          - |        5 | 2024-10-28 (Count: 2)                   
+bylines                        |        6 |          - |          - |          - |          - |        1 | Mount Olive Democratic Committee (Count:...
+currency                       |        6 |          - |          - |          - |          - |        1 | USD (Count: 6)                          
+delivery_by_region             |        6 |          - |          - |          - |          - |        5 | {'New Jersey': {'spend': 49, 'impression...
+demographic_distribution       |        6 |          - |          - |          - |          - |        6 | {'female_18-24': {'spend': 0, 'impressio...
+estimated_audience_size        |        6 |   11591.67 |      550.0 |    30000.0 |   14290.57 |        - | -                                       
+estimated_impressions          |        6 |    2165.67 |      499.0 |     6499.0 |    2422.12 |        - | -                                       
+estimated_spend                |        6 |       49.0 |       49.0 |       49.0 |        0.0 |        - | -                                       
+publisher_platforms            |        6 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 6)    
+illuminating_scored_message    |        6 |          - |          - |          - |          - |        6 | bd319aa61d67541b5e07c3d0e2b8954b4516a58f...
+illuminating_mentions          |        6 |          - |          - |          - |          - |        3 | ['Kamala Harris', 'Tim Walz'] (Count: 2)
+scam_illuminating              |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |        6 |       0.83 |        0.0 |        1.0 |       0.41 |        - | -                                       
+issue_msg_type_illuminating    |        6 |        0.5 |        0.0 |        1.0 |       0.55 |        - | -                                       
+attack_msg_type_illuminating   |        6 |       0.17 |        0.0 |        1.0 |       0.41 |        - | -                                       
+image_msg_type_illuminating    |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |        6 |       0.33 |        0.0 |        1.0 |       0.52 |        - | -                                       
+engagement_cta_subtype_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        6 |       0.33 |        0.0 |        1.0 |       0.52 |        - | -                                       
+covid_topic_illuminating       |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |        6 |       0.33 |        0.0 |        1.0 |       0.52 |        - | -                                       
+immigration_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        6 |       0.17 |        0.0 |        1.0 |       0.41 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        6 |       0.33 |        0.0 |        1.0 |       0.52 |        - | -                                       
+incivility_illuminating        |        6 |       0.17 |        0.0 |        1.0 |       0.41 |        - | -                                       
+freefair_illuminating          |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('9fd4ef6b24c49e2d4ef97ca887e76a33b8dbc0d38124a6c718b499e5956b81a3',) (Count: 57) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |       57 |          - |          - |          - |          - |        1 | 9fd4ef6b24c49e2d4ef97ca887e76a33b8dbc0d3...
+ad_id                          |       57 |          - |          - |          - |          - |       57 | 9dd6ceb86a216c39f86c52fddfdd72a62148e51c...
+ad_creation_time               |       57 |          - |          - |          - |          - |        7 | 2024-09-30 (Count: 14)                  
+bylines                        |       57 |          - |          - |          - |          - |        1 | LABORERS INTERNATIONAL UNION OF NORTH AM...
+currency                       |       57 |          - |          - |          - |          - |        1 | USD (Count: 57)                         
+delivery_by_region             |       57 |          - |          - |          - |          - |       38 | {'Michigan': {'spend': 49, 'impressions'...
+demographic_distribution       |       57 |          - |          - |          - |          - |       57 | {'female_18-24': {'spend': 0, 'impressio...
+estimated_audience_size        |       57 |   13105.26 |     3000.0 |    75000.0 |   25231.56 |        - | -                                       
+estimated_impressions          |       57 |   44876.19 |      499.0 |   949999.0 |  142294.32 |        - | -                                       
+estimated_spend                |       57 |      399.0 |       49.0 |     8499.0 |    1207.34 |        - | -                                       
+publisher_platforms            |       57 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 57)   
+illuminating_scored_message    |       57 |          - |          - |          - |          - |        1 | 1a2ce8dec41e65aeb98f6c68b51923e480bf50d7...
+illuminating_mentions          |       57 |          - |          - |          - |          - |        2 | ['Kamala Harris', 'Tim Walz'] (Count: 34...
+scam_illuminating              |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+issue_msg_type_illuminating    |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+attack_msg_type_illuminating   |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+engagement_cta_subtype_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       57 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('b70ce423d71fba3ad72612e3a1f37d38a1135452768b78c6c2a661453e949143',) (Count: 22) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |       22 |          - |          - |          - |          - |        1 | b70ce423d71fba3ad72612e3a1f37d38a1135452...
+ad_id                          |       22 |          - |          - |          - |          - |       22 | 741a0ae684a99dd3a2844b1abdd953d58a998e08...
+ad_creation_time               |       22 |          - |          - |          - |          - |        4 | 2024-10-28 (Count: 10)                  
+bylines                        |       22 |          - |          - |          - |          - |        1 | Georgia Safe and Strong, Inc. (Count: 22...
+currency                       |       22 |          - |          - |          - |          - |        1 | USD (Count: 22)                         
+delivery_by_region             |       22 |          - |          - |          - |          - |       14 | {'Georgia': {'spend': 49, 'impressions':...
+demographic_distribution       |       22 |          - |          - |          - |          - |       22 | {'female_18-24': {'spend': 1, 'impressio...
+estimated_audience_size        |       22 |    30000.0 |    30000.0 |    30000.0 |        0.0 |        - | -                                       
+estimated_impressions          |       22 |    9839.91 |      499.0 |    54999.0 |   13931.28 |        - | -                                       
+estimated_spend                |       22 |     380.82 |       49.0 |     2249.0 |     544.57 |        - | -                                       
+publisher_platforms            |       22 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 22)   
+illuminating_scored_message    |       22 |          - |          - |          - |          - |        8 | 33e8c17af590ebf136d1a89db6799c442c77dce3...
+illuminating_mentions          |       22 |          - |          - |          - |          - |        4 | ['Kamala Harris'] (Count: 12)           
+scam_illuminating              |       22 |       0.18 |        0.0 |        1.0 |       0.39 |        - | -                                       
+election_integrity_Truth_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |       22 |       0.82 |        0.0 |        1.0 |       0.39 |        - | -                                       
+issue_msg_type_illuminating    |       22 |       0.82 |        0.0 |        1.0 |       0.39 |        - | -                                       
+attack_msg_type_illuminating   |       22 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+image_msg_type_illuminating    |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |       22 |       0.18 |        0.0 |        1.0 |       0.39 |        - | -                                       
+engagement_cta_subtype_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |       22 |       0.18 |        0.0 |        1.0 |       0.39 |        - | -                                       
+covid_topic_illuminating       |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |       22 |       0.82 |        0.0 |        1.0 |       0.39 |        - | -                                       
+education_topic_illuminating   |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |       22 |       0.23 |        0.0 |        1.0 |       0.43 |        - | -                                       
+foreign_policy_topic_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       22 |       0.23 |        0.0 |        1.0 |       0.43 |        - | -                                       
+immigration_topic_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |       22 |       0.23 |        0.0 |        1.0 |       0.43 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       22 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+incivility_illuminating        |       22 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+freefair_illuminating          |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('14c00e997b81fcbd350ea99680bab58f9e4a9bff407e809db8f034848fcb7ae5',) (Count: 1) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        1 |          - |          - |          - |          - |        1 | 14c00e997b81fcbd350ea99680bab58f9e4a9bff...
+ad_id                          |        1 |          - |          - |          - |          - |        1 | fcc5c4203fd8b69a32300f1be16fab7b883e7085...
+ad_creation_time               |        1 |          - |          - |          - |          - |        1 | 2024-10-28 (Count: 1)                   
+bylines                        |        1 |          - |          - |          - |          - |        1 | Freedom Socials (Count: 1)              
+currency                       |        1 |          - |          - |          - |          - |        1 | USD (Count: 1)                          
+delivery_by_region             |        1 |          - |          - |          - |          - |        1 | {'New Jersey': {'spend': 49, 'impression...
+demographic_distribution       |        1 |          - |          - |          - |          - |        1 | {'female_18-24': {'spend': 0, 'impressio...
+estimated_audience_size        |        1 |    75000.0 |    75000.0 |    75000.0 |          - |        - | -                                       
+estimated_impressions          |        1 |     3499.0 |     3499.0 |     3499.0 |          - |        - | -                                       
+estimated_spend                |        1 |       49.0 |       49.0 |       49.0 |          - |        - | -                                       
+publisher_platforms            |        1 |          - |          - |          - |          - |        1 | ['facebook'] (Count: 1)                 
+illuminating_scored_message    |        1 |          - |          - |          - |          - |        1 | 002c6223f072f4eafc4c6f049f75b5600f9aac63...
+illuminating_mentions          |        1 |          - |          - |          - |          - |        1 | ['Tim Walz'] (Count: 1)                 
+scam_illuminating              |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+election_integrity_Truth_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+advocacy_msg_type_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+issue_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+attack_msg_type_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+image_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+cta_msg_type_illuminating      |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+engagement_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fundraising_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+voting_cta_subtype_illuminating |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+covid_topic_illuminating       |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+economy_topic_illuminating     |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+education_topic_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+environment_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+foreign_policy_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+governance_topic_illuminating  |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+health_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+immigration_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+lgbtq_issues_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+military_topic_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+race_and_ethnicity_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+safety_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+social_and_cultural_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+womens_issue_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+incivility_illuminating        |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+freefair_illuminating          |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fraud_illuminating             |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+
+===== Group: ('bf135ef3741e35de845bb9a506ae4a898baed40410d282d46afdb6fcec2c1871',) (Count: 6) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        6 |          - |          - |          - |          - |        1 | bf135ef3741e35de845bb9a506ae4a898baed404...
+ad_id                          |        6 |          - |          - |          - |          - |        6 | 2fd75b96081edd0232cd1827cc4fe38eee69fd6d...
+ad_creation_time               |        6 |          - |          - |          - |          - |        2 | 2024-10-28 (Count: 4)                   
+bylines                        |        6 |          - |          - |          - |          - |        1 | Montgomery County Democratic Party (Coun...
+currency                       |        6 |          - |          - |          - |          - |        1 | USD (Count: 6)                          
+delivery_by_region             |        6 |          - |          - |          - |          - |        5 | {'Ohio': {'spend': 49, 'impressions': 49...
+demographic_distribution       |        6 |          - |          - |          - |          - |        6 | {'female_18-24': {'spend': 0, 'impressio...
+estimated_audience_size        |        6 |    15275.0 |      550.0 |    30000.0 |   16130.43 |        - | -                                       
+estimated_impressions          |        6 |   30332.33 |      499.0 |   112499.0 |   43152.83 |        - | -                                       
+estimated_spend                |        6 |     365.67 |       49.0 |     1249.0 |     466.55 |        - | -                                       
+publisher_platforms            |        6 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 6)    
+illuminating_scored_message    |        6 |          - |          - |          - |          - |        1 | b4ad9c79e651b5075d11ca7f6a4239084306cb25...
+illuminating_mentions          |        6 |          - |          - |          - |          - |        1 | ['Kamala Harris', 'Tim Walz'] (Count: 6)
+scam_illuminating              |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |        6 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+issue_msg_type_illuminating    |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+attack_msg_type_illuminating   |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |        6 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+engagement_cta_subtype_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        6 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('a8a72c4fa7d48811c4c40d41c247dac9519cfac795b7144fb4ce363e4090261e',) (Count: 2) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        2 |          - |          - |          - |          - |        1 | a8a72c4fa7d48811c4c40d41c247dac9519cfac7...
+ad_id                          |        2 |          - |          - |          - |          - |        2 | 41ca33cccfde4966e97470ba58b4a40ef1f97296...
+ad_creation_time               |        2 |          - |          - |          - |          - |        2 | 2024-10-28 (Count: 1)                   
+bylines                        |        2 |          - |          - |          - |          - |        1 | Citrus County Democratic Party (Count: 2...
+currency                       |        2 |          - |          - |          - |          - |        1 | USD (Count: 2)                          
+delivery_by_region             |        2 |          - |          - |          - |          - |        2 | {'Alabama': {'spend': 0, 'impressions': ...
+demographic_distribution       |        2 |          - |          - |          - |          - |        2 | {'female_18-24': {'spend': 3, 'impressio...
+estimated_audience_size        |        2 |    30000.0 |    30000.0 |    30000.0 |        0.0 |        - | -                                       
+estimated_impressions          |        2 |     5999.0 |     5499.0 |     6499.0 |     707.11 |        - | -                                       
+estimated_spend                |        2 |       49.0 |       49.0 |       49.0 |        0.0 |        - | -                                       
+publisher_platforms            |        2 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 2)    
+illuminating_scored_message    |        2 |          - |          - |          - |          - |        1 | e3b0c44298fc1c149afbf4c8996fb92427ae41e4...
+illuminating_mentions          |        2 |          - |          - |          - |          - |        1 | ['Kamala Harris', 'Tim Walz'] (Count: 2)
+scam_illuminating              |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+issue_msg_type_illuminating    |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+attack_msg_type_illuminating   |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+engagement_cta_subtype_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |        2 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |        2 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('fc40350745e07782498315e5b9a604185f7bc191518e8088cc1e948eba36a413',) (Count: 5) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        5 |          - |          - |          - |          - |        1 | fc40350745e07782498315e5b9a604185f7bc191...
+ad_id                          |        5 |          - |          - |          - |          - |        5 | 8a7fc33a64bb28af0efd6212e82d27124f5d6ad1...
+ad_creation_time               |        5 |          - |          - |          - |          - |        1 | 2024-10-28 (Count: 5)                   
+bylines                        |        5 |          - |          - |          - |          - |        1 | AMERICAN FAMILY VOICES INC (Count: 5)   
+currency                       |        5 |          - |          - |          - |          - |        1 | USD (Count: 5)                          
+delivery_by_region             |        5 |          - |          - |          - |          - |        4 | {'Pennsylvania': {'spend': 49, 'impressi...
+demographic_distribution       |        5 |          - |          - |          - |          - |        5 | {'female_18-24': {'spend': 0, 'impressio...
+estimated_audience_size        |        5 |   450220.0 |      550.0 |   750000.0 |  410490.67 |        - | -                                       
+estimated_impressions          |        5 |    85999.0 |      499.0 |   424999.0 |  189511.21 |        - | -                                       
+estimated_spend                |        5 |     1959.0 |       49.0 |     9499.0 |    4215.21 |        - | -                                       
+publisher_platforms            |        5 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 5)    
+illuminating_scored_message    |        5 |          - |          - |          - |          - |        2 | 2165a20b544c85a4c9d66e00ba1c7e72d9d85511...
+illuminating_mentions          |        5 |          - |          - |          - |          - |        2 | ['Tim Walz'] (Count: 3)                 
+scam_illuminating              |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |        5 |        0.6 |        0.0 |        1.0 |       0.55 |        - | -                                       
+issue_msg_type_illuminating    |        5 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+attack_msg_type_illuminating   |        5 |        0.4 |        0.0 |        1.0 |       0.55 |        - | -                                       
+image_msg_type_illuminating    |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+engagement_cta_subtype_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        5 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        5 |        0.4 |        0.0 |        1.0 |       0.55 |        - | -                                       
+freefair_illuminating          |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('fe6ab389a5caf9acbb2d33859466506b8b175193b823203b511f1918ab159c7f',) (Count: 6) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        6 |          - |          - |          - |          - |        1 | fe6ab389a5caf9acbb2d33859466506b8b175193...
+ad_id                          |        6 |          - |          - |          - |          - |        6 | 24ac7687974e5b9ca190b86bb125d8ea6834ab75...
+ad_creation_time               |        6 |          - |          - |          - |          - |        4 | 2024-06-06 (Count: 2)                   
+bylines                        |        6 |          - |          - |          - |          - |        1 | Stand Up America (Count: 6)             
+currency                       |        6 |          - |          - |          - |          - |        1 | USD (Count: 6)                          
+delivery_by_region             |        6 |          - |          - |          - |          - |        6 | {'California': {'spend': 0, 'impressions...
+demographic_distribution       |        6 |          - |          - |          - |          - |        6 | {'female_18-24': {'spend': 3444, 'impres...
+estimated_audience_size        |        6 |  1000001.0 |  1000001.0 |  1000001.0 |        0.0 |        - | -                                       
+estimated_impressions          |        6 |  585415.83 |   112499.0 |  1000000.0 |  347168.85 |        - | -                                       
+estimated_spend                |        6 |   12665.67 |     2249.0 |    47499.0 |   17452.55 |        - | -                                       
+publisher_platforms            |        6 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 6)    
+illuminating_scored_message    |        6 |          - |          - |          - |          - |        3 | 20b3a66ca466baf821cf668c230f002fc6ef33f5...
+illuminating_mentions          |        6 |          - |          - |          - |          - |        2 | ['Donald Trump'] (Count: 5)             
+scam_illuminating              |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |        6 |       0.83 |        0.0 |        1.0 |       0.41 |        - | -                                       
+advocacy_msg_type_illuminating |        6 |       0.17 |        0.0 |        1.0 |       0.41 |        - | -                                       
+issue_msg_type_illuminating    |        6 |       0.83 |        0.0 |        1.0 |       0.41 |        - | -                                       
+attack_msg_type_illuminating   |        6 |       0.83 |        0.0 |        1.0 |       0.41 |        - | -                                       
+image_msg_type_illuminating    |        6 |       0.33 |        0.0 |        1.0 |       0.52 |        - | -                                       
+cta_msg_type_illuminating      |        6 |        0.5 |        0.0 |        1.0 |       0.55 |        - | -                                       
+engagement_cta_subtype_illuminating |        6 |        0.5 |        0.0 |        1.0 |       0.55 |        - | -                                       
+fundraising_cta_subtype_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        6 |       0.17 |        0.0 |        1.0 |       0.41 |        - | -                                       
+covid_topic_illuminating       |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        6 |        0.5 |        0.0 |        1.0 |       0.55 |        - | -                                       
+health_topic_illuminating      |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        6 |       0.83 |        0.0 |        1.0 |       0.41 |        - | -                                       
+freefair_illuminating          |        6 |        0.5 |        0.0 |        1.0 |       0.55 |        - | -                                       
+fraud_illuminating             |        6 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('5719dbfafc8404b1af43ebd9b7b413e2a4172946a2d5ca09fbd7607ea5fd9fd2',) (Count: 8) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+page_id                        |        8 |          - |          - |          - |          - |        1 | 5719dbfafc8404b1af43ebd9b7b413e2a4172946...
+ad_id                          |        8 |          - |          - |          - |          - |        8 | 573b1b34e602a9d0e60102b8e5582ead4b8bac9d...
+ad_creation_time               |        8 |          - |          - |          - |          - |        2 | 2024-10-28 (Count: 5)                   
+bylines                        |        8 |          - |          - |          - |          - |        1 | Friends of Jheanelle Wilkins (Count: 8) 
+currency                       |        8 |          - |          - |          - |          - |        1 | USD (Count: 8)                          
+delivery_by_region             |        8 |          - |          - |          - |          - |        7 | {'Maryland': {'spend': 49, 'impressions'...
+demographic_distribution       |        8 |          - |          - |          - |          - |        8 | {'female_18-24': {'spend': 36, 'impressi...
+estimated_audience_size        |        8 |   22943.75 |      550.0 |    30000.0 |   13082.03 |        - | -                                       
+estimated_impressions          |        8 |    14374.0 |      499.0 |    42499.0 |   16172.62 |        - | -                                       
+estimated_spend                |        8 |      299.0 |       49.0 |      849.0 |     307.06 |        - | -                                       
+publisher_platforms            |        8 |          - |          - |          - |          - |        1 | ['facebook', 'instagram'] (Count: 8)    
+illuminating_scored_message    |        8 |          - |          - |          - |          - |        1 | 558d859b47b3cb9878f3490e61fc17c84acd4188...
+illuminating_mentions          |        8 |          - |          - |          - |          - |        1 | ['Tim Walz'] (Count: 8)                 
+scam_illuminating              |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+election_integrity_Truth_illuminating |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |        8 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+issue_msg_type_illuminating    |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+attack_msg_type_illuminating   |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |        8 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+engagement_cta_subtype_illuminating |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        8 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        8 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        8 |        0.0 |

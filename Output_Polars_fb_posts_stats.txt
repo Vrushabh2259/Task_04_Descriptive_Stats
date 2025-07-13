@@ -1,0 +1,113 @@
+
+========== Header ==========
+Header: ['Facebook_Id', 'post_id', 'Page Category', 'Page Admin Top Country', 'Post Created', 'Post Created Date', 'Post Created Time', 'Type', 'Total Interactions', 'Likes', 'Comments', 'Shares', 'Love', 'Wow', 'Haha', 'Sad', 'Angry', 'Care', 'Video Share Status', 'Is Video Owner?', 'Post Views', 'Total Views', 'Total Views For All Crossposts', 'Video Length', 'Sponsor Id', 'Sponsor Name', 'Sponsor Category', 'Overperforming Score', 'illuminating_scored_messageelection_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'scam_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+
+========== Descriptive Statistics for Entire Dataset ==========
+shape: (9, 57)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ Facebook_Id  ┆ post_id      ┆ Page         ┆ … ┆ incivility_i ┆ scam_illumi ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ Category     ┆   ┆ lluminating  ┆ nating      ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ ---          ┆   ┆ ---          ┆ ---         ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆ str          ┆   ┆ f64          ┆ f64         ┆ f64         ┆ f64         │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 19009        ┆ 19009        ┆ 16537        ┆ … ┆ 19009.0      ┆ 18060.0     ┆ 19009.0     ┆ 19009.0     │
+│ null_count ┆ 0            ┆ 0            ┆ 2472         ┆ … ┆ 0.0          ┆ 949.0       ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.127887     ┆ 0.02021     ┆ 0.002841    ┆ 0.008627    │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.333972     ┆ 0.140723    ┆ 0.053224    ┆ 0.092485    │
+│ min        ┆ 058bd8686126 ┆ 0001e4a1dbad ┆ ACTOR        ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 2fa71733f851 ┆ f84f0f437199 ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 5c34b7…      ┆ 72b605…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ fedbfaab19b5 ┆ ffff3f550f95 ┆ YOUTH_ORGANI ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│            ┆ 112a6889b862 ┆ 017a77a35388 ┆ ZATION       ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 314ca9…      ┆ 243b4f…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+========== Value Counts for Facebook_Id (Top 3) ==========
+shape: (3, 2)
+┌─────────────────────────────────┬──────┐
+│ Facebook_Id                     ┆ len  │
+│ ---                             ┆ ---  │
+│ str                             ┆ u32  │
+╞═════════════════════════════════╪══════╡
+│ 32fc18da91029ff09bf74fe9887eac… ┆ 9013 │
+│ bfe51c6ac2cab17ba5c85883e76f61… ┆ 1431 │
+│ ac24f31c4d4b3d5555065fa9558bdc… ┆ 1231 │
+└─────────────────────────────────┴──────┘
+
+========== Grouped by ['Facebook_Id', 'post_id'] (First 3 Groups) ==========
+
+Group: Facebook_Id=32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064, post_id=9194e38f6abec027030da785e5617f303284ba9bed2cadcb54046a0b2d1dffd7 (Count: 1)
+shape: (9, 57)
+┌────────────┬───────────────┬──────────────┬──────────┬───┬──────────────┬──────────────┬──────────────┬──────────────┐
+│ statistic  ┆ Facebook_Id   ┆ post_id      ┆ Page     ┆ … ┆ incivility_i ┆ scam_illumin ┆ freefair_ill ┆ fraud_illumi │
+│ ---        ┆ ---           ┆ ---          ┆ Category ┆   ┆ lluminating  ┆ ating        ┆ uminating    ┆ nating       │
+│ str        ┆ str           ┆ str          ┆ ---      ┆   ┆ ---          ┆ ---          ┆ ---          ┆ ---          │
+│            ┆               ┆              ┆ str      ┆   ┆ f64          ┆ f64          ┆ f64          ┆ f64          │
+╞════════════╪═══════════════╪══════════════╪══════════╪═══╪══════════════╪══════════════╪══════════════╪══════════════╡
+│ count      ┆ 1             ┆ 1            ┆ 1        ┆ … ┆ 1.0          ┆ 1.0          ┆ 1.0          ┆ 1.0          │
+│ null_count ┆ 0             ┆ 0            ┆ 0        ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ mean       ┆ null          ┆ null         ┆ null     ┆ … ┆ 1.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ std        ┆ null          ┆ null         ┆ null     ┆ … ┆ null         ┆ null         ┆ null         ┆ null         │
+│ min        ┆ 32fc18da91029 ┆ 9194e38f6abe ┆ PERSON   ┆ … ┆ 1.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│            ┆ ff09bf74fe988 ┆ c027030da785 ┆          ┆   ┆              ┆              ┆              ┆              │
+│            ┆ 7eac…         ┆ e5617f…      ┆          ┆   ┆              ┆              ┆              ┆              │
+│ 25%        ┆ null          ┆ null         ┆ null     ┆ … ┆ 1.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ 50%        ┆ null          ┆ null         ┆ null     ┆ … ┆ 1.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ 75%        ┆ null          ┆ null         ┆ null     ┆ … ┆ 1.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ max        ┆ 32fc18da91029 ┆ 9194e38f6abe ┆ PERSON   ┆ … ┆ 1.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│            ┆ ff09bf74fe988 ┆ c027030da785 ┆          ┆   ┆              ┆              ┆              ┆              │
+│            ┆ 7eac…         ┆ e5617f…      ┆          ┆   ┆              ┆              ┆              ┆              │
+└────────────┴───────────────┴──────────────┴──────────┴───┴──────────────┴──────────────┴──────────────┴──────────────┘
+
+Group: Facebook_Id=d6008f090fcb5df7263efe969d3fc268e0ec1f6d75c8ff692b2eeacc9c48b309, post_id=7aae7f687c207efa4c9efa9cba24be4990201908aafff951621c5551c6549b78 (Count: 1)
+shape: (9, 57)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ Facebook_Id  ┆ post_id      ┆ Page         ┆ … ┆ incivility_i ┆ scam_illumi ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ Category     ┆   ┆ lluminating  ┆ nating      ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ ---          ┆   ┆ ---          ┆ ---         ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆ str          ┆   ┆ f64          ┆ f64         ┆ f64         ┆ f64         │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 1            ┆ 1            ┆ 1            ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ null         ┆ null        ┆ null        ┆ null        │
+│ min        ┆ d6008f090fcb ┆ 7aae7f687c20 ┆ POLITICIAN   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 5df7263efe96 ┆ 7efa4c9efa9c ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 9d3fc2…      ┆ ba24be…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ d6008f090fcb ┆ 7aae7f687c20 ┆ POLITICIAN   ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 5df7263efe96 ┆ 7efa4c9efa9c ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 9d3fc2…      ┆ ba24be…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+Group: Facebook_Id=32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064, post_id=742d73dad606c64da328b08888a5687d89a5ecac829665d7471a70d249055095 (Count: 1)
+shape: (9, 57)
+┌────────────┬───────────────┬──────────────┬──────────┬───┬──────────────┬──────────────┬──────────────┬──────────────┐
+│ statistic  ┆ Facebook_Id   ┆ post_id      ┆ Page     ┆ … ┆ incivility_i ┆ scam_illumin ┆ freefair_ill ┆ fraud_illumi │
+│ ---        ┆ ---           ┆ ---          ┆ Category ┆   ┆ lluminating  ┆ ating        ┆ uminating    ┆ nating       │
+│ str        ┆ str           ┆ str          ┆ ---      ┆   ┆ ---          ┆ ---          ┆ ---          ┆ ---          │
+│            ┆               ┆              ┆ str      ┆   ┆ f64          ┆ f64          ┆ f64          ┆ f64          │
+╞════════════╪═══════════════╪══════════════╪══════════╪═══╪══════════════╪══════════════╪══════════════╪══════════════╡
+│ count      ┆ 1             ┆ 1            ┆ 1        ┆ … ┆ 1.0          ┆ 0.0          ┆ 1.0          ┆ 1.0          │
+│ null_count ┆ 0             ┆ 0            ┆ 0        ┆ … ┆ 0.0          ┆ 1.0          ┆ 0.0          ┆ 0.0          │
+│ mean       ┆ null          ┆ null         ┆ null     ┆ … ┆ 0.0          ┆ null         ┆ 0.0          ┆ 0.0          │
+│ std        ┆ null          ┆ null         ┆ null     ┆ … ┆ null         ┆ null         ┆ null         ┆ null         │
+│ min        ┆ 32fc18da91029 ┆ 742d73dad606 ┆ PERSON   ┆ … ┆ 0.0          ┆ null         ┆ 0.0          ┆ 0.0          │
+│            ┆ ff09bf74fe988 ┆ c64da328b088 ┆          ┆   ┆              ┆              ┆              ┆              │
+│            ┆ 7eac…         ┆ 88a568…      ┆          ┆   ┆              ┆              ┆              ┆              │
+│ 25%        ┆ null          ┆ null         ┆ null     ┆ … ┆ 0.0          ┆ null         ┆ 0.0          ┆ 0.0          │
+│ 50%        ┆ null          ┆ null         ┆ null     ┆ … ┆ 0.0          ┆ null         ┆ 0.0          ┆ 0.0          │
+│ 75%        ┆ null          ┆ null         ┆ null     ┆ … ┆ 0.0          ┆ null         ┆ 0.0          ┆ 0.0          │
+│ max        ┆ 32fc18da91029 ┆ 742d73dad606 ┆ PERSON   ┆ … ┆ 0.0          ┆ null         ┆ 0.0          ┆ 0.0          │
+│            ┆ ff09bf74fe988 ┆ c64da328b088 ┆          ┆   ┆              ┆              ┆              ┆              │
+│            ┆ 7eac…         ┆ 88a568…      ┆          ┆   ┆              ┆              ┆              ┆              │
+└────────────┴───────────────┴──────────────┴──────────┴───┴──────────────┴──────────────┴──────────────┴──────────────┘
+
+========== Script Completed ==========
+All stats saved in readable format.

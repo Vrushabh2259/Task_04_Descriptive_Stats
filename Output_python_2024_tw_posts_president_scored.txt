@@ -1,0 +1,766 @@
+Total Rows: 27304
+
+===== Descriptive Statistics for Entire Dataset =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |    27304 |          - |          - |          - |          - |    27304 | cc46051622b8a9c1b883a3bbf12c640b12ac1cbd...
+url                            |    27304 |          - |          - |          - |          - |    27304 | f70a206472e9deaf6e313297c1efb891729ced34...
+source                         |    27304 |          - |          - |          - |          - |       14 | Twitter Web App (Count: 14930)          
+retweetCount                   |    27304 |    1322.06 |        0.0 |   144615.0 |     3405.0 |        - | -                                       
+replyCount                     |    27304 |    1063.79 |        0.0 |   121270.0 |    3174.98 |        - | -                                       
+likeCount                      |    27304 |    6913.69 |        0.0 |   915221.0 |   21590.31 |        - | -                                       
+quoteCount                     |    27304 |     128.08 |        0.0 |   123320.0 |    1131.53 |        - | -                                       
+viewCount                      |    27304 |  507084.73 |        5.0 | 333502775.0 | 3212173.99 |        - | -                                       
+createdAt                      |    27304 |          - |          - |          - |          - |    27014 | 2023-10-06 04:55:21 (Count: 4)          
+lang                           |    27304 |          - |          - |          - |          - |       12 | en (Count: 27281)                       
+bookmarkCount                  |    27304 |     136.21 |        0.0 |    42693.0 |     712.58 |        - | -                                       
+isReply                        |    27304 |          - |          - |          - |          - |        2 | False (Count: 23930)                    
+isRetweet                      |    27304 |          - |          - |          - |          - |        1 | False (Count: 27304)                    
+isQuote                        |    27304 |          - |          - |          - |          - |        2 | False (Count: 24064)                    
+isConversationControlled       |    27304 |          - |          - |          - |          - |        2 | False (Count: 27296)                    
+quoteId                        |     3287 | 1.7642983966589504e+18 | 7.912639390153769e+17 | 1.8535761683325583e+18 | 6.894686649329474e+16 |        - | -                                       
+inReplyToId                    |     3345 | 1.7582857247419999e+18 | 1.2400673584227e+18 | 1.853530653414859e+18 | 4.3611965701560696e+16 |        - | -                                       
+month_year                     |    27304 |          - |          - |          - |          - |       15 | 2024-10 (Count: 3586)                   
+illuminating_scored_message    |    27304 |          - |          - |          - |          - |    27136 | 36cb7d55fcf85362ca03f624c2f574f1f55f89db...
+election_integrity_Truth_illuminating |    26034 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+advocacy_msg_type_illuminating |    26034 |       0.56 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |    26034 |       0.51 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |    26034 |       0.31 |        0.0 |        1.0 |       0.46 |        - | -                                       
+image_msg_type_illuminating    |    26034 |       0.23 |        0.0 |        1.0 |       0.42 |        - | -                                       
+cta_msg_type_illuminating      |    26034 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+engagement_cta_subtype_illuminating |    26034 |       0.07 |        0.0 |        1.0 |       0.25 |        - | -                                       
+fundraising_cta_subtype_illuminating |    26034 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+voting_cta_subtype_illuminating |    26034 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+covid_topic_illuminating       |    26034 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+economy_topic_illuminating     |    26034 |       0.16 |        0.0 |        1.0 |       0.37 |        - | -                                       
+education_topic_illuminating   |    26034 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+environment_topic_illuminating |    26034 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+foreign_policy_topic_illuminating |    26034 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+governance_topic_illuminating  |    26034 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+health_topic_illuminating      |    26034 |       0.06 |        0.0 |        1.0 |       0.23 |        - | -                                       
+immigration_topic_illuminating |    26034 |       0.07 |        0.0 |        1.0 |       0.25 |        - | -                                       
+lgbtq_issues_topic_illuminating |    26034 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+military_topic_illuminating    |    26034 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+race_and_ethnicity_topic_illuminating |    26034 |       0.02 |        0.0 |        1.0 |       0.12 |        - | -                                       
+safety_topic_illuminating      |    26034 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+social_and_cultural_topic_illuminating |    26034 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |    26034 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+womens_issue_topic_illuminating |    26034 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+incivility_illuminating        |    26034 |       0.18 |        0.0 |        1.0 |       0.38 |        - | -                                       
+scam_illuminating              |    26034 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+freefair_illuminating          |    27304 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+fraud_illuminating             |    27304 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+
+===== Group: ('Twitter for iPhone',) (Count: 8494) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |     8494 |          - |          - |          - |          - |     8494 | cc46051622b8a9c1b883a3bbf12c640b12ac1cbd...
+url                            |     8494 |          - |          - |          - |          - |     8494 | f70a206472e9deaf6e313297c1efb891729ced34...
+source                         |     8494 |          - |          - |          - |          - |        1 | Twitter for iPhone (Count: 8494)        
+retweetCount                   |     8494 |     612.62 |        0.0 |    67113.0 |    2155.93 |        - | -                                       
+replyCount                     |     8494 |     289.79 |        0.0 |    30215.0 |    1035.97 |        - | -                                       
+likeCount                      |     8494 |    3741.96 |        0.0 |   588065.0 |   15956.71 |        - | -                                       
+quoteCount                     |     8494 |      43.78 |        0.0 |     6552.0 |     190.69 |        - | -                                       
+viewCount                      |     8494 |  245622.12 |        9.0 | 31294362.0 |  954516.49 |        - | -                                       
+createdAt                      |     8494 |          - |          - |          - |          - |     8431 | 2023-09-25 15:22:49 (Count: 3)          
+lang                           |     8494 |          - |          - |          - |          - |        9 | en (Count: 8482)                        
+bookmarkCount                  |     8494 |       69.8 |        0.0 |    22901.0 |     402.96 |        - | -                                       
+isReply                        |     8494 |          - |          - |          - |          - |        2 | False (Count: 6687)                     
+isRetweet                      |     8494 |          - |          - |          - |          - |        1 | False (Count: 8494)                     
+isQuote                        |     8494 |          - |          - |          - |          - |        2 | False (Count: 6665)                     
+isConversationControlled       |     8494 |          - |          - |          - |          - |        2 | False (Count: 8487)                     
+quoteId                        |     1856 | 1.7506196547088502e+18 | 7.957424011553833e+17 | 1.8535761683325583e+18 | 6.502825448729489e+16 |        - | -                                       
+inReplyToId                    |     1798 | 1.748087775889019e+18 | 1.2400673584227e+18 | 1.8531339084197724e+18 | 3.4564818285185964e+16 |        - | -                                       
+month_year                     |     8494 |          - |          - |          - |          - |       15 | 2023-11 (Count: 1347)                   
+illuminating_scored_message    |     8494 |          - |          - |          - |          - |     8443 | 1d2cc25fad0d66a295d4fafdd590d71d0e027a1d...
+election_integrity_Truth_illuminating |     8168 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+advocacy_msg_type_illuminating |     8168 |        0.5 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |     8168 |       0.43 |        0.0 |        1.0 |       0.49 |        - | -                                       
+attack_msg_type_illuminating   |     8168 |       0.23 |        0.0 |        1.0 |       0.42 |        - | -                                       
+image_msg_type_illuminating    |     8168 |       0.18 |        0.0 |        1.0 |       0.39 |        - | -                                       
+cta_msg_type_illuminating      |     8168 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+engagement_cta_subtype_illuminating |     8168 |       0.08 |        0.0 |        1.0 |       0.27 |        - | -                                       
+fundraising_cta_subtype_illuminating |     8168 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+voting_cta_subtype_illuminating |     8168 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+covid_topic_illuminating       |     8168 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+economy_topic_illuminating     |     8168 |        0.1 |        0.0 |        1.0 |        0.3 |        - | -                                       
+education_topic_illuminating   |     8168 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+environment_topic_illuminating |     8168 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+foreign_policy_topic_illuminating |     8168 |       0.05 |        0.0 |        1.0 |       0.23 |        - | -                                       
+governance_topic_illuminating  |     8168 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+health_topic_illuminating      |     8168 |       0.04 |        0.0 |        1.0 |       0.18 |        - | -                                       
+immigration_topic_illuminating |     8168 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+lgbtq_issues_topic_illuminating |     8168 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+military_topic_illuminating    |     8168 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+race_and_ethnicity_topic_illuminating |     8168 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+safety_topic_illuminating      |     8168 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+social_and_cultural_topic_illuminating |     8168 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |     8168 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+womens_issue_topic_illuminating |     8168 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+incivility_illuminating        |     8168 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+scam_illuminating              |     8168 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+freefair_illuminating          |     8494 |        0.0 |        0.0 |        1.0 |       0.03 |        - | -                                       
+fraud_illuminating             |     8494 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+
+===== Group: ('Twitter Web App',) (Count: 14930) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |    14930 |          - |          - |          - |          - |    14930 | ca2795ec79d62adc1fff06c4d3bc9da0bbc899e3...
+url                            |    14930 |          - |          - |          - |          - |    14930 | c589bd751d7e1d275901b184087716d3155a582b...
+source                         |    14930 |          - |          - |          - |          - |        1 | Twitter Web App (Count: 14930)          
+retweetCount                   |    14930 |    1317.11 |        0.0 |   144615.0 |    3571.55 |        - | -                                       
+replyCount                     |    14930 |      719.2 |        0.0 |   121270.0 |    2689.14 |        - | -                                       
+likeCount                      |    14930 |    6669.75 |        0.0 |   915221.0 |   22475.18 |        - | -                                       
+quoteCount                     |    14930 |     120.05 |        0.0 |   123320.0 |    1464.57 |        - | -                                       
+viewCount                      |    14930 |  474031.23 |        5.0 | 333502775.0 | 3966175.64 |        - | -                                       
+createdAt                      |    14930 |          - |          - |          - |          - |    14720 | 2023-10-06 04:55:21 (Count: 4)          
+lang                           |    14930 |          - |          - |          - |          - |        8 | en (Count: 14920)                       
+bookmarkCount                  |    14930 |     154.31 |        0.0 |    42693.0 |     843.42 |        - | -                                       
+isReply                        |    14930 |          - |          - |          - |          - |        2 | False (Count: 13433)                    
+isRetweet                      |    14930 |          - |          - |          - |          - |        1 | False (Count: 14930)                    
+isQuote                        |    14930 |          - |          - |          - |          - |        2 | False (Count: 13560)                    
+isConversationControlled       |    14930 |          - |          - |          - |          - |        1 | False (Count: 14930)                    
+quoteId                        |     1390 | 1.7823192049814351e+18 | 7.912639390153769e+17 | 1.853110151030432e+18 | 7.067792321951347e+16 |        - | -                                       
+inReplyToId                    |     1482 | 1.7718879486736883e+18 | 1.478768517994492e+18 | 1.853530653414859e+18 | 4.978459198252237e+16 |        - | -                                       
+month_year                     |    14930 |          - |          - |          - |          - |       15 | 2024-10 (Count: 2930)                   
+illuminating_scored_message    |    14930 |          - |          - |          - |          - |    14859 | 36cb7d55fcf85362ca03f624c2f574f1f55f89db...
+election_integrity_Truth_illuminating |    14199 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+advocacy_msg_type_illuminating |    14199 |       0.58 |        0.0 |        1.0 |       0.49 |        - | -                                       
+issue_msg_type_illuminating    |    14199 |       0.55 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |    14199 |       0.37 |        0.0 |        1.0 |       0.48 |        - | -                                       
+image_msg_type_illuminating    |    14199 |       0.27 |        0.0 |        1.0 |       0.44 |        - | -                                       
+cta_msg_type_illuminating      |    14199 |        0.1 |        0.0 |        1.0 |        0.3 |        - | -                                       
+engagement_cta_subtype_illuminating |    14199 |       0.06 |        0.0 |        1.0 |       0.23 |        - | -                                       
+fundraising_cta_subtype_illuminating |    14199 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+voting_cta_subtype_illuminating |    14199 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+covid_topic_illuminating       |    14199 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+economy_topic_illuminating     |    14199 |       0.18 |        0.0 |        1.0 |       0.39 |        - | -                                       
+education_topic_illuminating   |    14199 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+environment_topic_illuminating |    14199 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+foreign_policy_topic_illuminating |    14199 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+governance_topic_illuminating  |    14199 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+health_topic_illuminating      |    14199 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+immigration_topic_illuminating |    14199 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+lgbtq_issues_topic_illuminating |    14199 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+military_topic_illuminating    |    14199 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+race_and_ethnicity_topic_illuminating |    14199 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+safety_topic_illuminating      |    14199 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+social_and_cultural_topic_illuminating |    14199 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |    14199 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+womens_issue_topic_illuminating |    14199 |       0.02 |        0.0 |        1.0 |       0.12 |        - | -                                       
+incivility_illuminating        |    14199 |       0.22 |        0.0 |        1.0 |       0.41 |        - | -                                       
+scam_illuminating              |    14199 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+freefair_illuminating          |    14930 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+fraud_illuminating             |    14930 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+
+===== Group: ('Sprout Social',) (Count: 2933) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |     2933 |          - |          - |          - |          - |     2933 | 562f42161d274553cded804ba8f9c8480e5f9208...
+url                            |     2933 |          - |          - |          - |          - |     2933 | ca71b42b22b2a7a8d4d3513013fecf6e5f94bf64...
+source                         |     2933 |          - |          - |          - |          - |        1 | Sprout Social (Count: 2933)             
+retweetCount                   |     2933 |    3524.79 |       13.0 |    80331.0 |    4584.68 |        - | -                                       
+replyCount                     |     2933 |    5186.27 |       12.0 |    60598.0 |    5804.89 |        - | -                                       
+likeCount                      |     2933 |   18173.41 |       60.0 |   423537.0 |   28810.23 |        - | -                                       
+quoteCount                     |     2933 |     426.12 |        0.0 |    17200.0 |     855.02 |        - | -                                       
+viewCount                      |     2933 | 1501097.31 |     2647.0 | 76522204.0 |  3432962.0 |        - | -                                       
+createdAt                      |     2933 |          - |          - |          - |          - |     2933 | 2023-09-30 15:35:26 (Count: 1)          
+lang                           |     2933 |          - |          - |          - |          - |        1 | en (Count: 2933)                        
+bookmarkCount                  |     2933 |      230.8 |        0.0 |    13271.0 |     581.85 |        - | -                                       
+isReply                        |     2933 |          - |          - |          - |          - |        2 | False (Count: 2932)                     
+isRetweet                      |     2933 |          - |          - |          - |          - |        1 | False (Count: 2933)                     
+isQuote                        |     2933 |          - |          - |          - |          - |        2 | False (Count: 2904)                     
+isConversationControlled       |     2933 |          - |          - |          - |          - |        1 | False (Count: 2933)                     
+quoteId                        |       29 | 1.778639492340641e+18 | 1.6965043017266386e+18 | 1.8512620899369047e+18 | 3.2379455000429584e+16 |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |     2933 |          - |          - |          - |          - |       15 | 2024-10 (Count: 316)                    
+illuminating_scored_message    |     2933 |          - |          - |          - |          - |     2930 | cf14adc6100946c861e8480495e17c3b4c4d7cec...
+election_integrity_Truth_illuminating |     2769 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+advocacy_msg_type_illuminating |     2769 |       0.68 |        0.0 |        1.0 |       0.47 |        - | -                                       
+issue_msg_type_illuminating    |     2769 |       0.58 |        0.0 |        1.0 |       0.49 |        - | -                                       
+attack_msg_type_illuminating   |     2769 |       0.26 |        0.0 |        1.0 |       0.44 |        - | -                                       
+image_msg_type_illuminating    |     2769 |       0.16 |        0.0 |        1.0 |       0.37 |        - | -                                       
+cta_msg_type_illuminating      |     2769 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+engagement_cta_subtype_illuminating |     2769 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+fundraising_cta_subtype_illuminating |     2769 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+voting_cta_subtype_illuminating |     2769 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+covid_topic_illuminating       |     2769 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+economy_topic_illuminating     |     2769 |       0.24 |        0.0 |        1.0 |       0.42 |        - | -                                       
+education_topic_illuminating   |     2769 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+environment_topic_illuminating |     2769 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+foreign_policy_topic_illuminating |     2769 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+governance_topic_illuminating  |     2769 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+health_topic_illuminating      |     2769 |       0.17 |        0.0 |        1.0 |       0.38 |        - | -                                       
+immigration_topic_illuminating |     2769 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+lgbtq_issues_topic_illuminating |     2769 |       0.01 |        0.0 |        1.0 |       0.07 |        - | -                                       
+military_topic_illuminating    |     2769 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+race_and_ethnicity_topic_illuminating |     2769 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+safety_topic_illuminating      |     2769 |       0.04 |        0.0 |        1.0 |       0.21 |        - | -                                       
+social_and_cultural_topic_illuminating |     2769 |       0.16 |        0.0 |        1.0 |       0.37 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |     2769 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+womens_issue_topic_illuminating |     2769 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+incivility_illuminating        |     2769 |       0.13 |        0.0 |        1.0 |       0.34 |        - | -                                       
+scam_illuminating              |     2769 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+freefair_illuminating          |     2933 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+fraud_illuminating             |     2933 |        0.0 |        0.0 |        1.0 |       0.03 |        - | -                                       
+
+===== Group: ('Twitter Media Studio',) (Count: 499) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |      499 |          - |          - |          - |          - |      499 | 6f8d99ca99c0f06201ab73488b4ce5fd8d52f5f2...
+url                            |      499 |          - |          - |          - |          - |      499 | 909513089d3a218ec722f8e16dabd711ba7c74bb...
+source                         |      499 |          - |          - |          - |          - |        1 | Twitter Media Studio (Count: 499)       
+retweetCount                   |      499 |    1586.21 |        8.0 |    32636.0 |    3155.36 |        - | -                                       
+replyCount                     |      499 |    1162.29 |        2.0 |    18819.0 |    2000.03 |        - | -                                       
+likeCount                      |      499 |    7397.89 |       52.0 |   119065.0 |   13968.83 |        - | -                                       
+quoteCount                     |      499 |     142.99 |        0.0 |     6695.0 |     515.32 |        - | -                                       
+viewCount                      |      499 |  472523.46 |     8313.0 | 18876894.0 | 1244065.94 |        - | -                                       
+createdAt                      |      499 |          - |          - |          - |          - |      498 | 2024-08-06 21:26:08 (Count: 2)          
+lang                           |      499 |          - |          - |          - |          - |        2 | en (Count: 498)                         
+bookmarkCount                  |      499 |     242.74 |        0.0 |    13269.0 |    1076.64 |        - | -                                       
+isReply                        |      499 |          - |          - |          - |          - |        2 | False (Count: 497)                      
+isRetweet                      |      499 |          - |          - |          - |          - |        1 | False (Count: 499)                      
+isQuote                        |      499 |          - |          - |          - |          - |        1 | False (Count: 499)                      
+isConversationControlled       |      499 |          - |          - |          - |          - |        1 | False (Count: 499)                      
+quoteId                        |        0 |          - |          - |          - |          - |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |      499 |          - |          - |          - |          - |       15 | 2023-09 (Count: 66)                     
+illuminating_scored_message    |      499 |          - |          - |          - |          - |      499 | fda5f40b2324a0b0b9844adb23edd6866656df8f...
+election_integrity_Truth_illuminating |      459 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+advocacy_msg_type_illuminating |      459 |       0.65 |        0.0 |        1.0 |       0.48 |        - | -                                       
+issue_msg_type_illuminating    |      459 |       0.47 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |      459 |       0.19 |        0.0 |        1.0 |       0.39 |        - | -                                       
+image_msg_type_illuminating    |      459 |       0.18 |        0.0 |        1.0 |       0.39 |        - | -                                       
+cta_msg_type_illuminating      |      459 |       0.29 |        0.0 |        1.0 |       0.46 |        - | -                                       
+engagement_cta_subtype_illuminating |      459 |       0.26 |        0.0 |        1.0 |       0.44 |        - | -                                       
+fundraising_cta_subtype_illuminating |      459 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |      459 |       0.02 |        0.0 |        1.0 |       0.12 |        - | -                                       
+covid_topic_illuminating       |      459 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+economy_topic_illuminating     |      459 |       0.13 |        0.0 |        1.0 |       0.33 |        - | -                                       
+education_topic_illuminating   |      459 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+environment_topic_illuminating |      459 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+foreign_policy_topic_illuminating |      459 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+governance_topic_illuminating  |      459 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+health_topic_illuminating      |      459 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+immigration_topic_illuminating |      459 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+lgbtq_issues_topic_illuminating |      459 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+military_topic_illuminating    |      459 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      459 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+safety_topic_illuminating      |      459 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+social_and_cultural_topic_illuminating |      459 |       0.07 |        0.0 |        1.0 |       0.25 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      459 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+womens_issue_topic_illuminating |      459 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+incivility_illuminating        |      459 |        0.1 |        0.0 |        1.0 |        0.3 |        - | -                                       
+scam_illuminating              |      459 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |      499 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+fraud_illuminating             |      499 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+
+===== Group: ('Periscope',) (Count: 103) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |      103 |          - |          - |          - |          - |      103 | 7a956e1a453deab79f74c9b37dbbb6b06bd28703...
+url                            |      103 |          - |          - |          - |          - |      103 | c4ecc3e5887aca76327a927c4cdf7203715461ed...
+source                         |      103 |          - |          - |          - |          - |        1 | Periscope (Count: 103)                  
+retweetCount                   |      103 |     596.73 |       23.0 |    29648.0 |    2949.74 |        - | -                                       
+replyCount                     |      103 |     402.06 |        3.0 |    14559.0 |    1525.12 |        - | -                                       
+likeCount                      |      103 |    2483.36 |       96.0 |   127603.0 |   12738.93 |        - | -                                       
+quoteCount                     |      103 |      78.51 |        0.0 |     4891.0 |      484.5 |        - | -                                       
+viewCount                      |      103 |  303090.44 |     9518.0 | 14689732.0 | 1494268.64 |        - | -                                       
+createdAt                      |      103 |          - |          - |          - |          - |      103 | 2023-09-30 02:59:28 (Count: 1)          
+lang                           |      103 |          - |          - |          - |          - |        1 | en (Count: 103)                         
+bookmarkCount                  |      103 |     185.62 |        0.0 |    14567.0 |     1434.4 |        - | -                                       
+isReply                        |      103 |          - |          - |          - |          - |        1 | False (Count: 103)                      
+isRetweet                      |      103 |          - |          - |          - |          - |        1 | False (Count: 103)                      
+isQuote                        |      103 |          - |          - |          - |          - |        1 | False (Count: 103)                      
+isConversationControlled       |      103 |          - |          - |          - |          - |        1 | False (Count: 103)                      
+quoteId                        |        0 |          - |          - |          - |          - |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |      103 |          - |          - |          - |          - |       14 | 2023-12 (Count: 23)                     
+illuminating_scored_message    |      103 |          - |          - |          - |          - |      103 | 8802a0ed591ab28aaae38436b1ce398fef2bb47f...
+election_integrity_Truth_illuminating |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |      100 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+issue_msg_type_illuminating    |      100 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+attack_msg_type_illuminating   |      100 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+image_msg_type_illuminating    |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |      100 |        0.2 |        0.0 |        1.0 |        0.4 |        - | -                                       
+engagement_cta_subtype_illuminating |      100 |        0.2 |        0.0 |        1.0 |        0.4 |        - | -                                       
+fundraising_cta_subtype_illuminating |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |      100 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+health_topic_illuminating      |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |      100 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+scam_illuminating              |      100 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |      103 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      103 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('Twitter for Advertisers',) (Count: 7) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |        7 |          - |          - |          - |          - |        7 | 887084e542079a41a9f66a617168b467bfd258ca...
+url                            |        7 |          - |          - |          - |          - |        7 | 984f05b27019dc82bd0199fd7471d1a8d87366d7...
+source                         |        7 |          - |          - |          - |          - |        1 | Twitter for Advertisers (Count: 7)      
+retweetCount                   |        7 |       97.0 |       14.0 |      289.0 |      96.47 |        - | -                                       
+replyCount                     |        7 |     138.71 |       31.0 |      271.0 |      84.56 |        - | -                                       
+likeCount                      |        7 |     755.57 |       97.0 |     2517.0 |     820.35 |        - | -                                       
+quoteCount                     |        7 |      11.43 |        0.0 |       35.0 |      12.45 |        - | -                                       
+viewCount                      |        7 |    50335.0 |    11639.0 |   151709.0 |   52027.09 |        - | -                                       
+createdAt                      |        7 |          - |          - |          - |          - |        7 | 2023-09-21 14:52:44 (Count: 1)          
+lang                           |        7 |          - |          - |          - |          - |        1 | en (Count: 7)                           
+bookmarkCount                  |        7 |       3.29 |        0.0 |       10.0 |       3.73 |        - | -                                       
+isReply                        |        7 |          - |          - |          - |          - |        1 | False (Count: 7)                        
+isRetweet                      |        7 |          - |          - |          - |          - |        1 | False (Count: 7)                        
+isQuote                        |        7 |          - |          - |          - |          - |        1 | False (Count: 7)                        
+isConversationControlled       |        7 |          - |          - |          - |          - |        1 | False (Count: 7)                        
+quoteId                        |        0 |          - |          - |          - |          - |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |        7 |          - |          - |          - |          - |        3 | 2023-09 (Count: 3)                      
+illuminating_scored_message    |        7 |          - |          - |          - |          - |        7 | 7d6a053a2f4ecedc0097d3d11df1aecbaadce567...
+election_integrity_Truth_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |        7 |       0.71 |        0.0 |        1.0 |       0.49 |        - | -                                       
+issue_msg_type_illuminating    |        7 |       0.71 |        0.0 |        1.0 |       0.49 |        - | -                                       
+attack_msg_type_illuminating   |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+engagement_cta_subtype_illuminating |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+fundraising_cta_subtype_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+environment_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+governance_topic_illuminating  |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+lgbtq_issues_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+social_and_cultural_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        7 |       0.29 |        0.0 |        1.0 |       0.49 |        - | -                                       
+scam_illuminating              |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('Loomly',) (Count: 10) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |       10 |          - |          - |          - |          - |       10 | fcc78e04b62606e658c998fdfca2ee143fd1ffeb...
+url                            |       10 |          - |          - |          - |          - |       10 | 5ef1e7325221e8af82ffd4d3522e2df996acd403...
+source                         |       10 |          - |          - |          - |          - |        1 | Loomly (Count: 10)                      
+retweetCount                   |       10 |       25.4 |        0.0 |      230.0 |      72.09 |        - | -                                       
+replyCount                     |       10 |       23.1 |        0.0 |      188.0 |      58.15 |        - | -                                       
+likeCount                      |       10 |      160.3 |        0.0 |     1301.0 |     404.63 |        - | -                                       
+quoteCount                     |       10 |        1.4 |        0.0 |       13.0 |       4.09 |        - | -                                       
+viewCount                      |       10 |    17030.0 |      154.0 |    85529.0 |   26880.93 |        - | -                                       
+createdAt                      |       10 |          - |          - |          - |          - |       10 | 2023-09-25 12:03:43 (Count: 1)          
+lang                           |       10 |          - |          - |          - |          - |        1 | en (Count: 10)                          
+bookmarkCount                  |       10 |        0.4 |        0.0 |        1.0 |       0.52 |        - | -                                       
+isReply                        |       10 |          - |          - |          - |          - |        1 | False (Count: 10)                       
+isRetweet                      |       10 |          - |          - |          - |          - |        1 | False (Count: 10)                       
+isQuote                        |       10 |          - |          - |          - |          - |        1 | False (Count: 10)                       
+isConversationControlled       |       10 |          - |          - |          - |          - |        1 | False (Count: 10)                       
+quoteId                        |        0 |          - |          - |          - |          - |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |       10 |          - |          - |          - |          - |        2 | 2024-01 (Count: 8)                      
+illuminating_scored_message    |       10 |          - |          - |          - |          - |       10 | 1bf5489168b7d42f20bf47772caa31390703ea80...
+election_integrity_Truth_illuminating |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |       10 |        0.8 |        0.0 |        1.0 |       0.42 |        - | -                                       
+issue_msg_type_illuminating    |       10 |        0.3 |        0.0 |        1.0 |       0.48 |        - | -                                       
+attack_msg_type_illuminating   |       10 |        0.1 |        0.0 |        1.0 |       0.32 |        - | -                                       
+image_msg_type_illuminating    |       10 |        0.2 |        0.0 |        1.0 |       0.42 |        - | -                                       
+cta_msg_type_illuminating      |       10 |        0.3 |        0.0 |        1.0 |       0.48 |        - | -                                       
+engagement_cta_subtype_illuminating |       10 |        0.2 |        0.0 |        1.0 |       0.42 |        - | -                                       
+fundraising_cta_subtype_illuminating |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |       10 |        0.1 |        0.0 |        1.0 |       0.32 |        - | -                                       
+education_topic_illuminating   |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       10 |        0.1 |        0.0 |        1.0 |       0.32 |        - | -                                       
+immigration_topic_illuminating |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       10 |        0.1 |        0.0 |        1.0 |       0.32 |        - | -                                       
+social_and_cultural_topic_illuminating |       10 |        0.1 |        0.0 |        1.0 |       0.32 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |       10 |        0.1 |        0.0 |        1.0 |       0.32 |        - | -                                       
+scam_illuminating              |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       10 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('Twitter for Android',) (Count: 5) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |        5 |          - |          - |          - |          - |        5 | 2451883a465f0f53ce16b73162e3f691dd7d1ba3...
+url                            |        5 |          - |          - |          - |          - |        5 | 248fe90f6f61edf65212bc6ec96f3712d59743a9...
+source                         |        5 |          - |          - |          - |          - |        1 | Twitter for Android (Count: 5)          
+retweetCount                   |        5 |       10.6 |        6.0 |       18.0 |        5.9 |        - | -                                       
+replyCount                     |        5 |        8.4 |        4.0 |       18.0 |       6.11 |        - | -                                       
+likeCount                      |        5 |       63.8 |       33.0 |      115.0 |      37.44 |        - | -                                       
+quoteCount                     |        5 |        0.4 |        0.0 |        1.0 |       0.55 |        - | -                                       
+viewCount                      |        5 |    19899.4 |    13161.0 |    35799.0 |    9744.06 |        - | -                                       
+createdAt                      |        5 |          - |          - |          - |          - |        5 | 2023-09-23 16:02:32 (Count: 1)          
+lang                           |        5 |          - |          - |          - |          - |        1 | en (Count: 5)                           
+bookmarkCount                  |        5 |        1.0 |        1.0 |        1.0 |        0.0 |        - | -                                       
+isReply                        |        5 |          - |          - |          - |          - |        1 | False (Count: 5)                        
+isRetweet                      |        5 |          - |          - |          - |          - |        1 | False (Count: 5)                        
+isQuote                        |        5 |          - |          - |          - |          - |        2 | False (Count: 4)                        
+isConversationControlled       |        5 |          - |          - |          - |          - |        1 | False (Count: 5)                        
+quoteId                        |        1 | 1.7049022661745093e+18 | 1.7049022661745093e+18 | 1.7049022661745093e+18 |          - |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |        5 |          - |          - |          - |          - |        1 | 2023-09 (Count: 5)                      
+illuminating_scored_message    |        5 |          - |          - |          - |          - |        5 | fe36a0f2b05c9f55cc6c1646405b19dfa65cf068...
+election_integrity_Truth_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+issue_msg_type_illuminating    |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+attack_msg_type_illuminating   |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+cta_msg_type_illuminating      |        5 |        0.2 |        0.0 |        1.0 |       0.45 |        - | -                                       
+engagement_cta_subtype_illuminating |        5 |        0.2 |        0.0 |        1.0 |       0.45 |        - | -                                       
+fundraising_cta_subtype_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+scam_illuminating              |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |        5 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('Twitter for iPad',) (Count: 266) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |      266 |          - |          - |          - |          - |      266 | bc6524b3c0afd91ca6de12fdff8cd73eb9e91546...
+url                            |      266 |          - |          - |          - |          - |      266 | 6a56c67fc8bc0f2d9e805193a5d64d62f1001cf6...
+source                         |      266 |          - |          - |          - |          - |        1 | Twitter for iPad (Count: 266)           
+retweetCount                   |      266 |      65.38 |        0.0 |      723.0 |      67.97 |        - | -                                       
+replyCount                     |      266 |       21.3 |        0.0 |      352.0 |      33.99 |        - | -                                       
+likeCount                      |      266 |      222.7 |        0.0 |     3067.0 |     282.27 |        - | -                                       
+quoteCount                     |      266 |       8.26 |        0.0 |      156.0 |      14.11 |        - | -                                       
+viewCount                      |      266 |   21353.53 |       36.0 |   538373.0 |   38020.97 |        - | -                                       
+createdAt                      |      266 |          - |          - |          - |          - |      263 | 2023-11-22 22:56:26 (Count: 2)          
+lang                           |      266 |          - |          - |          - |          - |        1 | en (Count: 266)                         
+bookmarkCount                  |      266 |       5.23 |        0.0 |      268.0 |      17.44 |        - | -                                       
+isReply                        |      266 |          - |          - |          - |          - |        2 | False (Count: 199)                      
+isRetweet                      |      266 |          - |          - |          - |          - |        1 | False (Count: 266)                      
+isQuote                        |      266 |          - |          - |          - |          - |        2 | False (Count: 255)                      
+isConversationControlled       |      266 |          - |          - |          - |          - |        2 | False (Count: 265)                      
+quoteId                        |       11 | 1.7626916554632643e+18 | 1.7541897392115425e+18 | 1.7697201973995889e+18 | 5026481966013792.0 |        - | -                                       
+inReplyToId                    |       65 | 1.7302459735250383e+18 | 1.690431477278761e+18 | 1.829368657769616e+18 | 2.1800017346474404e+16 |        - | -                                       
+month_year                     |      266 |          - |          - |          - |          - |        8 | 2024-01 (Count: 47)                     
+illuminating_scored_message    |      266 |          - |          - |          - |          - |      266 | df4e5a3da888840f059e759fb77d16c608c34bfb...
+election_integrity_Truth_illuminating |      266 |       0.02 |        0.0 |        1.0 |       0.12 |        - | -                                       
+advocacy_msg_type_illuminating |      266 |       0.53 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |      266 |       0.38 |        0.0 |        1.0 |       0.49 |        - | -                                       
+attack_msg_type_illuminating   |      266 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+image_msg_type_illuminating    |      266 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+cta_msg_type_illuminating      |      266 |       0.15 |        0.0 |        1.0 |       0.36 |        - | -                                       
+engagement_cta_subtype_illuminating |      266 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+fundraising_cta_subtype_illuminating |      266 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+voting_cta_subtype_illuminating |      266 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+covid_topic_illuminating       |      266 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |      266 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+education_topic_illuminating   |      266 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+environment_topic_illuminating |      266 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+foreign_policy_topic_illuminating |      266 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+governance_topic_illuminating  |      266 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+health_topic_illuminating      |      266 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+immigration_topic_illuminating |      266 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+lgbtq_issues_topic_illuminating |      266 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      266 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      266 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+safety_topic_illuminating      |      266 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+social_and_cultural_topic_illuminating |      266 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      266 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+womens_issue_topic_illuminating |      266 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+incivility_illuminating        |      266 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+scam_illuminating              |      266 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |      266 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      266 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('TweetDeck Web App',) (Count: 7) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |        7 |          - |          - |          - |          - |        7 | c0ac5af5e9fd681f8f8b985bd3321d92298c977f...
+url                            |        7 |          - |          - |          - |          - |        7 | a536877270542f4557a15ddd42fa4bba6373597c...
+source                         |        7 |          - |          - |          - |          - |        1 | TweetDeck Web App (Count: 7)            
+retweetCount                   |        7 |    1911.14 |      190.0 |     7599.0 |    2627.97 |        - | -                                       
+replyCount                     |        7 |     659.29 |       42.0 |     2449.0 |     838.41 |        - | -                                       
+likeCount                      |        7 |   10360.43 |      872.0 |    30348.0 |   10342.09 |        - | -                                       
+quoteCount                     |        7 |     155.57 |       18.0 |      353.0 |     147.92 |        - | -                                       
+viewCount                      |        7 |  624732.43 |    56799.0 |  1487402.0 |  616922.33 |        - | -                                       
+createdAt                      |        7 |          - |          - |          - |          - |        7 | 2023-11-26 17:37:32 (Count: 1)          
+lang                           |        7 |          - |          - |          - |          - |        1 | en (Count: 7)                           
+bookmarkCount                  |        7 |     491.43 |       21.0 |     2177.0 |      807.0 |        - | -                                       
+isReply                        |        7 |          - |          - |          - |          - |        1 | False (Count: 7)                        
+isRetweet                      |        7 |          - |          - |          - |          - |        1 | False (Count: 7)                        
+isQuote                        |        7 |          - |          - |          - |          - |        1 | False (Count: 7)                        
+isConversationControlled       |        7 |          - |          - |          - |          - |        1 | False (Count: 7)                        
+quoteId                        |        0 |          - |          - |          - |          - |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |        7 |          - |          - |          - |          - |        3 | 2024-06 (Count: 4)                      
+illuminating_scored_message    |        7 |          - |          - |          - |          - |        7 | aae669864ed9e196ee4e16ed11da9e477163f09c...
+election_integrity_Truth_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+advocacy_msg_type_illuminating |        7 |       0.43 |        0.0 |        1.0 |       0.53 |        - | -                                       
+issue_msg_type_illuminating    |        7 |       0.29 |        0.0 |        1.0 |       0.49 |        - | -                                       
+attack_msg_type_illuminating   |        7 |       0.29 |        0.0 |        1.0 |       0.49 |        - | -                                       
+image_msg_type_illuminating    |        7 |       0.43 |        0.0 |        1.0 |       0.53 |        - | -                                       
+cta_msg_type_illuminating      |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+engagement_cta_subtype_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+health_topic_illuminating      |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        7 |       0.14 |        0.0 |        1.0 |       0.38 |        - | -                                       
+womens_issue_topic_illuminating |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |        7 |       0.29 |        0.0 |        1.0 |       0.49 |        - | -                                       
+scam_illuminating              |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |        7 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('Hootsuite Inc.',) (Count: 47) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |       47 |          - |          - |          - |          - |       47 | 5354908dccb40525b2d42c46902a86f5a9f39e4c...
+url                            |       47 |          - |          - |          - |          - |       47 | f428cd263ba408fab8558e9b9d186a2810d1bf0e...
+source                         |       47 |          - |          - |          - |          - |        1 | Hootsuite Inc. (Count: 47)              
+retweetCount                   |       47 |     129.98 |       47.0 |      780.0 |     137.67 |        - | -                                       
+replyCount                     |       47 |      37.19 |        8.0 |      168.0 |      30.11 |        - | -                                       
+likeCount                      |       47 |     380.83 |      120.0 |     2195.0 |     404.72 |        - | -                                       
+quoteCount                     |       47 |       7.53 |        0.0 |       44.0 |       8.62 |        - | -                                       
+viewCount                      |       47 |   29066.62 |    13542.0 |    68518.0 |   13547.32 |        - | -                                       
+createdAt                      |       47 |          - |          - |          - |          - |       47 | 2024-02-27 16:02:48 (Count: 1)          
+lang                           |       47 |          - |          - |          - |          - |        1 | en (Count: 47)                          
+bookmarkCount                  |       47 |       8.45 |        1.0 |       56.0 |      10.58 |        - | -                                       
+isReply                        |       47 |          - |          - |          - |          - |        1 | False (Count: 47)                       
+isRetweet                      |       47 |          - |          - |          - |          - |        1 | False (Count: 47)                       
+isQuote                        |       47 |          - |          - |          - |          - |        1 | False (Count: 47)                       
+isConversationControlled       |       47 |          - |          - |          - |          - |        1 | False (Count: 47)                       
+quoteId                        |        0 |          - |          - |          - |          - |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |       47 |          - |          - |          - |          - |        8 | 2024-03 (Count: 11)                     
+illuminating_scored_message    |       47 |          - |          - |          - |          - |       47 | a25f3ec57aff02964e8c82c60c021b784484bd49...
+election_integrity_Truth_illuminating |       41 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+advocacy_msg_type_illuminating |       41 |       0.46 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |       41 |       0.34 |        0.0 |        1.0 |       0.48 |        - | -                                       
+attack_msg_type_illuminating   |       41 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+image_msg_type_illuminating    |       41 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+cta_msg_type_illuminating      |       41 |       0.83 |        0.0 |        1.0 |       0.38 |        - | -                                       
+engagement_cta_subtype_illuminating |       41 |       0.59 |        0.0 |        1.0 |        0.5 |        - | -                                       
+fundraising_cta_subtype_illuminating |       41 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+voting_cta_subtype_illuminating |       41 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |       41 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |       41 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |       41 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+environment_topic_illuminating |       41 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |       41 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+governance_topic_illuminating  |       41 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       41 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+immigration_topic_illuminating |       41 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+lgbtq_issues_topic_illuminating |       41 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+military_topic_illuminating    |       41 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       41 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+safety_topic_illuminating      |       41 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+social_and_cultural_topic_illuminating |       41 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       41 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       41 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+incivility_illuminating        |       41 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+scam_illuminating              |       41 |       0.02 |        0.0 |        1.0 |       0.16 |        - | -                                       
+freefair_illuminating          |       47 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       47 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+
+===== Group: ('Canva',) (Count: 1) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |        1 |          - |          - |          - |          - |        1 | 5b11b20d90740faeeb08c8ad5724fa3ab78a4364...
+url                            |        1 |          - |          - |          - |          - |        1 | 050f152d7ab9e30519bc4f251b3930dd36850c41...
+source                         |        1 |          - |          - |          - |          - |        1 | Canva (Count: 1)                        
+retweetCount                   |        1 |       69.0 |       69.0 |       69.0 |          - |        - | -                                       
+replyCount                     |        1 |      324.0 |      324.0 |      324.0 |          - |        - | -                                       
+likeCount                      |        1 |      490.0 |      490.0 |      490.0 |          - |        - | -                                       
+quoteCount                     |        1 |       40.0 |       40.0 |       40.0 |          - |        - | -                                       
+viewCount                      |        1 |    41173.0 |    41173.0 |    41173.0 |          - |        - | -                                       
+createdAt                      |        1 |          - |          - |          - |          - |        1 | 2024-02-29 21:26:10 (Count: 1)          
+lang                           |        1 |          - |          - |          - |          - |        1 | en (Count: 1)                           
+bookmarkCount                  |        1 |       16.0 |       16.0 |       16.0 |          - |        - | -                                       
+isReply                        |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+isRetweet                      |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+isQuote                        |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+isConversationControlled       |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+quoteId                        |        0 |          - |          - |          - |          - |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |        1 |          - |          - |          - |          - |        1 | 2024-02 (Count: 1)                      
+illuminating_scored_message    |        1 |          - |          - |          - |          - |        1 | 89985621af1d7e22ee18b78836d7eaaf20fbcf7e...
+election_integrity_Truth_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+advocacy_msg_type_illuminating |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+issue_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+attack_msg_type_illuminating   |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+image_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+cta_msg_type_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+engagement_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fundraising_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+voting_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+covid_topic_illuminating       |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+economy_topic_illuminating     |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+education_topic_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+environment_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+foreign_policy_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+governance_topic_illuminating  |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+health_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+immigration_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+lgbtq_issues_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+military_topic_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+race_and_ethnicity_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+safety_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+social_and_cultural_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+womens_issue_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+incivility_illuminating        |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+scam_illuminating              |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+freefair_illuminating          |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fraud_illuminating             |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+
+===== Group: ('Later Media',) (Count: 1) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |        1 |          - |          - |          - |          - |        1 | 2d9cfc7b380157ca2d41ac35c61fe9d530b4ea58...
+url                            |        1 |          - |          - |          - |          - |        1 | 5fc4e0f1baa6eb4aaf3bc4b219055200c8a34d64...
+source                         |        1 |          - |          - |          - |          - |        1 | Later Media (Count: 1)                  
+retweetCount                   |        1 |       93.0 |       93.0 |       93.0 |          - |        - | -                                       
+replyCount                     |        1 |       18.0 |       18.0 |       18.0 |          - |        - | -                                       
+likeCount                      |        1 |      280.0 |      280.0 |      280.0 |          - |        - | -                                       
+quoteCount                     |        1 |       10.0 |       10.0 |       10.0 |          - |        - | -                                       
+viewCount                      |        1 |    12847.0 |    12847.0 |    12847.0 |          - |        - | -                                       
+createdAt                      |        1 |          - |          - |          - |          - |        1 | 2024-02-01 11:10:49 (Count: 1)          
+lang                           |        1 |          - |          - |          - |          - |        1 | en (Count: 1)                           
+bookmarkCount                  |        1 |        5.0 |        5.0 |        5.0 |          - |        - | -                                       
+isReply                        |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+isRetweet                      |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+isQuote                        |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+isConversationControlled       |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+quoteId                        |        0 |          - |          - |          - |          - |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |        1 |          - |          - |          - |          - |        1 | 2024-02 (Count: 1)                      
+illuminating_scored_message    |        1 |          - |          - |          - |          - |        1 | 0aca51b1885c946a27ef08b05108fb1c76c83f18...
+election_integrity_Truth_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+advocacy_msg_type_illuminating |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+issue_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+attack_msg_type_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+image_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+cta_msg_type_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+engagement_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fundraising_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+voting_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+covid_topic_illuminating       |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+economy_topic_illuminating     |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+education_topic_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+environment_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+foreign_policy_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+governance_topic_illuminating  |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+health_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+immigration_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+lgbtq_issues_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+military_topic_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+race_and_ethnicity_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+safety_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+social_and_cultural_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+womens_issue_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+incivility_illuminating        |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+scam_illuminating              |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+freefair_illuminating          |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fraud_illuminating             |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+
+===== Group: ('Twitter Web Client',) (Count: 1) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+id                             |        1 |          - |          - |          - |          - |        1 | e7f7a30f08b7e1f4aae3d31e20543ad57584fe30...
+url                            |        1 |          - |          - |          - |          - |        1 | cc3131317571ee071cc7e0354ca3524e083bd730...
+source                         |        1 |          - |          - |          - |          - |        1 | Twitter Web Client (Count: 1)           
+retweetCount                   |        1 |       98.0 |       98.0 |       98.0 |          - |        - | -                                       
+replyCount                     |        1 |       26.0 |       26.0 |       26.0 |          - |        - | -                                       
+likeCount                      |        1 |      340.0 |      340.0 |      340.0 |          - |        - | -                                       
+quoteCount                     |        1 |        6.0 |        6.0 |        6.0 |          - |        - | -                                       
+viewCount                      |        1 |    19547.0 |    19547.0 |    19547.0 |          - |        - | -                                       
+createdAt                      |        1 |          - |          - |          - |          - |        1 | 2024-10-19 18:02:00 (Count: 1)          
+lang                           |        1 |          - |          - |          - |          - |        1 | en (Count: 1)                           
+bookmarkCount                  |        1 |        6.0 |        6.0 |        6.0 |          - |        - | -                                       
+isReply                        |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+isRetweet                      |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+isQuote                        |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+isConversationControlled       |        1 |          - |          - |          - |          - |        1 | False (Count: 1)                        
+quoteId                        |        0 |          - |          - |          - |          - |        - | -                                       
+inReplyToId                    |        0 |          - |          - |          - |          - |        - | -                                       
+month_year                     |        1 |          - |          - |          - |          - |        1 | 2024-10 (Count: 1)                      
+illuminating_scored_message    |        1 |          - |          - |          - |          - |        1 | d7f5a917232e8544e8a98c4a572af516fdbb3cd5...
+election_integrity_Truth_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+advocacy_msg_type_illuminating |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+issue_msg_type_illuminating    |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+attack_msg_type_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+image_msg_type_illuminating    |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+cta_msg_type_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+engagement_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fundraising_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+voting_cta_subtype_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+covid_topic_illuminating       |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+economy_topic_illuminating     |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+education_topic_illuminating   |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+environment_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+foreign_policy_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+governance_topic_illuminating  |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+health_topic_illuminating      |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+immigration_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+lgbtq_issues_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+military_topic_illuminating    |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+race_and_ethnicity_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+safety_topic_illuminating      |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+social_and_cultural_topic_illuminating |        1 |        1.0 |        1.0 |        1.0 |          - |        - | -                                       
+technology_and_privacy_topic_illuminatin... |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+womens_issue_topic_illuminating |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+incivility_illuminating        |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+scam_illuminating              |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+freefair_illuminating          |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       
+fraud_illuminating             |        1 |        0.0 |        0.0 |        0.0 |          - |        - | -                                       

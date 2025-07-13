@@ -1,0 +1,253 @@
+
+========== Header ==========
+Header: ['Facebook_Id', 'post_id', 'Page Category', 'Page Admin Top Country', 'Post Created', 'Post Created Date', 'Post Created Time', 'Type', 'Total Interactions', 'Likes', 'Comments', 'Shares', 'Love', 'Wow', 'Haha', 'Sad', 'Angry', 'Care', 'Video Share Status', 'Is Video Owner?', 'Post Views', 'Total Views', 'Total Views For All Crossposts', 'Video Length', 'Sponsor Id', 'Sponsor Name', 'Sponsor Category', 'Overperforming Score', 'illuminating_scored_messageelection_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'scam_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+
+
+========== Descriptive Statistics for Entire Dataset ==========
+|                                                                  | Mean    | Min     | Max       |   Unique | Most Frequent                                                    | Freq Cnt   |
+|------------------------------------------------------------------|---------|---------|-----------|----------|------------------------------------------------------------------|------------|
+| Facebook_Id                                                      | -       | -       | -         |       21 | 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 | 9013       |
+| post_id                                                          | -       | -       | -         |    19009 | 202cc020266f6ac23ec611b9f981df3748bd4a4abdf262a1f56e7abbc48c1dea | 1          |
+| Page Category                                                    | -       | -       | -         |        6 | PERSON                                                           | 9453       |
+| Page Admin Top Country                                           | -       | -       | -         |        1 | US                                                               | 16280      |
+| Post Created                                                     | -       | -       | -         |    18951 | 2023-11-14 11:11:44 EST                                          | 2          |
+| Post Created Date                                                | -       | -       | -         |      425 | 2024-10-31                                                       | 103        |
+| Post Created Time                                                | -       | -       | -         |    16102 | 19:42:00                                                         | 7          |
+| Type                                                             | -       | -       | -         |        9 | Link                                                             | 7404       |
+| Total Interactions                                               | -       | -       | -         |     5665 | 23                                                               | 115        |
+| Likes                                                            | 2377.7  | 0.0     | 351979.0  |     4118 | 9                                                                | 279        |
+| Comments                                                         | 901.58  | 0.0     | 93872.0   |     3075 | 0                                                                | 852        |
+| Shares                                                           | 320.54  | 0.0     | 76150.0   |     1840 | 0                                                                | 1882       |
+| Love                                                             | 413.88  | 0.0     | 244482.0  |     1600 | 0                                                                | 7005       |
+| Wow                                                              | 5.87    | 0.0     | 4345.0    |      194 | 0                                                                | 9162       |
+| Haha                                                             | 105.72  | 0.0     | 99276.0   |     1154 | 0                                                                | 6592       |
+| Sad                                                              | 10.17   | 0.0     | 56111.0   |      239 | 0                                                                | 11431      |
+| Angry                                                            | 20.06   | 0.0     | 11814.0   |      423 | 0                                                                | 8655       |
+| Care                                                             | 34.93   | 0.0     | 85236.0   |      513 | 0                                                                | 9726       |
+| Video Share Status                                               | -       | -       | -         |        3 | owned                                                            | 3100       |
+| Is Video Owner?                                                  | -       | -       | -         |        3 | -                                                                | 13280      |
+| Post Views                                                       | 6485.06 | 0.0     | 4276477.0 |     2842 | 0.0                                                              | 13294      |
+| Total Views                                                      | 7461.85 | 0.0     | 4462155.0 |     2901 | 0.0                                                              | 13276      |
+| Total Views For All Crossposts                                   | 3555.94 | 0.0     | 4499458.0 |       73 | 0.0                                                              | 16472      |
+| Video Length                                                     | -       | -       | -         |      774 | 00:00:30                                                         | 83         |
+| Sponsor Id                                                       | -       | -       | -         |        0 | -                                                                | -          |
+| Sponsor Name                                                     | -       | -       | -         |        0 | -                                                                | -          |
+| Sponsor Category                                                 | -       | -       | -         |        0 | -                                                                | -          |
+| Overperforming Score                                             | -2.74   | -198.75 | 246.78    |     2007 | -1.03                                                            | 80         |
+| illuminating_scored_messageelection_integrity_Truth_illuminating | -       | -       | -         |        0 | -                                                                | -          |
+| advocacy_msg_type_illuminating                                   | 0.55    | 0.0     | 1.0       |        2 | 1                                                                | 10441      |
+| issue_msg_type_illuminating                                      | 0.46    | 0.0     | 1.0       |        2 | 0                                                                | 10259      |
+| attack_msg_type_illuminating                                     | 0.22    | 0.0     | 1.0       |        2 | 0                                                                | 14890      |
+| image_msg_type_illuminating                                      | 0.15    | 0.0     | 1.0       |        2 | 0                                                                | 16185      |
+| cta_msg_type_illuminating                                        | 0.13    | 0.0     | 1.0       |        2 | 0                                                                | 16484      |
+| engagement_cta_subtype_illuminating                              | 0.09    | 0.0     | 1.0       |        2 | 0                                                                | 17282      |
+| fundraising_cta_subtype_illuminating                             | 0.02    | 0.0     | 1.0       |        2 | 0                                                                | 18659      |
+| voting_cta_subtype_illuminating                                  | 0.02    | 0.0     | 1.0       |        2 | 0                                                                | 18564      |
+| covid_topic_illuminating                                         | 0.05    | 0.0     | 1.0       |        2 | 0                                                                | 18013      |
+| economy_topic_illuminating                                       | 0.09    | 0.0     | 1.0       |        2 | 0                                                                | 17291      |
+| education_topic_illuminating                                     | 0.01    | 0.0     | 1.0       |        2 | 0                                                                | 18724      |
+| environment_topic_illuminating                                   | 0.02    | 0.0     | 1.0       |        2 | 0                                                                | 18586      |
+| foreign_policy_topic_illuminating                                | 0.04    | 0.0     | 1.0       |        2 | 0                                                                | 18308      |
+| governance_topic_illuminating                                    | 0.03    | 0.0     | 1.0       |        2 | 0                                                                | 18418      |
+| health_topic_illuminating                                        | 0.05    | 0.0     | 1.0       |        2 | 0                                                                | 18084      |
+| immigration_topic_illuminating                                   | 0.04    | 0.0     | 1.0       |        2 | 0                                                                | 18233      |
+| lgbtq_issues_topic_illuminating                                  | 0.0     | 0.0     | 1.0       |        2 | 0                                                                | 18945      |
+| military_topic_illuminating                                      | 0.01    | 0.0     | 1.0       |        2 | 0                                                                | 18903      |
+| race_and_ethnicity_topic_illuminating                            | 0.02    | 0.0     | 1.0       |        2 | 0                                                                | 18599      |
+| safety_topic_illuminating                                        | 0.03    | 0.0     | 1.0       |        2 | 0                                                                | 18397      |
+| social_and_cultural_topic_illuminating                           | 0.06    | 0.0     | 1.0       |        2 | 0                                                                | 17836      |
+| technology_and_privacy_topic_illuminating                        | 0.0     | 0.0     | 1.0       |        2 | 0                                                                | 18970      |
+| womens_issue_topic_illuminating                                  | 0.03    | 0.0     | 1.0       |        2 | 0                                                                | 18525      |
+| incivility_illuminating                                          | 0.13    | 0.0     | 1.0       |        2 | 0                                                                | 16578      |
+| scam_illuminating                                                | 0.02    | 0.0     | 1.0       |        2 | 0.0                                                              | 17695      |
+| freefair_illuminating                                            | 0.0     | 0.0     | 1.0       |        2 | 0                                                                | 18955      |
+| fraud_illuminating                                               | 0.01    | 0.0     | 1.0       |        2 | 0                                                                | 18845      |
+
+
+========== Grouped by ['Facebook_Id', 'post_id'] (First 3 Groups) ==========
+
+Group: ('058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b', '00cb679a6af4c4551755ae374d496227b8f1fd1d39aec772ef21f4ba0a8f2275') (Count: 1)
+|                                                                  | Mean   | Min   | Max   |   Unique | Most Frequent                                                    | Freq Cnt   |
+|------------------------------------------------------------------|--------|-------|-------|----------|------------------------------------------------------------------|------------|
+| Facebook_Id                                                      | -      | -     | -     |        1 | 058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b | 1          |
+| post_id                                                          | -      | -     | -     |        1 | 00cb679a6af4c4551755ae374d496227b8f1fd1d39aec772ef21f4ba0a8f2275 | 1          |
+| Page Category                                                    | -      | -     | -     |        1 | POLITICIAN                                                       | 1          |
+| Page Admin Top Country                                           | -      | -     | -     |        1 | US                                                               | 1          |
+| Post Created                                                     | -      | -     | -     |        1 | 2023-09-01 10:01:33 EDT                                          | 1          |
+| Post Created Date                                                | -      | -     | -     |        1 | 2023-09-01                                                       | 1          |
+| Post Created Time                                                | -      | -     | -     |        1 | 10:01:33                                                         | 1          |
+| Type                                                             | -      | -     | -     |        1 | Link                                                             | 1          |
+| Total Interactions                                               | -      | -     | -     |        1 | 138                                                              | 1          |
+| Likes                                                            | 70.0   | 70.0  | 70.0  |        1 | 70                                                               | 1          |
+| Comments                                                         | 50.0   | 50.0  | 50.0  |        1 | 50                                                               | 1          |
+| Shares                                                           | 10.0   | 10.0  | 10.0  |        1 | 10                                                               | 1          |
+| Love                                                             | 2.0    | 2.0   | 2.0   |        1 | 2                                                                | 1          |
+| Wow                                                              | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| Haha                                                             | 5.0    | 5.0   | 5.0   |        1 | 5                                                                | 1          |
+| Sad                                                              | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| Angry                                                            | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| Care                                                             | 1.0    | 1.0   | 1.0   |        1 | 1                                                                | 1          |
+| Video Share Status                                               | -      | -     | -     |        0 | -                                                                | -          |
+| Is Video Owner?                                                  | -      | -     | -     |        1 | -                                                                | 1          |
+| Post Views                                                       | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| Total Views                                                      | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| Total Views For All Crossposts                                   | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| Video Length                                                     | -      | -     | -     |        0 | -                                                                | -          |
+| Sponsor Id                                                       | -      | -     | -     |        0 | -                                                                | -          |
+| Sponsor Name                                                     | -      | -     | -     |        0 | -                                                                | -          |
+| Sponsor Category                                                 | -      | -     | -     |        0 | -                                                                | -          |
+| Overperforming Score                                             | 2.19   | 2.19  | 2.19  |        1 | 2.19                                                             | 1          |
+| illuminating_scored_messageelection_integrity_Truth_illuminating | -      | -     | -     |        0 | -                                                                | -          |
+| advocacy_msg_type_illuminating                                   | 1.0    | 1.0   | 1.0   |        1 | 1                                                                | 1          |
+| issue_msg_type_illuminating                                      | 1.0    | 1.0   | 1.0   |        1 | 1                                                                | 1          |
+| attack_msg_type_illuminating                                     | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| image_msg_type_illuminating                                      | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| cta_msg_type_illuminating                                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| engagement_cta_subtype_illuminating                              | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| fundraising_cta_subtype_illuminating                             | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| voting_cta_subtype_illuminating                                  | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| covid_topic_illuminating                                         | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| economy_topic_illuminating                                       | 1.0    | 1.0   | 1.0   |        1 | 1                                                                | 1          |
+| education_topic_illuminating                                     | 1.0    | 1.0   | 1.0   |        1 | 1                                                                | 1          |
+| environment_topic_illuminating                                   | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| foreign_policy_topic_illuminating                                | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| governance_topic_illuminating                                    | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| health_topic_illuminating                                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| immigration_topic_illuminating                                   | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| lgbtq_issues_topic_illuminating                                  | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| military_topic_illuminating                                      | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| race_and_ethnicity_topic_illuminating                            | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| safety_topic_illuminating                                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| social_and_cultural_topic_illuminating                           | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| technology_and_privacy_topic_illuminating                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| womens_issue_topic_illuminating                                  | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| incivility_illuminating                                          | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| scam_illuminating                                                | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| freefair_illuminating                                            | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| fraud_illuminating                                               | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+
+
+Group: ('058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b', '01244b0adf3dbc10065344e8ee3a0edeac919c4fe74916fa3b78e72d38ffe02e') (Count: 1)
+|                                                                  | Mean   | Min   | Max   |   Unique | Most Frequent                                                    | Freq Cnt   |
+|------------------------------------------------------------------|--------|-------|-------|----------|------------------------------------------------------------------|------------|
+| Facebook_Id                                                      | -      | -     | -     |        1 | 058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b | 1          |
+| post_id                                                          | -      | -     | -     |        1 | 01244b0adf3dbc10065344e8ee3a0edeac919c4fe74916fa3b78e72d38ffe02e | 1          |
+| Page Category                                                    | -      | -     | -     |        1 | POLITICIAN                                                       | 1          |
+| Page Admin Top Country                                           | -      | -     | -     |        1 | US                                                               | 1          |
+| Post Created                                                     | -      | -     | -     |        1 | 2023-12-03 11:26:34 EST                                          | 1          |
+| Post Created Date                                                | -      | -     | -     |        1 | 2023-12-03                                                       | 1          |
+| Post Created Time                                                | -      | -     | -     |        1 | 11:26:34                                                         | 1          |
+| Type                                                             | -      | -     | -     |        1 | Photo                                                            | 1          |
+| Total Interactions                                               | -      | -     | -     |        1 | 69                                                               | 1          |
+| Likes                                                            | 43.0   | 43.0  | 43.0  |        1 | 43                                                               | 1          |
+| Comments                                                         | 7.0    | 7.0   | 7.0   |        1 | 7                                                                | 1          |
+| Shares                                                           | 4.0    | 4.0   | 4.0   |        1 | 4                                                                | 1          |
+| Love                                                             | 5.0    | 5.0   | 5.0   |        1 | 5                                                                | 1          |
+| Wow                                                              | 1.0    | 1.0   | 1.0   |        1 | 1                                                                | 1          |
+| Haha                                                             | 8.0    | 8.0   | 8.0   |        1 | 8                                                                | 1          |
+| Sad                                                              | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| Angry                                                            | 1.0    | 1.0   | 1.0   |        1 | 1                                                                | 1          |
+| Care                                                             | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| Video Share Status                                               | -      | -     | -     |        0 | -                                                                | -          |
+| Is Video Owner?                                                  | -      | -     | -     |        1 | -                                                                | 1          |
+| Post Views                                                       | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| Total Views                                                      | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| Total Views For All Crossposts                                   | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| Video Length                                                     | -      | -     | -     |        0 | -                                                                | -          |
+| Sponsor Id                                                       | -      | -     | -     |        0 | -                                                                | -          |
+| Sponsor Name                                                     | -      | -     | -     |        0 | -                                                                | -          |
+| Sponsor Category                                                 | -      | -     | -     |        0 | -                                                                | -          |
+| Overperforming Score                                             | -1.62  | -1.62 | -1.62 |        1 | -1.62                                                            | 1          |
+| illuminating_scored_messageelection_integrity_Truth_illuminating | -      | -     | -     |        0 | -                                                                | -          |
+| advocacy_msg_type_illuminating                                   | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| issue_msg_type_illuminating                                      | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| attack_msg_type_illuminating                                     | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| image_msg_type_illuminating                                      | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| cta_msg_type_illuminating                                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| engagement_cta_subtype_illuminating                              | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| fundraising_cta_subtype_illuminating                             | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| voting_cta_subtype_illuminating                                  | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| covid_topic_illuminating                                         | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| economy_topic_illuminating                                       | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| education_topic_illuminating                                     | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| environment_topic_illuminating                                   | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| foreign_policy_topic_illuminating                                | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| governance_topic_illuminating                                    | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| health_topic_illuminating                                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| immigration_topic_illuminating                                   | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| lgbtq_issues_topic_illuminating                                  | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| military_topic_illuminating                                      | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| race_and_ethnicity_topic_illuminating                            | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| safety_topic_illuminating                                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| social_and_cultural_topic_illuminating                           | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| technology_and_privacy_topic_illuminating                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| womens_issue_topic_illuminating                                  | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| incivility_illuminating                                          | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| scam_illuminating                                                | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| freefair_illuminating                                            | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| fraud_illuminating                                               | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+
+
+Group: ('058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b', '042c4760c4cc3463680d2c4cc0a27f39a2c0db5133c046bf0d946fc44d6bfedd') (Count: 1)
+|                                                                  | Mean   | Min   | Max   |   Unique | Most Frequent                                                    | Freq Cnt   |
+|------------------------------------------------------------------|--------|-------|-------|----------|------------------------------------------------------------------|------------|
+| Facebook_Id                                                      | -      | -     | -     |        1 | 058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b | 1          |
+| post_id                                                          | -      | -     | -     |        1 | 042c4760c4cc3463680d2c4cc0a27f39a2c0db5133c046bf0d946fc44d6bfedd | 1          |
+| Page Category                                                    | -      | -     | -     |        1 | POLITICIAN                                                       | 1          |
+| Page Admin Top Country                                           | -      | -     | -     |        1 | US                                                               | 1          |
+| Post Created                                                     | -      | -     | -     |        1 | 2023-09-19 09:35:12 EDT                                          | 1          |
+| Post Created Date                                                | -      | -     | -     |        1 | 2023-09-19                                                       | 1          |
+| Post Created Time                                                | -      | -     | -     |        1 | 09:35:12                                                         | 1          |
+| Type                                                             | -      | -     | -     |        1 | Photo                                                            | 1          |
+| Total Interactions                                               | -      | -     | -     |        1 | 110                                                              | 1          |
+| Likes                                                            | 80.0   | 80.0  | 80.0  |        1 | 80                                                               | 1          |
+| Comments                                                         | 23.0   | 23.0  | 23.0  |        1 | 23                                                               | 1          |
+| Shares                                                           | 2.0    | 2.0   | 2.0   |        1 | 2                                                                | 1          |
+| Love                                                             | 3.0    | 3.0   | 3.0   |        1 | 3                                                                | 1          |
+| Wow                                                              | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| Haha                                                             | 2.0    | 2.0   | 2.0   |        1 | 2                                                                | 1          |
+| Sad                                                              | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| Angry                                                            | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| Care                                                             | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| Video Share Status                                               | -      | -     | -     |        0 | -                                                                | -          |
+| Is Video Owner?                                                  | -      | -     | -     |        1 | -                                                                | 1          |
+| Post Views                                                       | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| Total Views                                                      | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| Total Views For All Crossposts                                   | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| Video Length                                                     | -      | -     | -     |        0 | -                                                                | -          |
+| Sponsor Id                                                       | -      | -     | -     |        0 | -                                                                | -          |
+| Sponsor Name                                                     | -      | -     | -     |        0 | -                                                                | -          |
+| Sponsor Category                                                 | -      | -     | -     |        0 | -                                                                | -          |
+| Overperforming Score                                             | -1.01  | -1.01 | -1.01 |        1 | -1.01                                                            | 1          |
+| illuminating_scored_messageelection_integrity_Truth_illuminating | -      | -     | -     |        0 | -                                                                | -          |
+| advocacy_msg_type_illuminating                                   | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| issue_msg_type_illuminating                                      | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| attack_msg_type_illuminating                                     | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| image_msg_type_illuminating                                      | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| cta_msg_type_illuminating                                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| engagement_cta_subtype_illuminating                              | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| fundraising_cta_subtype_illuminating                             | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| voting_cta_subtype_illuminating                                  | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| covid_topic_illuminating                                         | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| economy_topic_illuminating                                       | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| education_topic_illuminating                                     | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| environment_topic_illuminating                                   | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| foreign_policy_topic_illuminating                                | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| governance_topic_illuminating                                    | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| health_topic_illuminating                                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| immigration_topic_illuminating                                   | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| lgbtq_issues_topic_illuminating                                  | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| military_topic_illuminating                                      | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| race_and_ethnicity_topic_illuminating                            | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| safety_topic_illuminating                                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| social_and_cultural_topic_illuminating                           | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| technology_and_privacy_topic_illuminating                        | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| womens_issue_topic_illuminating                                  | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| incivility_illuminating                                          | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| scam_illuminating                                                | 0.0    | 0.0   | 0.0   |        1 | 0.0                                                              | 1          |
+| freefair_illuminating                                            | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+| fraud_illuminating                                               | 0.0    | 0.0   | 0.0   |        1 | 0                                                                | 1          |
+
+
+========== Script Completed ==========
+All stats saved in readable format.

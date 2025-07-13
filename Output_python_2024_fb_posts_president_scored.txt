@@ -1,0 +1,1261 @@
+Total Rows: 19009
+
+===== Group: ('NA', 'a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813') (Count: 29) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |       29 |          - |          - |          - |          - |        1 | a6cb7db6850459b954f7272e14d770617022639f...
+post_id                        |       29 |          - |          - |          - |          - |       29 | 8570b69695e00d8f06b12398ed525497e1712b53...
+Page Category                  |       29 |          - |          - |          - |          - |        1 | PERSON (Count: 29)                      
+Page Admin Top Country         |       29 |          - |          - |          - |          - |        1 | US (Count: 29)                          
+Post Created                   |       29 |          - |          - |          - |          - |       29 | 2023-09-04 19:31:16 EDT (Count: 1)      
+Post Created Date              |       29 |          - |          - |          - |          - |       21 | 2024-01-11 (Count: 3)                   
+Post Created Time              |       29 |          - |          - |          - |          - |       29 | 19:31:16 (Count: 1)                     
+Type                           |       29 |          - |          - |          - |          - |        5 | Photo (Count: 18)                       
+Total Interactions             |       29 |     115.52 |       29.0 |      454.0 |      96.22 |        - | -                                       
+Likes                          |       29 |      50.45 |       12.0 |      104.0 |      24.32 |        - | -                                       
+Comments                       |       29 |      46.79 |        5.0 |      329.0 |      69.63 |        - | -                                       
+Shares                         |       29 |       3.59 |        0.0 |       15.0 |        3.4 |        - | -                                       
+Love                           |       29 |       4.07 |        0.0 |       17.0 |        4.4 |        - | -                                       
+Wow                            |       29 |       0.24 |        0.0 |        1.0 |       0.44 |        - | -                                       
+Haha                           |       29 |       8.14 |        1.0 |       36.0 |       7.29 |        - | -                                       
+Sad                            |       29 |       0.55 |        0.0 |       12.0 |       2.23 |        - | -                                       
+Angry                          |       29 |       0.48 |        0.0 |        2.0 |       0.63 |        - | -                                       
+Care                           |       29 |       1.21 |        0.0 |       12.0 |       2.98 |        - | -                                       
+Video Share Status             |        1 |          - |          - |          - |          - |        1 | owned (Count: 1)                        
+Is Video Owner?                |       29 |          - |          - |          - |          - |        2 | - (Count: 28)                           
+Post Views                     |       29 |      59.17 |        0.0 |     1716.0 |     318.65 |        - | -                                       
+Total Views                    |       29 |      59.97 |        0.0 |     1739.0 |     322.92 |        - | -                                       
+Total Views For All Crossposts |       29 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |        1 |          - |          - |          - |          - |        1 | 00:40:39 (Count: 1)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |       29 |      -0.68 |      -3.35 |       3.98 |       1.81 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |       29 |       0.55 |        0.0 |        1.0 |       0.51 |        - | -                                       
+issue_msg_type_illuminating    |       29 |       0.31 |        0.0 |        1.0 |       0.47 |        - | -                                       
+attack_msg_type_illuminating   |       29 |       0.17 |        0.0 |        1.0 |       0.38 |        - | -                                       
+image_msg_type_illuminating    |       29 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+cta_msg_type_illuminating      |       29 |       0.62 |        0.0 |        1.0 |       0.49 |        - | -                                       
+engagement_cta_subtype_illuminating |       29 |       0.41 |        0.0 |        1.0 |        0.5 |        - | -                                       
+fundraising_cta_subtype_illuminating |       29 |       0.03 |        0.0 |        1.0 |       0.19 |        - | -                                       
+voting_cta_subtype_illuminating |       29 |        0.1 |        0.0 |        1.0 |       0.31 |        - | -                                       
+covid_topic_illuminating       |       29 |       0.03 |        0.0 |        1.0 |       0.19 |        - | -                                       
+economy_topic_illuminating     |       29 |       0.03 |        0.0 |        1.0 |       0.19 |        - | -                                       
+education_topic_illuminating   |       29 |       0.03 |        0.0 |        1.0 |       0.19 |        - | -                                       
+environment_topic_illuminating |       29 |       0.03 |        0.0 |        1.0 |       0.19 |        - | -                                       
+foreign_policy_topic_illuminating |       29 |       0.03 |        0.0 |        1.0 |       0.19 |        - | -                                       
+governance_topic_illuminating  |       29 |       0.03 |        0.0 |        1.0 |       0.19 |        - | -                                       
+health_topic_illuminating      |       29 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+immigration_topic_illuminating |       29 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+lgbtq_issues_topic_illuminating |       29 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       29 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       29 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       29 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+social_and_cultural_topic_illuminating |       29 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       29 |       0.03 |        0.0 |        1.0 |       0.19 |        - | -                                       
+womens_issue_topic_illuminating |       29 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |       29 |        0.1 |        0.0 |        1.0 |       0.31 |        - | -                                       
+scam_illuminating              |       29 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |       29 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       29 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', '7ec2cb4abf8effe3d91de57944c56b938b4f33059a6e33dfe23b549cf229989a') (Count: 616) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      616 |          - |          - |          - |          - |        1 | 7ec2cb4abf8effe3d91de57944c56b938b4f3305...
+post_id                        |      616 |          - |          - |          - |          - |      616 | b83adc0e8ac0aedd39f55b72d723729e114a83d4...
+Page Category                  |      358 |          - |          - |          - |          - |        1 | POLITICAL_CANDIDATE (Count: 358)        
+Page Admin Top Country         |      358 |          - |          - |          - |          - |        1 | US (Count: 358)                         
+Post Created                   |      616 |          - |          - |          - |          - |      597 | 2024-10-31T23:04:19.000Z (Count: 2)     
+Post Created Date              |      616 |          - |          - |          - |          - |      225 | 2024-10-31 (Count: 26)                  
+Post Created Time              |      616 |          - |          - |          - |          - |      595 | 14:29:37 (Count: 2)                     
+Type                           |      358 |          - |          - |          - |          - |        7 | Photo (Count: 176)                      
+Total Interactions             |      616 |   64981.01 |      949.0 |   470087.0 |   61836.93 |      356 | 50,629 (Count: 2)                       
+Likes                          |      616 |   39394.85 |      492.0 |   351979.0 |   43534.68 |        - | -                                       
+Comments                       |      616 |   13920.44 |      204.0 |    93872.0 |   13625.25 |        - | -                                       
+Shares                         |      616 |    4835.73 |       54.0 |    69813.0 |    6455.05 |        - | -                                       
+Love                           |      616 |    8089.59 |        0.0 |   244482.0 |   18499.56 |        - | -                                       
+Wow                            |      616 |      54.68 |        0.0 |     4345.0 |     209.21 |        - | -                                       
+Haha                           |      616 |      887.2 |        0.0 |    99276.0 |    4571.86 |        - | -                                       
+Sad                            |      616 |     149.08 |        0.0 |    56111.0 |    2280.09 |        - | -                                       
+Angry                          |      616 |     144.05 |        0.0 |    11814.0 |     682.68 |        - | -                                       
+Care                           |      616 |     509.19 |        0.0 |    85236.0 |    3584.13 |        - | -                                       
+Video Share Status             |      136 |          - |          - |          - |          - |        3 | crosspost (Count: 63)                   
+Is Video Owner?                |      358 |          - |          - |          - |          - |        3 | - (Count: 222)                          
+Post Views                     |      358 |   172083.2 |        0.0 |  4276477.0 |  543435.68 |        - | -                                       
+Total Views                    |      358 |  186387.58 |        0.0 |  4462155.0 |  568328.08 |        - | -                                       
+Total Views For All Crossposts |      358 |  163542.49 |        0.0 |  4499458.0 |  577345.37 |        - | -                                       
+Video Length                   |      136 |          - |          - |          - |          - |      126 | 00:00:22 (Count: 3)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      358 |      -2.31 |     -15.95 |       8.73 |       3.64 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      616 |       0.24 |        0.0 |        1.0 |       0.43 |        - | -                                       
+issue_msg_type_illuminating    |      616 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+attack_msg_type_illuminating   |      616 |       0.07 |        0.0 |        1.0 |       0.25 |        - | -                                       
+image_msg_type_illuminating    |      616 |       0.06 |        0.0 |        1.0 |       0.23 |        - | -                                       
+cta_msg_type_illuminating      |      616 |       0.33 |        0.0 |        1.0 |       0.47 |        - | -                                       
+engagement_cta_subtype_illuminating |      616 |       0.18 |        0.0 |        1.0 |       0.39 |        - | -                                       
+fundraising_cta_subtype_illuminating |      616 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+voting_cta_subtype_illuminating |      616 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+covid_topic_illuminating       |      616 |        0.3 |        0.0 |        1.0 |       0.46 |        - | -                                       
+economy_topic_illuminating     |      616 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+education_topic_illuminating   |      616 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+environment_topic_illuminating |      616 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |      616 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+governance_topic_illuminating  |      616 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+health_topic_illuminating      |      616 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+immigration_topic_illuminating |      616 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+lgbtq_issues_topic_illuminating |      616 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      616 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      616 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+safety_topic_illuminating      |      616 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+social_and_cultural_topic_illuminating |      616 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      616 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |      616 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+incivility_illuminating        |      616 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+scam_illuminating              |      616 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+freefair_illuminating          |      616 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      616 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+
+===== Group: ('NA', '058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b') (Count: 210) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      210 |          - |          - |          - |          - |        1 | 058bd86861262fa71733f8515c34b729d9ebcad3...
+post_id                        |      210 |          - |          - |          - |          - |      210 | 1cea6a3ba6e5e032de0f6246ffcdcaa03cb620fe...
+Page Category                  |      210 |          - |          - |          - |          - |        1 | POLITICIAN (Count: 210)                 
+Page Admin Top Country         |      210 |          - |          - |          - |          - |        1 | US (Count: 210)                         
+Post Created                   |      210 |          - |          - |          - |          - |      210 | 2023-09-30 18:15:44 EDT (Count: 1)      
+Post Created Date              |      210 |          - |          - |          - |          - |      123 | 2023-09-28 (Count: 5)                   
+Post Created Time              |      210 |          - |          - |          - |          - |      206 | 17:00:01 (Count: 3)                     
+Type                           |      210 |          - |          - |          - |          - |        4 | Photo (Count: 91)                       
+Total Interactions             |      210 |     105.73 |       11.0 |      920.0 |     127.77 |        - | -                                       
+Likes                          |      210 |      59.05 |        5.0 |      551.0 |      78.75 |        - | -                                       
+Comments                       |      210 |      26.34 |        0.0 |      425.0 |      42.86 |        - | -                                       
+Shares                         |      210 |        5.3 |        0.0 |       73.0 |       6.93 |        - | -                                       
+Love                           |      210 |       5.09 |        0.0 |       71.0 |       8.86 |        - | -                                       
+Wow                            |      210 |       0.22 |        0.0 |        4.0 |       0.55 |        - | -                                       
+Haha                           |      210 |       7.17 |        0.0 |      134.0 |      14.57 |        - | -                                       
+Sad                            |      210 |       0.62 |        0.0 |       40.0 |       3.01 |        - | -                                       
+Angry                          |      210 |       0.92 |        0.0 |       14.0 |       2.12 |        - | -                                       
+Care                           |      210 |       1.02 |        0.0 |       71.0 |       5.55 |        - | -                                       
+Video Share Status             |       67 |          - |          - |          - |          - |        2 | owned (Count: 66)                       
+Is Video Owner?                |      210 |          - |          - |          - |          - |        3 | - (Count: 143)                          
+Post Views                     |      210 |     251.94 |        0.0 |    17218.0 |    1261.17 |        - | -                                       
+Total Views                    |      210 |     279.76 |        0.0 |    17606.0 |    1307.29 |        - | -                                       
+Total Views For All Crossposts |      210 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |       67 |          - |          - |          - |          - |       47 | 00:00:45 (Count: 4)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      210 |      -0.56 |      -5.73 |       7.36 |       2.21 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      210 |       0.59 |        0.0 |        1.0 |       0.49 |        - | -                                       
+issue_msg_type_illuminating    |      210 |       0.56 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |      210 |       0.29 |        0.0 |        1.0 |       0.45 |        - | -                                       
+image_msg_type_illuminating    |      210 |       0.17 |        0.0 |        1.0 |       0.38 |        - | -                                       
+cta_msg_type_illuminating      |      210 |       0.15 |        0.0 |        1.0 |       0.36 |        - | -                                       
+engagement_cta_subtype_illuminating |      210 |       0.11 |        0.0 |        1.0 |       0.32 |        - | -                                       
+fundraising_cta_subtype_illuminating |      210 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+voting_cta_subtype_illuminating |      210 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+covid_topic_illuminating       |      210 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |      210 |       0.21 |        0.0 |        1.0 |       0.41 |        - | -                                       
+education_topic_illuminating   |      210 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+environment_topic_illuminating |      210 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+foreign_policy_topic_illuminating |      210 |        0.1 |        0.0 |        1.0 |       0.29 |        - | -                                       
+governance_topic_illuminating  |      210 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+health_topic_illuminating      |      210 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+immigration_topic_illuminating |      210 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+lgbtq_issues_topic_illuminating |      210 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      210 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      210 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |      210 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+social_and_cultural_topic_illuminating |      210 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      210 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |      210 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |      210 |       0.18 |        0.0 |        1.0 |       0.38 |        - | -                                       
+scam_illuminating              |      210 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+freefair_illuminating          |      210 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      210 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', 'ac24f31c4d4b3d5555065fa9558bdca4ab4b5e1379922875ae9e6e32f1d46d25') (Count: 1231) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |     1231 |          - |          - |          - |          - |        1 | ac24f31c4d4b3d5555065fa9558bdca4ab4b5e13...
+post_id                        |     1231 |          - |          - |          - |          - |     1231 | 02f1e0da0afc5706a26f18176c199bb1e4cadcee...
+Page Category                  |      867 |          - |          - |          - |          - |        1 | POLITICIAN (Count: 867)                 
+Page Admin Top Country         |      867 |          - |          - |          - |          - |        1 | US (Count: 867)                         
+Post Created                   |     1231 |          - |          - |          - |          - |     1231 | 2023-09-02 11:27:00 EDT (Count: 1)      
+Post Created Date              |     1231 |          - |          - |          - |          - |      340 | 2024-10-30 (Count: 41)                  
+Post Created Time              |     1231 |          - |          - |          - |          - |     1134 | 10:15:02 (Count: 5)                     
+Type                           |      867 |          - |          - |          - |          - |        6 | Photo (Count: 401)                      
+Total Interactions             |     1231 |    15243.3 |       96.0 |   152355.0 |    18940.7 |      737 | 1,545 (Count: 3)                        
+Likes                          |     1231 |    5042.92 |       52.0 |   121951.0 |   10170.53 |        - | -                                       
+Comments                       |     1231 |    1842.97 |        0.0 |    28113.0 |    2743.85 |        - | -                                       
+Shares                         |     1231 |     600.95 |        0.0 |    21291.0 |    1324.98 |        - | -                                       
+Love                           |     1231 |      540.8 |        0.0 |    29561.0 |     2088.3 |        - | -                                       
+Wow                            |     1231 |       3.67 |        0.0 |       56.0 |       5.92 |        - | -                                       
+Haha                           |     1231 |      130.4 |        0.0 |     2551.0 |     219.77 |        - | -                                       
+Sad                            |     1231 |       7.58 |        0.0 |      416.0 |      28.45 |        - | -                                       
+Angry                          |     1231 |      22.31 |        0.0 |     1113.0 |      70.54 |        - | -                                       
+Care                           |     1231 |      34.68 |        0.0 |     1245.0 |      80.23 |        - | -                                       
+Video Share Status             |      239 |          - |          - |          - |          - |        3 | owned (Count: 234)                      
+Is Video Owner?                |      867 |          - |          - |          - |          - |        3 | - (Count: 628)                          
+Post Views                     |      867 |     5272.2 |        0.0 |   470237.0 |   26610.47 |        - | -                                       
+Total Views                    |      867 |    6726.64 |        0.0 |   518506.0 |   34315.04 |        - | -                                       
+Total Views For All Crossposts |      867 |      18.54 |        0.0 |     8112.0 |     385.71 |        - | -                                       
+Video Length                   |      239 |          - |          - |          - |          - |      106 | 00:00:30 (Count: 12)                    
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      867 |       0.55 |     -21.27 |      44.77 |       5.19 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |     1231 |       0.71 |        0.0 |        1.0 |       0.45 |        - | -                                       
+issue_msg_type_illuminating    |     1231 |       0.57 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |     1231 |       0.21 |        0.0 |        1.0 |       0.41 |        - | -                                       
+image_msg_type_illuminating    |     1231 |        0.1 |        0.0 |        1.0 |       0.31 |        - | -                                       
+cta_msg_type_illuminating      |     1231 |       0.15 |        0.0 |        1.0 |       0.35 |        - | -                                       
+engagement_cta_subtype_illuminating |     1231 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+fundraising_cta_subtype_illuminating |     1231 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+voting_cta_subtype_illuminating |     1231 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+covid_topic_illuminating       |     1231 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+economy_topic_illuminating     |     1231 |       0.17 |        0.0 |        1.0 |       0.38 |        - | -                                       
+education_topic_illuminating   |     1231 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+environment_topic_illuminating |     1231 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+foreign_policy_topic_illuminating |     1231 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+governance_topic_illuminating  |     1231 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+health_topic_illuminating      |     1231 |       0.25 |        0.0 |        1.0 |       0.44 |        - | -                                       
+immigration_topic_illuminating |     1231 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+lgbtq_issues_topic_illuminating |     1231 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+military_topic_illuminating    |     1231 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+race_and_ethnicity_topic_illuminating |     1231 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+safety_topic_illuminating      |     1231 |       0.08 |        0.0 |        1.0 |       0.27 |        - | -                                       
+social_and_cultural_topic_illuminating |     1231 |       0.25 |        0.0 |        1.0 |       0.43 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |     1231 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+womens_issue_topic_illuminating |     1231 |       0.19 |        0.0 |        1.0 |        0.4 |        - | -                                       
+incivility_illuminating        |     1231 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+scam_illuminating              |     1231 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+freefair_illuminating          |     1231 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+fraud_illuminating             |     1231 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', '7f5731ac8e6959576e781064b5fa76e059200cdfc3f4e0d7b68bc98792d2cf5b') (Count: 1158) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |     1158 |          - |          - |          - |          - |        1 | 7f5731ac8e6959576e781064b5fa76e059200cdf...
+post_id                        |     1158 |          - |          - |          - |          - |     1158 | 497565dafe2f75548cd6068a32ada78b60de6fec...
+Page Category                  |     1068 |          - |          - |          - |          - |        1 | PERSON (Count: 1068)                    
+Page Admin Top Country         |     1068 |          - |          - |          - |          - |        1 | US (Count: 1068)                        
+Post Created                   |     1158 |          - |          - |          - |          - |     1155 | 2024-09-30T13:47:21.000Z (Count: 2)     
+Post Created Date              |     1158 |          - |          - |          - |          - |      295 | 2023-09-22 (Count: 36)                  
+Post Created Time              |     1158 |          - |          - |          - |          - |     1138 | 18:30:03 (Count: 2)                     
+Type                           |     1068 |          - |          - |          - |          - |        6 | Photo (Count: 436)                      
+Total Interactions             |     1158 |     930.26 |       87.0 |    33971.0 |    1706.27 |      553 | 1,133 (Count: 4)                        
+Likes                          |     1158 |     797.74 |       59.0 |    29326.0 |    1304.55 |        - | -                                       
+Comments                       |     1158 |     608.75 |        4.0 |    10573.0 |     802.37 |        - | -                                       
+Shares                         |     1158 |      74.64 |        4.0 |     2516.0 |     130.59 |        - | -                                       
+Love                           |     1158 |     131.96 |        0.0 |     6247.0 |     286.38 |        - | -                                       
+Wow                            |     1158 |       2.18 |        0.0 |      110.0 |       5.74 |        - | -                                       
+Haha                           |     1158 |      90.69 |        0.0 |     2677.0 |     150.83 |        - | -                                       
+Sad                            |     1158 |       9.27 |        0.0 |     4922.0 |     148.43 |        - | -                                       
+Angry                          |     1158 |      11.58 |        0.0 |     1562.0 |      52.82 |        - | -                                       
+Care                           |     1158 |      24.63 |        0.0 |    13706.0 |     405.36 |        - | -                                       
+Video Share Status             |      346 |          - |          - |          - |          - |        2 | owned (Count: 344)                      
+Is Video Owner?                |     1068 |          - |          - |          - |          - |        3 | - (Count: 722)                          
+Post Views                     |     1068 |    2366.88 |        0.0 |   448192.0 |   16961.43 |        - | -                                       
+Total Views                    |     1068 |    2550.38 |        0.0 |   450313.0 |   17524.48 |        - | -                                       
+Total Views For All Crossposts |     1068 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |      346 |          - |          - |          - |          - |      127 | 00:00:30 (Count: 14)                    
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |     1068 |      -0.84 |     -15.01 |      13.05 |       2.62 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |     1158 |       0.62 |        0.0 |        1.0 |       0.49 |        - | -                                       
+issue_msg_type_illuminating    |     1158 |       0.44 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |     1158 |       0.24 |        0.0 |        1.0 |       0.42 |        - | -                                       
+image_msg_type_illuminating    |     1158 |       0.21 |        0.0 |        1.0 |        0.4 |        - | -                                       
+cta_msg_type_illuminating      |     1158 |       0.15 |        0.0 |        1.0 |       0.35 |        - | -                                       
+engagement_cta_subtype_illuminating |     1158 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+fundraising_cta_subtype_illuminating |     1158 |       0.01 |        0.0 |        1.0 |       0.07 |        - | -                                       
+voting_cta_subtype_illuminating |     1158 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+covid_topic_illuminating       |     1158 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+economy_topic_illuminating     |     1158 |       0.13 |        0.0 |        1.0 |       0.33 |        - | -                                       
+education_topic_illuminating   |     1158 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+environment_topic_illuminating |     1158 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+foreign_policy_topic_illuminating |     1158 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+governance_topic_illuminating  |     1158 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+health_topic_illuminating      |     1158 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+immigration_topic_illuminating |     1158 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+lgbtq_issues_topic_illuminating |     1158 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |     1158 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+race_and_ethnicity_topic_illuminating |     1158 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+safety_topic_illuminating      |     1158 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+social_and_cultural_topic_illuminating |     1158 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |     1158 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |     1158 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+incivility_illuminating        |     1158 |       0.15 |        0.0 |        1.0 |       0.36 |        - | -                                       
+scam_illuminating              |     1158 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+freefair_illuminating          |     1158 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |     1158 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', '834f691e4ca1c67a7e33db1638caa579b426082e25427c63cb98679fb36af452') (Count: 23) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |       23 |          - |          - |          - |          - |        1 | 834f691e4ca1c67a7e33db1638caa579b426082e...
+post_id                        |       23 |          - |          - |          - |          - |       23 | 55e10e9678a7edae161d5353b11c6b8c1a4632f1...
+Page Category                  |       23 |          - |          - |          - |          - |        1 | ENTREPRENEUR (Count: 23)                
+Page Admin Top Country         |       23 |          - |          - |          - |          - |        1 | US (Count: 23)                          
+Post Created                   |       23 |          - |          - |          - |          - |       23 | 2023-09-07 06:03:21 EDT (Count: 1)      
+Post Created Date              |       23 |          - |          - |          - |          - |       19 | 2023-09-06 (Count: 2)                   
+Post Created Time              |       23 |          - |          - |          - |          - |       23 | 06:03:21 (Count: 1)                     
+Type                           |       23 |          - |          - |          - |          - |        5 | Link (Count: 8)                         
+Total Interactions             |       23 |      139.3 |        3.0 |      666.0 |     182.52 |        - | -                                       
+Likes                          |       23 |     100.61 |        2.0 |      500.0 |     125.94 |        - | -                                       
+Comments                       |       23 |      17.17 |        0.0 |      153.0 |      31.43 |        - | -                                       
+Shares                         |       23 |       6.52 |        0.0 |       78.0 |      16.05 |        - | -                                       
+Love                           |       23 |      11.35 |        0.0 |      101.0 |      21.52 |        - | -                                       
+Wow                            |       23 |       0.39 |        0.0 |        4.0 |       0.94 |        - | -                                       
+Haha                           |       23 |       2.13 |        0.0 |       28.0 |       5.98 |        - | -                                       
+Sad                            |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Angry                          |       23 |       0.17 |        0.0 |        3.0 |       0.65 |        - | -                                       
+Care                           |       23 |       0.96 |        0.0 |        7.0 |       1.69 |        - | -                                       
+Video Share Status             |        3 |          - |          - |          - |          - |        1 | owned (Count: 3)                        
+Is Video Owner?                |       23 |          - |          - |          - |          - |        2 | - (Count: 20)                           
+Post Views                     |       23 |   13142.22 |        0.0 |   301008.0 |   62752.82 |        - | -                                       
+Total Views                    |       23 |   13155.74 |        0.0 |   301292.0 |   62811.79 |        - | -                                       
+Total Views For All Crossposts |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |        3 |          - |          - |          - |          - |        3 | 00:00:30 (Count: 1)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |       23 |      -3.76 |     -36.67 |      11.25 |       9.17 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |       23 |       0.13 |        0.0 |        1.0 |       0.34 |        - | -                                       
+issue_msg_type_illuminating    |       23 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+attack_msg_type_illuminating   |       23 |       0.04 |        0.0 |        1.0 |       0.21 |        - | -                                       
+image_msg_type_illuminating    |       23 |       0.04 |        0.0 |        1.0 |       0.21 |        - | -                                       
+cta_msg_type_illuminating      |       23 |       0.35 |        0.0 |        1.0 |       0.49 |        - | -                                       
+engagement_cta_subtype_illuminating |       23 |       0.26 |        0.0 |        1.0 |       0.45 |        - | -                                       
+fundraising_cta_subtype_illuminating |       23 |       0.04 |        0.0 |        1.0 |       0.21 |        - | -                                       
+voting_cta_subtype_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |       23 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+economy_topic_illuminating     |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |       23 |       0.04 |        0.0 |        1.0 |       0.21 |        - | -                                       
+scam_illuminating              |       23 |       0.04 |        0.0 |        1.0 |       0.21 |        - | -                                       
+freefair_illuminating          |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', 'b1daf9f2909abed80b7e02520dfd0bfdc22128e3b92c2aba8cb3b44a6bc42cbe') (Count: 336) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      336 |          - |          - |          - |          - |        1 | b1daf9f2909abed80b7e02520dfd0bfdc22128e3...
+post_id                        |      336 |          - |          - |          - |          - |      336 | 9a00cad9cecb304ad4a165eda31c1c1d761c14a4...
+Page Category                  |      335 |          - |          - |          - |          - |        1 | PERSON (Count: 335)                     
+Page Admin Top Country         |      335 |          - |          - |          - |          - |        1 | US (Count: 335)                         
+Post Created                   |      336 |          - |          - |          - |          - |      336 | 2023-09-26 20:16:16 EDT (Count: 1)      
+Post Created Date              |      336 |          - |          - |          - |          - |      117 | 2023-12-01 (Count: 10)                  
+Post Created Time              |      336 |          - |          - |          - |          - |      332 | 19:12:35 (Count: 2)                     
+Type                           |      335 |          - |          - |          - |          - |        5 | Native Video (Count: 221)               
+Total Interactions             |      336 |     783.67 |      409.0 |     4108.0 |     320.86 |      186 | 1,221 (Count: 3)                        
+Likes                          |      336 |     578.84 |      125.0 |    13851.0 |    1165.09 |        - | -                                       
+Comments                       |      336 |     616.64 |      106.0 |     6953.0 |     673.38 |        - | -                                       
+Shares                         |      336 |      93.62 |       15.0 |     2107.0 |     170.32 |        - | -                                       
+Love                           |      336 |     118.22 |        0.0 |     2948.0 |     246.43 |        - | -                                       
+Wow                            |      336 |       4.32 |        0.0 |       74.0 |       8.57 |        - | -                                       
+Haha                           |      336 |     106.82 |        0.0 |     1575.0 |     125.99 |        - | -                                       
+Sad                            |      336 |       3.73 |        0.0 |      196.0 |      12.47 |        - | -                                       
+Angry                          |      336 |      17.63 |        0.0 |      580.0 |      53.06 |        - | -                                       
+Care                           |      336 |      12.93 |        0.0 |     1262.0 |      71.06 |        - | -                                       
+Video Share Status             |      254 |          - |          - |          - |          - |        1 | owned (Count: 254)                      
+Is Video Owner?                |      335 |          - |          - |          - |          - |        2 | Yes (Count: 254)                        
+Post Views                     |      335 |    6342.93 |        0.0 |   404672.0 |   27370.96 |        - | -                                       
+Total Views                    |      335 |    6933.61 |        0.0 |   408497.0 |   28048.71 |        - | -                                       
+Total Views For All Crossposts |      335 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |      254 |          - |          - |          - |          - |      156 | 00:01:15 (Count: 7)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      335 |       0.23 |      -3.19 |      27.11 |        2.9 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      336 |       0.71 |        0.0 |        1.0 |       0.46 |        - | -                                       
+issue_msg_type_illuminating    |      336 |       0.57 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |      336 |       0.32 |        0.0 |        1.0 |       0.47 |        - | -                                       
+image_msg_type_illuminating    |      336 |       0.23 |        0.0 |        1.0 |       0.42 |        - | -                                       
+cta_msg_type_illuminating      |      336 |       0.12 |        0.0 |        1.0 |       0.32 |        - | -                                       
+engagement_cta_subtype_illuminating |      336 |       0.09 |        0.0 |        1.0 |       0.28 |        - | -                                       
+fundraising_cta_subtype_illuminating |      336 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+voting_cta_subtype_illuminating |      336 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+covid_topic_illuminating       |      336 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+economy_topic_illuminating     |      336 |        0.1 |        0.0 |        1.0 |       0.29 |        - | -                                       
+education_topic_illuminating   |      336 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+environment_topic_illuminating |      336 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+foreign_policy_topic_illuminating |      336 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+governance_topic_illuminating  |      336 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+health_topic_illuminating      |      336 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+immigration_topic_illuminating |      336 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+lgbtq_issues_topic_illuminating |      336 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      336 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      336 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+safety_topic_illuminating      |      336 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+social_and_cultural_topic_illuminating |      336 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      336 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+womens_issue_topic_illuminating |      336 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+incivility_illuminating        |      336 |       0.19 |        0.0 |        1.0 |        0.4 |        - | -                                       
+scam_illuminating              |      336 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+freefair_illuminating          |      336 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      336 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+
+===== Group: ('NA', '32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064') (Count: 9013) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |     9013 |          - |          - |          - |          - |        1 | 32fc18da91029ff09bf74fe9887eace6b5d21458...
+post_id                        |     9013 |          - |          - |          - |          - |     9013 | 30e974e1a9ff3463b7a869383fd98deaf56f74e3...
+Page Category                  |     8303 |          - |          - |          - |          - |        2 | PERSON (Count: 4999)                    
+Page Admin Top Country         |     8303 |          - |          - |          - |          - |        1 | US (Count: 8303)                        
+Post Created                   |     9013 |          - |          - |          - |          - |     9012 | 2023-11-22 19:20:24 EST (Count: 2)      
+Post Created Date              |     9013 |          - |          - |          - |          - |      377 | 2024-07-11 (Count: 65)                  
+Post Created Time              |     9013 |          - |          - |          - |          - |     8343 | 11:30:18 (Count: 4)                     
+Type                           |     8303 |          - |          - |          - |          - |        7 | Link (Count: 6705)                      
+Total Interactions             |     9013 |     157.79 |        0.0 |    11175.0 |     339.07 |      369 | 1,266 (Count: 3)                        
+Likes                          |     9013 |      172.4 |        0.0 |    83391.0 |    1440.59 |        - | -                                       
+Comments                       |     9013 |      39.68 |        0.0 |    18094.0 |     265.42 |        - | -                                       
+Shares                         |     9013 |      34.54 |        0.0 |    28313.0 |     516.27 |        - | -                                       
+Love                           |     9013 |      13.49 |        0.0 |    22342.0 |      303.0 |        - | -                                       
+Wow                            |     9013 |       2.94 |        0.0 |      608.0 |      12.67 |        - | -                                       
+Haha                           |     9013 |      36.42 |        0.0 |    32351.0 |     435.97 |        - | -                                       
+Sad                            |     9013 |       3.01 |        0.0 |     2905.0 |      38.11 |        - | -                                       
+Angry                          |     9013 |      10.63 |        0.0 |     2244.0 |      42.38 |        - | -                                       
+Care                           |     9013 |       1.62 |        0.0 |     1042.0 |      22.92 |        - | -                                       
+Video Share Status             |      134 |          - |          - |          - |          - |        2 | owned (Count: 109)                      
+Is Video Owner?                |     8303 |          - |          - |          - |          - |        3 | - (Count: 8170)                         
+Post Views                     |     8303 |     503.37 |        0.0 |  2129389.0 |   26575.49 |        - | -                                       
+Total Views                    |     8303 |     823.97 |        0.0 |  2362073.0 |   32897.35 |        - | -                                       
+Total Views For All Crossposts |     8303 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |      134 |          - |          - |          - |          - |      102 | 00:00:16 (Count: 4)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |     8303 |      -4.62 |    -198.75 |     246.78 |       9.47 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |     9013 |        0.5 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |     9013 |       0.48 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |     9013 |       0.25 |        0.0 |        1.0 |       0.44 |        - | -                                       
+image_msg_type_illuminating    |     9013 |       0.16 |        0.0 |        1.0 |       0.36 |        - | -                                       
+cta_msg_type_illuminating      |     9013 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+engagement_cta_subtype_illuminating |     9013 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+fundraising_cta_subtype_illuminating |     9013 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+voting_cta_subtype_illuminating |     9013 |        0.0 |        0.0 |        1.0 |       0.02 |        - | -                                       
+covid_topic_illuminating       |     9013 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+economy_topic_illuminating     |     9013 |       0.06 |        0.0 |        1.0 |       0.23 |        - | -                                       
+education_topic_illuminating   |     9013 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+environment_topic_illuminating |     9013 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+foreign_policy_topic_illuminating |     9013 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+governance_topic_illuminating  |     9013 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+health_topic_illuminating      |     9013 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+immigration_topic_illuminating |     9013 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+lgbtq_issues_topic_illuminating |     9013 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+military_topic_illuminating    |     9013 |        0.0 |        0.0 |        1.0 |       0.03 |        - | -                                       
+race_and_ethnicity_topic_illuminating |     9013 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+safety_topic_illuminating      |     9013 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+social_and_cultural_topic_illuminating |     9013 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |     9013 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+womens_issue_topic_illuminating |     9013 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+incivility_illuminating        |     9013 |       0.13 |        0.0 |        1.0 |       0.33 |        - | -                                       
+scam_illuminating              |     8064 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+freefair_illuminating          |     9013 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+fraud_illuminating             |     9013 |       0.02 |        0.0 |        1.0 |       0.12 |        - | -                                       
+
+===== Group: ('NA', 'a3fa0d15dd83b910295d0b17f9d341e737eddcb8d9b8081758140584c710406e') (Count: 1074) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |     1074 |          - |          - |          - |          - |        1 | a3fa0d15dd83b910295d0b17f9d341e737eddcb8...
+post_id                        |     1074 |          - |          - |          - |          - |     1074 | d9f4c645be1c5e18fd483fe900ede24a95bcc075...
+Page Category                  |      857 |          - |          - |          - |          - |        1 | PERSON (Count: 857)                     
+Page Admin Top Country         |      857 |          - |          - |          - |          - |        1 | US (Count: 857)                         
+Post Created                   |     1074 |          - |          - |          - |          - |     1072 | 2024-10-31T22:20:49.000Z (Count: 2)     
+Post Created Date              |     1074 |          - |          - |          - |          - |      311 | 2024-01-10 (Count: 22)                  
+Post Created Time              |     1074 |          - |          - |          - |          - |     1049 | 15:02:00 (Count: 3)                     
+Type                           |      857 |          - |          - |          - |          - |        6 | Native Video (Count: 378)               
+Total Interactions             |     1074 |    2574.02 |      144.0 |   196265.0 |    9456.43 |      429 | 2,158 (Count: 2)                        
+Likes                          |     1074 |    2536.64 |       77.0 |   158096.0 |     7239.4 |        - | -                                       
+Comments                       |     1074 |     374.97 |       13.0 |    13061.0 |     592.99 |        - | -                                       
+Shares                         |     1074 |     190.13 |        1.0 |    25108.0 |     829.73 |        - | -                                       
+Love                           |     1074 |     195.28 |        0.0 |     9766.0 |     583.85 |        - | -                                       
+Wow                            |     1074 |       5.67 |        0.0 |      270.0 |      19.47 |        - | -                                       
+Haha                           |     1074 |      35.95 |        0.0 |     1676.0 |     112.95 |        - | -                                       
+Sad                            |     1074 |       3.69 |        0.0 |      402.0 |      21.33 |        - | -                                       
+Angry                          |     1074 |       9.09 |        0.0 |     1683.0 |      60.53 |        - | -                                       
+Care                           |     1074 |      13.78 |        0.0 |     2195.0 |      84.22 |        - | -                                       
+Video Share Status             |      494 |          - |          - |          - |          - |        2 | owned (Count: 486)                      
+Is Video Owner?                |      857 |          - |          - |          - |          - |        3 | Yes (Count: 485)                        
+Post Views                     |      857 |   11817.23 |        0.0 |   777528.0 |   51285.56 |        - | -                                       
+Total Views                    |      857 |   12449.48 |        0.0 |   780945.0 |    52230.6 |        - | -                                       
+Total Views For All Crossposts |      857 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |      494 |          - |          - |          - |          - |      317 | 00:01:00 (Count: 9)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      857 |       0.11 |      -5.98 |      33.57 |       3.89 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |     1074 |       0.67 |        0.0 |        1.0 |       0.47 |        - | -                                       
+issue_msg_type_illuminating    |     1074 |       0.48 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |     1074 |       0.18 |        0.0 |        1.0 |       0.38 |        - | -                                       
+image_msg_type_illuminating    |     1074 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+cta_msg_type_illuminating      |     1074 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+engagement_cta_subtype_illuminating |     1074 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+fundraising_cta_subtype_illuminating |     1074 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+voting_cta_subtype_illuminating |     1074 |       0.08 |        0.0 |        1.0 |       0.27 |        - | -                                       
+covid_topic_illuminating       |     1074 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+economy_topic_illuminating     |     1074 |       0.08 |        0.0 |        1.0 |       0.27 |        - | -                                       
+education_topic_illuminating   |     1074 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+environment_topic_illuminating |     1074 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+foreign_policy_topic_illuminating |     1074 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+governance_topic_illuminating  |     1074 |       0.06 |        0.0 |        1.0 |       0.23 |        - | -                                       
+health_topic_illuminating      |     1074 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+immigration_topic_illuminating |     1074 |       0.09 |        0.0 |        1.0 |       0.28 |        - | -                                       
+lgbtq_issues_topic_illuminating |     1074 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+military_topic_illuminating    |     1074 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+race_and_ethnicity_topic_illuminating |     1074 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+safety_topic_illuminating      |     1074 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+social_and_cultural_topic_illuminating |     1074 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |     1074 |        0.0 |        0.0 |        1.0 |       0.03 |        - | -                                       
+womens_issue_topic_illuminating |     1074 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+incivility_illuminating        |     1074 |       0.16 |        0.0 |        1.0 |       0.36 |        - | -                                       
+scam_illuminating              |     1074 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+freefair_illuminating          |     1074 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+fraud_illuminating             |     1074 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+
+===== Group: ('NA', '459abece909c3b58ecbea0ad3bf398ae90216c170fff442979f2ac3f72f4c190') (Count: 22) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |       22 |          - |          - |          - |          - |        1 | 459abece909c3b58ecbea0ad3bf398ae90216c17...
+post_id                        |       22 |          - |          - |          - |          - |       22 | 93a722517bcdf1bcff607edbab481bc45af73373...
+Page Category                  |       22 |          - |          - |          - |          - |        1 | POLITICIAN (Count: 22)                  
+Page Admin Top Country         |       22 |          - |          - |          - |          - |        1 | US (Count: 22)                          
+Post Created                   |       22 |          - |          - |          - |          - |       22 | 2023-09-21 16:03:59 EDT (Count: 1)      
+Post Created Date              |       22 |          - |          - |          - |          - |       17 | 2023-09-11 (Count: 3)                   
+Post Created Time              |       22 |          - |          - |          - |          - |       22 | 16:03:59 (Count: 1)                     
+Type                           |       22 |          - |          - |          - |          - |        3 | Photo (Count: 18)                       
+Total Interactions             |       22 |      88.32 |       24.0 |      412.0 |      77.52 |        - | -                                       
+Likes                          |       22 |      43.91 |       11.0 |      103.0 |      23.18 |        - | -                                       
+Comments                       |       22 |      24.64 |        1.0 |      194.0 |      39.89 |        - | -                                       
+Shares                         |       22 |        5.5 |        1.0 |       14.0 |       3.19 |        - | -                                       
+Love                           |       22 |       3.95 |        0.0 |       10.0 |       3.12 |        - | -                                       
+Wow                            |       22 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+Haha                           |       22 |       4.55 |        1.0 |       23.0 |       4.76 |        - | -                                       
+Sad                            |       22 |       1.91 |        0.0 |       33.0 |       7.15 |        - | -                                       
+Angry                          |       22 |        0.5 |        0.0 |        3.0 |       0.86 |        - | -                                       
+Care                           |       22 |       3.27 |        0.0 |       32.0 |       8.46 |        - | -                                       
+Video Share Status             |        2 |          - |          - |          - |          - |        1 | owned (Count: 2)                        
+Is Video Owner?                |       22 |          - |          - |          - |          - |        2 | - (Count: 20)                           
+Post Views                     |       22 |      43.64 |        0.0 |      532.0 |     142.15 |        - | -                                       
+Total Views                    |       22 |      53.68 |        0.0 |      613.0 |     173.89 |        - | -                                       
+Total Views For All Crossposts |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |        2 |          - |          - |          - |          - |        2 | 00:00:30 (Count: 1)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |       22 |      -1.38 |      -5.46 |       3.15 |        2.1 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |       22 |        0.5 |        0.0 |        1.0 |       0.51 |        - | -                                       
+issue_msg_type_illuminating    |       22 |       0.27 |        0.0 |        1.0 |       0.46 |        - | -                                       
+attack_msg_type_illuminating   |       22 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+image_msg_type_illuminating    |       22 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+cta_msg_type_illuminating      |       22 |       0.59 |        0.0 |        1.0 |        0.5 |        - | -                                       
+engagement_cta_subtype_illuminating |       22 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+fundraising_cta_subtype_illuminating |       22 |       0.23 |        0.0 |        1.0 |       0.43 |        - | -                                       
+voting_cta_subtype_illuminating |       22 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+covid_topic_illuminating       |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+education_topic_illuminating   |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+environment_topic_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+immigration_topic_illuminating |       22 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+lgbtq_issues_topic_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |       22 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+scam_illuminating              |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       22 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', 'fc098d51a4f57bc4bd48a4e1c0615ce3694f896160aca668c525b5b29e41b7d1') (Count: 460) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      460 |          - |          - |          - |          - |        1 | fc098d51a4f57bc4bd48a4e1c0615ce3694f8961...
+post_id                        |      460 |          - |          - |          - |          - |      460 | 17c1c3afefb9380fcc9db13b5d26c594e5e680dd...
+Page Category                  |      375 |          - |          - |          - |          - |        1 | PERSON (Count: 375)                     
+Page Admin Top Country         |      375 |          - |          - |          - |          - |        1 | US (Count: 375)                         
+Post Created                   |      460 |          - |          - |          - |          - |      452 | 2024-09-30T18:10:22.000Z (Count: 2)     
+Post Created Date              |      460 |          - |          - |          - |          - |      271 | 2024-04-16 (Count: 7)                   
+Post Created Time              |      460 |          - |          - |          - |          - |      446 | 16:05:19 (Count: 3)                     
+Type                           |      375 |          - |          - |          - |          - |        7 | Photo (Count: 137)                      
+Total Interactions             |      460 |     319.77 |       32.0 |     1297.0 |     220.68 |       28 | 1,881 (Count: 1)                        
+Likes                          |      460 |     234.03 |       17.0 |     9670.0 |     646.42 |        - | -                                       
+Comments                       |      460 |      75.75 |        1.0 |     1909.0 |     142.67 |        - | -                                       
+Shares                         |      460 |      85.83 |        0.0 |     4398.0 |     250.86 |        - | -                                       
+Love                           |      460 |      60.64 |        0.0 |     1659.0 |     134.23 |        - | -                                       
+Wow                            |      460 |       0.64 |        0.0 |       24.0 |       2.04 |        - | -                                       
+Haha                           |      460 |       3.48 |        0.0 |      178.0 |       12.4 |        - | -                                       
+Sad                            |      460 |       2.96 |        0.0 |      593.0 |      28.58 |        - | -                                       
+Angry                          |      460 |       1.46 |        0.0 |       43.0 |       4.41 |        - | -                                       
+Care                           |      460 |       9.54 |        0.0 |      620.0 |      32.22 |        - | -                                       
+Video Share Status             |      145 |          - |          - |          - |          - |        2 | owned (Count: 132)                      
+Is Video Owner?                |      375 |          - |          - |          - |          - |        3 | - (Count: 230)                          
+Post Views                     |      375 |    1908.58 |        0.0 |   184439.0 |   13275.34 |        - | -                                       
+Total Views                    |      375 |     2621.1 |        0.0 |   195199.0 |   15057.19 |        - | -                                       
+Total Views For All Crossposts |      375 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |      145 |          - |          - |          - |          - |      119 | 00:01:28 (Count: 5)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      375 |      -2.56 |    -121.88 |      31.19 |       9.05 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      460 |       0.53 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |      460 |        0.4 |        0.0 |        1.0 |       0.49 |        - | -                                       
+attack_msg_type_illuminating   |      460 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+image_msg_type_illuminating    |      460 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+cta_msg_type_illuminating      |      460 |       0.38 |        0.0 |        1.0 |       0.49 |        - | -                                       
+engagement_cta_subtype_illuminating |      460 |       0.28 |        0.0 |        1.0 |       0.45 |        - | -                                       
+fundraising_cta_subtype_illuminating |      460 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+voting_cta_subtype_illuminating |      460 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+covid_topic_illuminating       |      460 |       0.05 |        0.0 |        1.0 |       0.23 |        - | -                                       
+economy_topic_illuminating     |      460 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+education_topic_illuminating   |      460 |       0.02 |        0.0 |        1.0 |       0.12 |        - | -                                       
+environment_topic_illuminating |      460 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+foreign_policy_topic_illuminating |      460 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+governance_topic_illuminating  |      460 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+health_topic_illuminating      |      460 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+immigration_topic_illuminating |      460 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+lgbtq_issues_topic_illuminating |      460 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+military_topic_illuminating    |      460 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      460 |        0.1 |        0.0 |        1.0 |       0.29 |        - | -                                       
+safety_topic_illuminating      |      460 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+social_and_cultural_topic_illuminating |      460 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      460 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |      460 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+incivility_illuminating        |      460 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+scam_illuminating              |      460 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+freefair_illuminating          |      460 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      460 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+
+===== Group: ('NA', 'be8f65731d2b8c239809bdb13e9abae804fe2d074a9b75e034a81d2ae578e4bb') (Count: 136) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      136 |          - |          - |          - |          - |        1 | be8f65731d2b8c239809bdb13e9abae804fe2d07...
+post_id                        |      136 |          - |          - |          - |          - |      136 | f95ec29b3bc85c05b42853381207ce7b5475cba4...
+Page Category                  |      136 |          - |          - |          - |          - |        1 | POLITICIAN (Count: 136)                 
+Page Admin Top Country         |      136 |          - |          - |          - |          - |        1 | US (Count: 136)                         
+Post Created                   |      136 |          - |          - |          - |          - |      136 | 2023-09-07 11:51:19 EDT (Count: 1)      
+Post Created Date              |      136 |          - |          - |          - |          - |       75 | 2023-10-04 (Count: 5)                   
+Post Created Time              |      136 |          - |          - |          - |          - |      136 | 11:51:19 (Count: 1)                     
+Type                           |      136 |          - |          - |          - |          - |        7 | Native Video (Count: 71)                
+Total Interactions             |      136 |     495.68 |      140.0 |      964.0 |     222.01 |       33 | 3,352 (Count: 1)                        
+Likes                          |      136 |      193.6 |       33.0 |      839.0 |     145.81 |        - | -                                       
+Comments                       |      136 |     434.46 |       34.0 |     3597.0 |     434.15 |        - | -                                       
+Shares                         |      136 |       19.1 |        0.0 |      157.0 |      23.98 |        - | -                                       
+Love                           |      136 |      26.65 |        2.0 |      247.0 |       28.1 |        - | -                                       
+Wow                            |      136 |       1.24 |        0.0 |       15.0 |        2.3 |        - | -                                       
+Haha                           |      136 |      91.09 |        6.0 |      669.0 |      91.04 |        - | -                                       
+Sad                            |      136 |        2.1 |        0.0 |       36.0 |       6.11 |        - | -                                       
+Angry                          |      136 |       11.4 |        0.0 |      118.0 |      17.16 |        - | -                                       
+Care                           |      136 |       3.26 |        0.0 |       84.0 |       9.42 |        - | -                                       
+Video Share Status             |       93 |          - |          - |          - |          - |        1 | owned (Count: 93)                       
+Is Video Owner?                |      136 |          - |          - |          - |          - |        2 | Yes (Count: 93)                         
+Post Views                     |      136 |    4428.54 |        0.0 |    37243.0 |    7279.09 |        - | -                                       
+Total Views                    |      136 |    4546.62 |        0.0 |    38094.0 |    7409.65 |        - | -                                       
+Total Views For All Crossposts |      136 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |       93 |          - |          - |          - |          - |       73 | 00:00:20 (Count: 4)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      136 |      -0.36 |      -5.91 |       8.34 |        2.4 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      136 |       0.57 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |      136 |       0.18 |        0.0 |        1.0 |       0.39 |        - | -                                       
+attack_msg_type_illuminating   |      136 |       0.29 |        0.0 |        1.0 |       0.45 |        - | -                                       
+image_msg_type_illuminating    |      136 |       0.44 |        0.0 |        1.0 |        0.5 |        - | -                                       
+cta_msg_type_illuminating      |      136 |       0.37 |        0.0 |        1.0 |       0.48 |        - | -                                       
+engagement_cta_subtype_illuminating |      136 |       0.17 |        0.0 |        1.0 |       0.38 |        - | -                                       
+fundraising_cta_subtype_illuminating |      136 |       0.15 |        0.0 |        1.0 |       0.36 |        - | -                                       
+voting_cta_subtype_illuminating |      136 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+covid_topic_illuminating       |      136 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+economy_topic_illuminating     |      136 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+education_topic_illuminating   |      136 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+environment_topic_illuminating |      136 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |      136 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+governance_topic_illuminating  |      136 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |      136 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+immigration_topic_illuminating |      136 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+lgbtq_issues_topic_illuminating |      136 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      136 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      136 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+safety_topic_illuminating      |      136 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+social_and_cultural_topic_illuminating |      136 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      136 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |      136 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+incivility_illuminating        |      136 |       0.26 |        0.0 |        1.0 |       0.44 |        - | -                                       
+scam_illuminating              |      136 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |      136 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      136 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', 'd6008f090fcb5df7263efe969d3fc268e0ec1f6d75c8ff692b2eeacc9c48b309') (Count: 929) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      929 |          - |          - |          - |          - |        1 | d6008f090fcb5df7263efe969d3fc268e0ec1f6d...
+post_id                        |      929 |          - |          - |          - |          - |      929 | 4f7da6c2dcbdea88e5800575d0616f4a594be0b9...
+Page Category                  |      847 |          - |          - |          - |          - |        1 | POLITICIAN (Count: 847)                 
+Page Admin Top Country         |      847 |          - |          - |          - |          - |        1 | US (Count: 847)                         
+Post Created                   |      929 |          - |          - |          - |          - |      928 | 2024-10-30T01:31:08.000Z (Count: 2)     
+Post Created Date              |      929 |          - |          - |          - |          - |      311 | 2024-06-27 (Count: 16)                  
+Post Created Time              |      929 |          - |          - |          - |          - |      839 | 19:30:01 (Count: 4)                     
+Type                           |      847 |          - |          - |          - |          - |        6 | Photo (Count: 367)                      
+Total Interactions             |      929 |   18173.82 |      961.0 |   109960.0 |   18058.85 |      829 | 8,024 (Count: 2)                        
+Likes                          |      929 |    5086.69 |      377.0 |    97979.0 |    7142.53 |        - | -                                       
+Comments                       |      929 |    3711.96 |        0.0 |    51060.0 |    2880.33 |        - | -                                       
+Shares                         |      929 |     975.35 |        0.0 |    76150.0 |    3151.89 |        - | -                                       
+Love                           |      929 |     942.35 |        0.0 |    49417.0 |    2313.21 |        - | -                                       
+Wow                            |      929 |      20.25 |        0.0 |     2390.0 |      93.28 |        - | -                                       
+Haha                           |      929 |     798.39 |        0.0 |    22518.0 |    1171.22 |        - | -                                       
+Sad                            |      929 |      29.85 |        0.0 |     7393.0 |     265.88 |        - | -                                       
+Angry                          |      929 |     124.67 |        0.0 |     6929.0 |     354.47 |        - | -                                       
+Care                           |      929 |     161.27 |        0.0 |    51213.0 |    1922.91 |        - | -                                       
+Video Share Status             |      263 |          - |          - |          - |          - |        3 | owned (Count: 248)                      
+Is Video Owner?                |      847 |          - |          - |          - |          - |        3 | - (Count: 584)                          
+Post Views                     |      847 |   11976.97 |        0.0 |   903429.0 |    40520.3 |        - | -                                       
+Total Views                    |      847 |   16556.24 |        0.0 |   922094.0 |   46920.45 |        - | -                                       
+Total Views For All Crossposts |      847 |      310.2 |        0.0 |    88728.0 |    4720.02 |        - | -                                       
+Video Length                   |      263 |          - |          - |          - |          - |       93 | 00:00:30 (Count: 20)                    
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      847 |       0.09 |      -9.53 |       29.1 |       2.43 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      929 |       0.66 |        0.0 |        1.0 |       0.47 |        - | -                                       
+issue_msg_type_illuminating    |      929 |       0.56 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |      929 |       0.29 |        0.0 |        1.0 |       0.45 |        - | -                                       
+image_msg_type_illuminating    |      929 |       0.16 |        0.0 |        1.0 |       0.36 |        - | -                                       
+cta_msg_type_illuminating      |      929 |       0.12 |        0.0 |        1.0 |       0.32 |        - | -                                       
+engagement_cta_subtype_illuminating |      929 |       0.08 |        0.0 |        1.0 |       0.26 |        - | -                                       
+fundraising_cta_subtype_illuminating |      929 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+voting_cta_subtype_illuminating |      929 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+covid_topic_illuminating       |      929 |       0.06 |        0.0 |        1.0 |       0.23 |        - | -                                       
+economy_topic_illuminating     |      929 |       0.26 |        0.0 |        1.0 |       0.44 |        - | -                                       
+education_topic_illuminating   |      929 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+environment_topic_illuminating |      929 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+foreign_policy_topic_illuminating |      929 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+governance_topic_illuminating  |      929 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+health_topic_illuminating      |      929 |       0.17 |        0.0 |        1.0 |       0.37 |        - | -                                       
+immigration_topic_illuminating |      929 |       0.02 |        0.0 |        1.0 |       0.12 |        - | -                                       
+lgbtq_issues_topic_illuminating |      929 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+military_topic_illuminating    |      929 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      929 |       0.02 |        0.0 |        1.0 |       0.12 |        - | -                                       
+safety_topic_illuminating      |      929 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+social_and_cultural_topic_illuminating |      929 |       0.15 |        0.0 |        1.0 |       0.36 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      929 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+womens_issue_topic_illuminating |      929 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+incivility_illuminating        |      929 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+scam_illuminating              |      929 |       0.01 |        0.0 |        1.0 |       0.07 |        - | -                                       
+freefair_illuminating          |      929 |       0.01 |        0.0 |        1.0 |       0.07 |        - | -                                       
+fraud_illuminating             |      929 |        0.0 |        0.0 |        1.0 |       0.03 |        - | -                                       
+
+===== Group: ('NA', 'b9d563b713eeb6c6b73092e53d377fddb137463b7d560b8c5be11e7842b26f50') (Count: 310) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      310 |          - |          - |          - |          - |        1 | b9d563b713eeb6c6b73092e53d377fddb137463b...
+post_id                        |      310 |          - |          - |          - |          - |      310 | 5845904f3265a0fa4d401756025b10b72c8fb243...
+Page Category                  |      288 |          - |          - |          - |          - |        1 | POLITICIAN (Count: 288)                 
+Page Admin Top Country         |      288 |          - |          - |          - |          - |        1 | US (Count: 288)                         
+Post Created                   |      310 |          - |          - |          - |          - |      309 | 2024-10-30T18:40:30.000Z (Count: 2)     
+Post Created Date              |      310 |          - |          - |          - |          - |      112 | 2023-09-06 (Count: 13)                  
+Post Created Time              |      310 |          - |          - |          - |          - |      306 | 22:05:13 (Count: 2)                     
+Type                           |      288 |          - |          - |          - |          - |        6 | Native Video (Count: 122)               
+Total Interactions             |      310 |     336.25 |       79.0 |     4388.0 |     321.71 |       15 | 4,569 (Count: 1)                        
+Likes                          |      310 |     157.96 |       22.0 |     4486.0 |     345.18 |        - | -                                       
+Comments                       |      310 |     188.44 |       12.0 |     1896.0 |     255.55 |        - | -                                       
+Shares                         |      310 |      17.18 |        1.0 |      187.0 |      19.19 |        - | -                                       
+Love                           |      310 |      22.72 |        0.0 |     1055.0 |      83.51 |        - | -                                       
+Wow                            |      310 |       0.63 |        0.0 |       20.0 |       1.57 |        - | -                                       
+Haha                           |      310 |      35.54 |        0.0 |      892.0 |      58.52 |        - | -                                       
+Sad                            |      310 |       1.01 |        0.0 |       46.0 |       3.99 |        - | -                                       
+Angry                          |      310 |       6.98 |        0.0 |      234.0 |      16.68 |        - | -                                       
+Care                           |      310 |       3.25 |        0.0 |       73.0 |       8.93 |        - | -                                       
+Video Share Status             |      122 |          - |          - |          - |          - |        1 | owned (Count: 122)                      
+Is Video Owner?                |      288 |          - |          - |          - |          - |        2 | - (Count: 166)                          
+Post Views                     |      288 |    1049.21 |        0.0 |    99278.0 |    5968.97 |        - | -                                       
+Total Views                    |      288 |    1091.57 |        0.0 |    99753.0 |    6019.37 |        - | -                                       
+Total Views For All Crossposts |      288 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |      122 |          - |          - |          - |          - |       83 | 00:01:02 (Count: 5)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      288 |      -7.74 |     -36.51 |       6.75 |       7.04 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      310 |       0.68 |        0.0 |        1.0 |       0.47 |        - | -                                       
+issue_msg_type_illuminating    |      310 |       0.55 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |      310 |       0.17 |        0.0 |        1.0 |       0.38 |        - | -                                       
+image_msg_type_illuminating    |      310 |        0.1 |        0.0 |        1.0 |        0.3 |        - | -                                       
+cta_msg_type_illuminating      |      310 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+engagement_cta_subtype_illuminating |      310 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+fundraising_cta_subtype_illuminating |      310 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+voting_cta_subtype_illuminating |      310 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |      310 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+economy_topic_illuminating     |      310 |       0.11 |        0.0 |        1.0 |       0.31 |        - | -                                       
+education_topic_illuminating   |      310 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+environment_topic_illuminating |      310 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+foreign_policy_topic_illuminating |      310 |       0.13 |        0.0 |        1.0 |       0.33 |        - | -                                       
+governance_topic_illuminating  |      310 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+health_topic_illuminating      |      310 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+immigration_topic_illuminating |      310 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+lgbtq_issues_topic_illuminating |      310 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      310 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      310 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |      310 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+social_and_cultural_topic_illuminating |      310 |       0.06 |        0.0 |        1.0 |       0.23 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      310 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |      310 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+incivility_illuminating        |      310 |       0.08 |        0.0 |        1.0 |       0.27 |        - | -                                       
+scam_illuminating              |      310 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+freefair_illuminating          |      310 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      310 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', 'fedbfaab19b5112a6889b862314ca9d3a626b22df7f959db3d9b1c4c54e69948') (Count: 643) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      643 |          - |          - |          - |          - |        1 | fedbfaab19b5112a6889b862314ca9d3a626b22d...
+post_id                        |      643 |          - |          - |          - |          - |      643 | aa19bf74263b14c80a9354f1d111dca11b7c15e7...
+Page Category                  |      547 |          - |          - |          - |          - |        1 | POLITICAL_CANDIDATE (Count: 547)        
+Page Admin Top Country         |      547 |          - |          - |          - |          - |        1 | US (Count: 547)                         
+Post Created                   |      643 |          - |          - |          - |          - |      643 | 2023-09-21 13:59:30 EDT (Count: 1)      
+Post Created Date              |      643 |          - |          - |          - |          - |      295 | 2024-06-27 (Count: 10)                  
+Post Created Time              |      643 |          - |          - |          - |          - |      641 | 18:20:20 (Count: 2)                     
+Type                           |      547 |          - |          - |          - |          - |        7 | Native Video (Count: 318)               
+Total Interactions             |      643 |     9847.6 |      102.0 |   105142.0 |   16261.87 |      460 | 2,024 (Count: 3)                        
+Likes                          |      643 |    3246.54 |       80.0 |    72898.0 |    6773.26 |        - | -                                       
+Comments                       |      643 |     647.87 |        7.0 |    10688.0 |    1070.19 |        - | -                                       
+Shares                         |      643 |     830.57 |        0.0 |    23031.0 |    1661.65 |        - | -                                       
+Love                           |      643 |     427.48 |        0.0 |     8467.0 |     772.67 |        - | -                                       
+Wow                            |      643 |      20.41 |        0.0 |     3337.0 |     148.73 |        - | -                                       
+Haha                           |      643 |      19.95 |        0.0 |     1725.0 |      88.28 |        - | -                                       
+Sad                            |      643 |      13.44 |        0.0 |     2440.0 |     107.12 |        - | -                                       
+Angry                          |      643 |      16.09 |        0.0 |     1589.0 |      96.76 |        - | -                                       
+Care                           |      643 |      52.95 |        0.0 |     9364.0 |     398.01 |        - | -                                       
+Video Share Status             |      328 |          - |          - |          - |          - |        1 | owned (Count: 328)                      
+Is Video Owner?                |      547 |          - |          - |          - |          - |        2 | Yes (Count: 328)                        
+Post Views                     |      547 |   15293.95 |        0.0 |  2842336.0 |  124368.34 |        - | -                                       
+Total Views                    |      547 |   18135.47 |        0.0 |  3040040.0 |  134000.94 |        - | -                                       
+Total Views For All Crossposts |      547 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |      328 |          - |          - |          - |          - |      198 | 00:01:43 (Count: 8)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      547 |       0.27 |     -19.97 |      29.95 |        3.3 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      643 |       0.64 |        0.0 |        1.0 |       0.48 |        - | -                                       
+issue_msg_type_illuminating    |      643 |       0.44 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |      643 |       0.16 |        0.0 |        1.0 |       0.37 |        - | -                                       
+image_msg_type_illuminating    |      643 |        0.2 |        0.0 |        1.0 |        0.4 |        - | -                                       
+cta_msg_type_illuminating      |      643 |       0.32 |        0.0 |        1.0 |       0.47 |        - | -                                       
+engagement_cta_subtype_illuminating |      643 |       0.14 |        0.0 |        1.0 |       0.34 |        - | -                                       
+fundraising_cta_subtype_illuminating |      643 |       0.15 |        0.0 |        1.0 |       0.36 |        - | -                                       
+voting_cta_subtype_illuminating |      643 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+covid_topic_illuminating       |      643 |       0.09 |        0.0 |        1.0 |       0.28 |        - | -                                       
+economy_topic_illuminating     |      643 |       0.11 |        0.0 |        1.0 |       0.32 |        - | -                                       
+education_topic_illuminating   |      643 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+environment_topic_illuminating |      643 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+foreign_policy_topic_illuminating |      643 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+governance_topic_illuminating  |      643 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+health_topic_illuminating      |      643 |       0.07 |        0.0 |        1.0 |       0.25 |        - | -                                       
+immigration_topic_illuminating |      643 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+lgbtq_issues_topic_illuminating |      643 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      643 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      643 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+safety_topic_illuminating      |      643 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+social_and_cultural_topic_illuminating |      643 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      643 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+womens_issue_topic_illuminating |      643 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+incivility_illuminating        |      643 |       0.16 |        0.0 |        1.0 |       0.36 |        - | -                                       
+scam_illuminating              |      643 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+freefair_illuminating          |      643 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      643 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+
+===== Group: ('NA', '8e8dac0ee6f22255b9d9365845a7fb830627cc27d34934c4f097689ec8da6719') (Count: 269) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      269 |          - |          - |          - |          - |        1 | 8e8dac0ee6f22255b9d9365845a7fb830627cc27...
+post_id                        |      269 |          - |          - |          - |          - |      269 | a18bf2648bf279da38f0ba99aaf274d6817646fb...
+Page Category                  |      225 |          - |          - |          - |          - |        1 | POLITICIAN (Count: 225)                 
+Page Admin Top Country         |      225 |          - |          - |          - |          - |        1 | US (Count: 225)                         
+Post Created                   |      269 |          - |          - |          - |          - |      268 | 2024-10-31T14:16:14.000Z (Count: 2)     
+Post Created Date              |      269 |          - |          - |          - |          - |      229 | 2023-09-27 (Count: 3)                   
+Post Created Time              |      269 |          - |          - |          - |          - |      268 | 14:16:14 (Count: 2)                     
+Type                           |      225 |          - |          - |          - |          - |        5 | Status (Count: 91)                      
+Total Interactions             |      269 |    6406.48 |      198.0 |   104367.0 |   17661.45 |      190 | 1,762 (Count: 2)                        
+Likes                          |      269 |    5441.34 |       81.0 |    88847.0 |   10861.67 |        - | -                                       
+Comments                       |      269 |     989.59 |       48.0 |    27973.0 |    2310.12 |        - | -                                       
+Shares                         |      269 |     235.59 |        5.0 |     3892.0 |     383.92 |        - | -                                       
+Love                           |      269 |     1376.2 |        0.0 |    40724.0 |    3400.27 |        - | -                                       
+Wow                            |      269 |       3.32 |        0.0 |      156.0 |      10.69 |        - | -                                       
+Haha                           |      269 |      31.48 |        0.0 |      762.0 |      67.98 |        - | -                                       
+Sad                            |      269 |      13.45 |        0.0 |     1254.0 |      82.85 |        - | -                                       
+Angry                          |      269 |      11.84 |        0.0 |      539.0 |      48.02 |        - | -                                       
+Care                           |      269 |     122.09 |        0.0 |     4928.0 |     415.95 |        - | -                                       
+Video Share Status             |       41 |          - |          - |          - |          - |        2 | owned (Count: 37)                       
+Is Video Owner?                |      225 |          - |          - |          - |          - |        3 | - (Count: 186)                          
+Post Views                     |      225 |    2029.11 |        0.0 |   201330.0 |   13873.35 |        - | -                                       
+Total Views                    |      225 |    2819.84 |        0.0 |   202833.0 |    16033.3 |        - | -                                       
+Total Views For All Crossposts |      225 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |       41 |          - |          - |          - |          - |       36 | 00:00:30 (Count: 4)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      225 |       1.78 |      -6.13 |      47.82 |       5.66 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      269 |       0.64 |        0.0 |        1.0 |       0.48 |        - | -                                       
+issue_msg_type_illuminating    |      269 |       0.37 |        0.0 |        1.0 |       0.48 |        - | -                                       
+attack_msg_type_illuminating   |      269 |       0.16 |        0.0 |        1.0 |       0.36 |        - | -                                       
+image_msg_type_illuminating    |      269 |        0.2 |        0.0 |        1.0 |        0.4 |        - | -                                       
+cta_msg_type_illuminating      |      269 |       0.08 |        0.0 |        1.0 |       0.27 |        - | -                                       
+engagement_cta_subtype_illuminating |      269 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+fundraising_cta_subtype_illuminating |      269 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+voting_cta_subtype_illuminating |      269 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+covid_topic_illuminating       |      269 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+economy_topic_illuminating     |      269 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+education_topic_illuminating   |      269 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+environment_topic_illuminating |      269 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+foreign_policy_topic_illuminating |      269 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+governance_topic_illuminating  |      269 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+health_topic_illuminating      |      269 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+immigration_topic_illuminating |      269 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+lgbtq_issues_topic_illuminating |      269 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      269 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      269 |       0.04 |        0.0 |        1.0 |       0.21 |        - | -                                       
+safety_topic_illuminating      |      269 |       0.07 |        0.0 |        1.0 |       0.26 |        - | -                                       
+social_and_cultural_topic_illuminating |      269 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      269 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |      269 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+incivility_illuminating        |      269 |       0.12 |        0.0 |        1.0 |       0.32 |        - | -                                       
+scam_illuminating              |      269 |       0.01 |        0.0 |        1.0 |       0.09 |        - | -                                       
+freefair_illuminating          |      269 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      269 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', 'bfe51c6ac2cab17ba5c85883e76f61398031ed57e4cf62d19fd483548ebb904b') (Count: 1431) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |     1431 |          - |          - |          - |          - |        1 | bfe51c6ac2cab17ba5c85883e76f61398031ed57...
+post_id                        |     1431 |          - |          - |          - |          - |     1431 | 014ad078de573a5c258f2669dceb6d67b10dc83c...
+Page Category                  |     1283 |          - |          - |          - |          - |        1 | PERSON (Count: 1283)                    
+Page Admin Top Country         |     1283 |          - |          - |          - |          - |        1 | US (Count: 1283)                        
+Post Created                   |     1431 |          - |          - |          - |          - |     1425 | 2024-10-31T23:50:33.000Z (Count: 2)     
+Post Created Date              |     1431 |          - |          - |          - |          - |      359 | 2024-01-22 (Count: 16)                  
+Post Created Time              |     1431 |          - |          - |          - |          - |     1415 | 21:01:21 (Count: 2)                     
+Type                           |     1283 |          - |          - |          - |          - |        8 | Native Video (Count: 423)               
+Total Interactions             |     1431 |     368.67 |        6.0 |     9096.0 |      696.0 |       99 | 1,225 (Count: 2)                        
+Likes                          |     1431 |     262.42 |        2.0 |     7495.0 |     580.75 |        - | -                                       
+Comments                       |     1431 |       81.2 |        0.0 |     2937.0 |     190.82 |        - | -                                       
+Shares                         |     1431 |      56.39 |        0.0 |     2223.0 |     107.29 |        - | -                                       
+Love                           |     1431 |      73.37 |        0.0 |     2302.0 |     160.52 |        - | -                                       
+Wow                            |     1431 |       1.42 |        0.0 |      168.0 |       7.64 |        - | -                                       
+Haha                           |     1431 |       1.31 |        0.0 |      219.0 |       7.94 |        - | -                                       
+Sad                            |     1431 |        3.1 |        0.0 |      520.0 |      17.71 |        - | -                                       
+Angry                          |     1431 |       1.94 |        0.0 |      226.0 |      10.54 |        - | -                                       
+Care                           |     1431 |      12.72 |        0.0 |     1054.0 |      54.64 |        - | -                                       
+Video Share Status             |      433 |          - |          - |          - |          - |        3 | owned (Count: 427)                      
+Is Video Owner?                |     1283 |          - |          - |          - |          - |        3 | - (Count: 852)                          
+Post Views                     |     1283 |     822.93 |        0.0 |   176419.0 |    7703.69 |        - | -                                       
+Total Views                    |     1283 |     915.65 |        0.0 |   182973.0 |    7986.01 |        - | -                                       
+Total Views For All Crossposts |     1283 |       0.86 |        0.0 |      657.0 |      22.15 |        - | -                                       
+Video Length                   |      433 |          - |          - |          - |          - |      230 | 00:00:59 (Count: 10)                    
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |     1283 |      -1.02 |      -61.0 |      63.35 |       6.29 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |     1431 |       0.48 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |     1431 |       0.36 |        0.0 |        1.0 |       0.48 |        - | -                                       
+attack_msg_type_illuminating   |     1431 |       0.13 |        0.0 |        1.0 |       0.34 |        - | -                                       
+image_msg_type_illuminating    |     1431 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+cta_msg_type_illuminating      |     1431 |       0.22 |        0.0 |        1.0 |       0.41 |        - | -                                       
+engagement_cta_subtype_illuminating |     1431 |       0.19 |        0.0 |        1.0 |       0.39 |        - | -                                       
+fundraising_cta_subtype_illuminating |     1431 |       0.01 |        0.0 |        1.0 |       0.12 |        - | -                                       
+voting_cta_subtype_illuminating |     1431 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+covid_topic_illuminating       |     1431 |       0.13 |        0.0 |        1.0 |       0.33 |        - | -                                       
+economy_topic_illuminating     |     1431 |       0.12 |        0.0 |        1.0 |       0.33 |        - | -                                       
+education_topic_illuminating   |     1431 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+environment_topic_illuminating |     1431 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+foreign_policy_topic_illuminating |     1431 |       0.02 |        0.0 |        1.0 |       0.15 |        - | -                                       
+governance_topic_illuminating  |     1431 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+health_topic_illuminating      |     1431 |       0.06 |        0.0 |        1.0 |       0.23 |        - | -                                       
+immigration_topic_illuminating |     1431 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+lgbtq_issues_topic_illuminating |     1431 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+military_topic_illuminating    |     1431 |        0.0 |        0.0 |        1.0 |       0.07 |        - | -                                       
+race_and_ethnicity_topic_illuminating |     1431 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+safety_topic_illuminating      |     1431 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+social_and_cultural_topic_illuminating |     1431 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |     1431 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |     1431 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+incivility_illuminating        |     1431 |       0.13 |        0.0 |        1.0 |       0.33 |        - | -                                       
+scam_illuminating              |     1431 |       0.09 |        0.0 |        1.0 |       0.28 |        - | -                                       
+freefair_illuminating          |     1431 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+fraud_illuminating             |     1431 |        0.0 |        0.0 |        1.0 |       0.04 |        - | -                                       
+
+===== Group: ('NA', 'ee4bad47ee7b6d5da4b19f72dfc6df401cb36563474277cbf66624e2151cc84d') (Count: 241) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      241 |          - |          - |          - |          - |        1 | ee4bad47ee7b6d5da4b19f72dfc6df401cb36563...
+post_id                        |      241 |          - |          - |          - |          - |      241 | acf21b7e4959ec99ea4b2bf74ba59c24480eec45...
+Page Category                  |      241 |          - |          - |          - |          - |        1 | POLITICAL_CANDIDATE (Count: 241)        
+Page Admin Top Country         |        0 |          - |          - |          - |          - |        - | -                                       
+Post Created                   |      241 |          - |          - |          - |          - |      241 | 2023-10-27 11:23:09 EDT (Count: 1)      
+Post Created Date              |      241 |          - |          - |          - |          - |       93 | 2024-01-20 (Count: 7)                   
+Post Created Time              |      241 |          - |          - |          - |          - |      240 | 18:00:15 (Count: 2)                     
+Type                           |      241 |          - |          - |          - |          - |        7 | Photo (Count: 105)                      
+Total Interactions             |      241 |      68.76 |        7.0 |      513.0 |      60.25 |        - | -                                       
+Likes                          |      241 |      32.95 |        6.0 |      170.0 |      19.72 |        - | -                                       
+Comments                       |      241 |      20.68 |        0.0 |      395.0 |       37.2 |        - | -                                       
+Shares                         |      241 |       6.15 |        0.0 |      144.0 |      10.71 |        - | -                                       
+Love                           |      241 |       5.81 |        0.0 |       30.0 |       5.26 |        - | -                                       
+Wow                            |      241 |       0.09 |        0.0 |        2.0 |       0.32 |        - | -                                       
+Haha                           |      241 |       2.07 |        0.0 |       42.0 |       3.39 |        - | -                                       
+Sad                            |      241 |       0.22 |        0.0 |        8.0 |       0.93 |        - | -                                       
+Angry                          |      241 |       0.41 |        0.0 |       14.0 |       1.15 |        - | -                                       
+Care                           |      241 |       0.39 |        0.0 |       15.0 |       1.35 |        - | -                                       
+Video Share Status             |       90 |          - |          - |          - |          - |        1 | owned (Count: 90)                       
+Is Video Owner?                |      241 |          - |          - |          - |          - |        2 | - (Count: 151)                          
+Post Views                     |      241 |     124.15 |        0.0 |     1352.0 |     205.77 |        - | -                                       
+Total Views                    |      241 |     152.41 |        0.0 |     2681.0 |     287.36 |        - | -                                       
+Total Views For All Crossposts |      241 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |       90 |          - |          - |          - |          - |       64 | 00:00:05 (Count: 5)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      241 |      -1.26 |     -12.67 |       4.91 |       2.15 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      241 |       0.61 |        0.0 |        1.0 |       0.49 |        - | -                                       
+issue_msg_type_illuminating    |      241 |       0.28 |        0.0 |        1.0 |       0.45 |        - | -                                       
+attack_msg_type_illuminating   |      241 |       0.13 |        0.0 |        1.0 |       0.34 |        - | -                                       
+image_msg_type_illuminating    |      241 |       0.14 |        0.0 |        1.0 |       0.35 |        - | -                                       
+cta_msg_type_illuminating      |      241 |        0.2 |        0.0 |        1.0 |        0.4 |        - | -                                       
+engagement_cta_subtype_illuminating |      241 |        0.1 |        0.0 |        1.0 |       0.29 |        - | -                                       
+fundraising_cta_subtype_illuminating |      241 |       0.09 |        0.0 |        1.0 |       0.28 |        - | -                                       
+voting_cta_subtype_illuminating |      241 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+covid_topic_illuminating       |      241 |       0.08 |        0.0 |        1.0 |       0.27 |        - | -                                       
+economy_topic_illuminating     |      241 |        0.1 |        0.0 |        1.0 |       0.29 |        - | -                                       
+education_topic_illuminating   |      241 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+environment_topic_illuminating |      241 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+foreign_policy_topic_illuminating |      241 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+governance_topic_illuminating  |      241 |       0.01 |        0.0 |        1.0 |       0.11 |        - | -                                       
+health_topic_illuminating      |      241 |        0.1 |        0.0 |        1.0 |        0.3 |        - | -                                       
+immigration_topic_illuminating |      241 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |      241 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |      241 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      241 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |      241 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+social_and_cultural_topic_illuminating |      241 |       0.05 |        0.0 |        1.0 |       0.21 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      241 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |      241 |       0.04 |        0.0 |        1.0 |       0.19 |        - | -                                       
+incivility_illuminating        |      241 |       0.06 |        0.0 |        1.0 |       0.24 |        - | -                                       
+scam_illuminating              |      241 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+freefair_illuminating          |      241 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+fraud_illuminating             |      241 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', 'fdab9de35cdff952e4e0026ef74d9a06f5fdbde3076c201637d0a14f1988e77d') (Count: 757) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |      757 |          - |          - |          - |          - |        1 | fdab9de35cdff952e4e0026ef74d9a06f5fdbde3...
+post_id                        |      757 |          - |          - |          - |          - |      757 | 420909eb13584c5d4af228d0763fe679ead515be...
+Page Category                  |      507 |          - |          - |          - |          - |        1 | PERSON (Count: 507)                     
+Page Admin Top Country         |      507 |          - |          - |          - |          - |        1 | US (Count: 507)                         
+Post Created                   |      757 |          - |          - |          - |          - |      754 | 2024-09-30T23:32:00.000Z (Count: 2)     
+Post Created Date              |      757 |          - |          - |          - |          - |      266 | 2024-02-20 (Count: 18)                  
+Post Created Time              |      757 |          - |          - |          - |          - |      745 | 11:25:39 (Count: 2)                     
+Type                           |      507 |          - |          - |          - |          - |        7 | Photo (Count: 295)                      
+Total Interactions             |      757 |     604.94 |       14.0 |     8079.0 |     645.04 |       49 | 7,741 (Count: 1)                        
+Likes                          |      757 |     314.24 |       11.0 |     3402.0 |      330.5 |        - | -                                       
+Comments                       |      757 |      181.9 |        0.0 |     2610.0 |     266.45 |        - | -                                       
+Shares                         |      757 |     129.87 |        0.0 |     2264.0 |     169.76 |        - | -                                       
+Love                           |      757 |      36.54 |        0.0 |      650.0 |      60.04 |        - | -                                       
+Wow                            |      757 |       1.57 |        0.0 |       82.0 |       6.52 |        - | -                                       
+Haha                           |      757 |       3.28 |        0.0 |       77.0 |        7.4 |        - | -                                       
+Sad                            |      757 |       3.27 |        0.0 |      369.0 |      18.55 |        - | -                                       
+Angry                          |      757 |       4.34 |        0.0 |      434.0 |      21.11 |        - | -                                       
+Care                           |      757 |       5.47 |        0.0 |      169.0 |       13.2 |        - | -                                       
+Video Share Status             |       76 |          - |          - |          - |          - |        3 | owned (Count: 67)                       
+Is Video Owner?                |      507 |          - |          - |          - |          - |        3 | - (Count: 431)                          
+Post Views                     |      507 |     240.02 |        0.0 |    35758.0 |    1683.68 |        - | -                                       
+Total Views                    |      507 |     519.81 |        0.0 |    73522.0 |    3930.24 |        - | -                                       
+Total Views For All Crossposts |      507 |        2.6 |        0.0 |     1318.0 |      58.53 |        - | -                                       
+Video Length                   |       76 |          - |          - |          - |          - |       66 | 00:00:59 (Count: 5)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |      507 |      -2.92 |     -25.14 |       13.9 |       4.68 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |      757 |       0.57 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |      757 |       0.48 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |      757 |       0.17 |        0.0 |        1.0 |       0.37 |        - | -                                       
+image_msg_type_illuminating    |      757 |        0.1 |        0.0 |        1.0 |        0.3 |        - | -                                       
+cta_msg_type_illuminating      |      757 |       0.45 |        0.0 |        1.0 |        0.5 |        - | -                                       
+engagement_cta_subtype_illuminating |      757 |       0.26 |        0.0 |        1.0 |       0.44 |        - | -                                       
+fundraising_cta_subtype_illuminating |      757 |       0.08 |        0.0 |        1.0 |       0.27 |        - | -                                       
+voting_cta_subtype_illuminating |      757 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+covid_topic_illuminating       |      757 |       0.12 |        0.0 |        1.0 |       0.32 |        - | -                                       
+economy_topic_illuminating     |      757 |       0.09 |        0.0 |        1.0 |       0.28 |        - | -                                       
+education_topic_illuminating   |      757 |       0.01 |        0.0 |        1.0 |       0.07 |        - | -                                       
+environment_topic_illuminating |      757 |        0.1 |        0.0 |        1.0 |        0.3 |        - | -                                       
+foreign_policy_topic_illuminating |      757 |       0.05 |        0.0 |        1.0 |       0.22 |        - | -                                       
+governance_topic_illuminating  |      757 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+health_topic_illuminating      |      757 |       0.03 |        0.0 |        1.0 |       0.16 |        - | -                                       
+immigration_topic_illuminating |      757 |       0.02 |        0.0 |        1.0 |       0.13 |        - | -                                       
+lgbtq_issues_topic_illuminating |      757 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+military_topic_illuminating    |      757 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+race_and_ethnicity_topic_illuminating |      757 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+safety_topic_illuminating      |      757 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+social_and_cultural_topic_illuminating |      757 |       0.03 |        0.0 |        1.0 |       0.18 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |      757 |        0.0 |        0.0 |        1.0 |       0.05 |        - | -                                       
+womens_issue_topic_illuminating |      757 |       0.01 |        0.0 |        1.0 |       0.08 |        - | -                                       
+incivility_illuminating        |      757 |       0.12 |        0.0 |        1.0 |       0.32 |        - | -                                       
+scam_illuminating              |      757 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+freefair_illuminating          |      757 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |      757 |        0.0 |        0.0 |        1.0 |       0.06 |        - | -                                       
+
+===== Group: ('NA', '278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f') (Count: 23) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |       23 |          - |          - |          - |          - |        1 | 278df0e37b61bf8a5a6374873b38faddd50fffea...
+post_id                        |       23 |          - |          - |          - |          - |       23 | 6d840fe53ff4fb10622adf5d2870aa0acd659ce4...
+Page Category                  |       16 |          - |          - |          - |          - |        2 | POLITICAL_CANDIDATE (Count: 15)         
+Page Admin Top Country         |        0 |          - |          - |          - |          - |        - | -                                       
+Post Created                   |       23 |          - |          - |          - |          - |       23 | 2024-03-15 10:52:37 EDT (Count: 1)      
+Post Created Date              |       23 |          - |          - |          - |          - |       17 | 2024-03-18 (Count: 2)                   
+Post Created Time              |       23 |          - |          - |          - |          - |       23 | 10:52:37 (Count: 1)                     
+Type                           |       23 |          - |          - |          - |          - |        4 | Photo (Count: 9)                        
+Total Interactions             |       23 |      15.09 |        0.0 |      198.0 |      41.15 |        - | -                                       
+Likes                          |       23 |       6.26 |        0.0 |       78.0 |      16.06 |        - | -                                       
+Comments                       |       23 |       3.83 |        0.0 |       43.0 |       9.68 |        - | -                                       
+Shares                         |       23 |       0.48 |        0.0 |        3.0 |       0.79 |        - | -                                       
+Love                           |       23 |       0.52 |        0.0 |        4.0 |       0.99 |        - | -                                       
+Wow                            |       23 |       0.26 |        0.0 |        5.0 |       1.05 |        - | -                                       
+Haha                           |       23 |       2.57 |        0.0 |       48.0 |      10.17 |        - | -                                       
+Sad                            |       23 |       0.13 |        0.0 |        3.0 |       0.63 |        - | -                                       
+Angry                          |       23 |       0.87 |        0.0 |       19.0 |       3.96 |        - | -                                       
+Care                           |       23 |       0.17 |        0.0 |        3.0 |       0.65 |        - | -                                       
+Video Share Status             |        4 |          - |          - |          - |          - |        2 | share (Count: 3)                        
+Is Video Owner?                |       23 |          - |          - |          - |          - |        3 | - (Count: 19)                           
+Post Views                     |       23 |       7.61 |        0.0 |      149.0 |      30.97 |        - | -                                       
+Total Views                    |       23 |       8.87 |        0.0 |      150.0 |      31.47 |        - | -                                       
+Total Views For All Crossposts |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Length                   |        4 |          - |          - |          - |          - |        4 | 00:03:38 (Count: 1)                     
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |       23 |      -1.14 |      -10.0 |      10.42 |       4.54 |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |       23 |       0.57 |        0.0 |        1.0 |       0.51 |        - | -                                       
+issue_msg_type_illuminating    |       23 |       0.26 |        0.0 |        1.0 |       0.45 |        - | -                                       
+attack_msg_type_illuminating   |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |       23 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+cta_msg_type_illuminating      |       23 |       0.35 |        0.0 |        1.0 |       0.49 |        - | -                                       
+engagement_cta_subtype_illuminating |       23 |       0.17 |        0.0 |        1.0 |       0.39 |        - | -                                       
+fundraising_cta_subtype_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+covid_topic_illuminating       |       23 |        0.3 |        0.0 |        1.0 |       0.47 |        - | -                                       
+economy_topic_illuminating     |       23 |       0.09 |        0.0 |        1.0 |       0.29 |        - | -                                       
+education_topic_illuminating   |       23 |       0.04 |        0.0 |        1.0 |       0.21 |        - | -                                       
+environment_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+foreign_policy_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       23 |       0.04 |        0.0 |        1.0 |       0.21 |        - | -                                       
+immigration_topic_illuminating |       23 |       0.04 |        0.0 |        1.0 |       0.21 |        - | -                                       
+lgbtq_issues_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+safety_topic_illuminating      |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+social_and_cultural_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+womens_issue_topic_illuminating |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+scam_illuminating              |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+freefair_illuminating          |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fraud_illuminating             |       23 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+
+===== Group: ('NA', '4bd0a74df1b4df50157a304ace4291c947560a05da059ea6c8935cc11de7014d') (Count: 98) =====
+Column                         | Count    | Mean       | Min        | Max        | Std        | Unique   | Most Frequent                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Facebook_Id                    |       98 |          - |          - |          - |          - |        1 | 4bd0a74df1b4df50157a304ace4291c947560a05...
+post_id                        |       98 |          - |          - |          - |          - |       98 | 31d669667fb51a0c7f392bf085a2a8fb3ad1e2e6...
+Page Category                  |        0 |          - |          - |          - |          - |        - | -                                       
+Page Admin Top Country         |        0 |          - |          - |          - |          - |        - | -                                       
+Post Created                   |       98 |          - |          - |          - |          - |       94 | 2024-10-31T18:49:57.000Z (Count: 2)     
+Post Created Date              |       98 |          - |          - |          - |          - |       62 | 2024-10-31 (Count: 6)                   
+Post Created Time              |       98 |          - |          - |          - |          - |       94 | 18:49:57 (Count: 2)                     
+Type                           |        0 |          - |          - |          - |          - |        - | -                                       
+Total Interactions             |       98 |    3139.16 |      314.0 |    14083.0 |    2668.16 |        - | -                                       
+Likes                          |       98 |     2323.9 |      165.0 |    10825.0 |    2026.75 |        - | -                                       
+Comments                       |       98 |     731.76 |      104.0 |     3874.0 |     664.08 |        - | -                                       
+Shares                         |       98 |      83.51 |        4.0 |     1277.0 |     137.26 |        - | -                                       
+Love                           |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Wow                            |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Haha                           |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Sad                            |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Angry                          |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Care                           |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+Video Share Status             |        0 |          - |          - |          - |          - |        - | -                                       
+Is Video Owner?                |        0 |          - |          - |          - |          - |        - | -                                       
+Post Views                     |        0 |          - |          - |          - |          - |        - | -                                       
+Total Views                    |        0 |          - |          - |          - |          - |        - | -                                       
+Total Views For All Crossposts |        0 |          - |          - |          - |          - |        - | -                                       
+Video Length                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Id                     |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Name                   |        0 |          - |          - |          - |          - |        - | -                                       
+Sponsor Category               |        0 |          - |          - |          - |          - |        - | -                                       
+Overperforming Score           |        0 |          - |          - |          - |          - |        - | -                                       
+illuminating_scored_messageelection_inte... |        0 |          - |          - |          - |          - |        - | -                                       
+advocacy_msg_type_illuminating |       98 |       0.58 |        0.0 |        1.0 |        0.5 |        - | -                                       
+issue_msg_type_illuminating    |       98 |       0.51 |        0.0 |        1.0 |        0.5 |        - | -                                       
+attack_msg_type_illuminating   |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+image_msg_type_illuminating    |       98 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+cta_msg_type_illuminating      |       98 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+engagement_cta_subtype_illuminating |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+fundraising_cta_subtype_illuminating |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+voting_cta_subtype_illuminating |       98 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+covid_topic_illuminating       |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+economy_topic_illuminating     |       98 |       0.39 |        0.0 |        1.0 |       0.49 |        - | -                                       
+education_topic_illuminating   |       98 |        0.1 |        0.0 |        1.0 |        0.3 |        - | -                                       
+environment_topic_illuminating |       98 |       0.08 |        0.0 |        1.0 |       0.28 |        - | -                                       
+foreign_policy_topic_illuminating |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+governance_topic_illuminating  |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+health_topic_illuminating      |       98 |       0.08 |        0.0 |        1.0 |       0.28 |        - | -                                       
+immigration_topic_illuminating |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+lgbtq_issues_topic_illuminating |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+military_topic_illuminating    |       98 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+race_and_ethnicity_topic_illuminating |       98 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+safety_topic_illuminating      |       98 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+social_and_cultural_topic_illuminating |       98 |       0.03 |        0.0 |        1.0 |       0.17 |        - | -                                       
+technology_and_privacy_topic_illuminatin... |       98 |       0.04 |        0.0 |        1.0 |        0.2 |        - | -                                       
+womens_issue_topic_illuminating |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+incivility_illuminating        |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
+scam_illuminating              |       98 |       0.02 |        0.0 |        1.0 |       0.14 |        - | -                                       
+freefair_illuminating          |       98 |       0.01 |        0.0 |        1.0 |        0.1 |        - | -                                       
+fraud_illuminating             |       98 |        0.0 |        0.0 |        0.0 |        0.0 |        - | -                                       
