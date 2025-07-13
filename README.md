@@ -1,4 +1,5 @@
 # Task_04_Descriptive_Stats
+Task 04 – Descriptive Statistics 
 This project explores descriptive statistics for three datasets from the 2024 US presidential election using three different approaches: pure Python, Pandas, and Polars. The goal is to compare these methods, highlight their strengths and quirks, and share the lessons learned throughout the process.
 Datasets Analyzed
 1.	Facebook Ads: 2024_fb_ads_president_scored_anon.csv
@@ -14,30 +15,33 @@ Pure Python :
 3.	pure_python_stats_2024_tw_posts_president_scored
 
 Pandas
-•	Polars_stats_2024_fb_ads_president_scored
-•	Polars_stats_2024_fb_posts_president_scored
-•	Polars_stats_2024_tw_posts_president_scored
+1	Polars_stats_2024_fb_ads_president_scored
+2	Polars_stats_2024_fb_posts_president_scored
+3	Polars_stats_2024_tw_posts_president_scored
 
 Polars
-•	Pandas_stats_2024_fb_ads_president_scored
-•	Pandas_stats_2024_fb_posts_president_scored
-•	Pandas_stats_2024_tw_posts_president_scored
+1	Pandas_stats_2024_fb_ads_president_scored
+2	Pandas_stats_2024_fb_posts_president_scored
+3	Pandas_stats_2024_tw_posts_president_scored
 
 Each of the script will create the results file specific to the dataset and method used.
 
 Output Files : 
-•	Output_python_2024_fb_ads_president_scored_
-•	Output_python_2024_fb_posts_president_scored
-•	Output_python_2024_tw_posts_president_scored
-•	Output_Pandas_fb_ads_pandas_stats
-•	Output_Pandas_fb_posts_pandas_stats
-•	Output_Pandas_tw_posts_pandas_stats
-•	Output_polars_fb_ads_president
-•	Output_Polars_fb_posts_stats
-•	Output_Polars_tw_posts_stats
+1	Output_python_2024_fb_ads_president_scored_
+2	Output_python_2024_fb_posts_president_scored
+3	Output_python_2024_tw_posts_president_scored
+4	Output_Pandas_fb_ads_pandas_stats
+5	Output_Pandas_fb_posts_pandas_stats
+6	Output_Pandas_tw_posts_pandas_stats
+7	Output_polars_fb_ads_president
+8	Output_Polars_fb_posts_stats
+9	Output_Polars_tw_posts_stats
 
 Interesting Facts : 
-•	Pure Python gave me full control but was more tedious for grouping and pretty output. 
-•	Pandas made the process faster and more flexible, especially for groupby and describe(). 
-•	Polars surprised me with how quickly it can process big files and its built-in lazy execution, but it required more careful type handling. Overall, I learned the trade-offs between transparency, speed, and ease of use.
+1	Pure Python gave me full control but was more tedious for grouping and pretty output. 
+2	Pandas made the process faster and more flexible, especially for groupby and describe(). 
+3	Polars surprised me with how quickly it can process big files and its built-in lazy execution, but it required more careful type handling. Overall, I learned the trade-offs between transparency, speed, and ease of use.
+
+
+
 
